@@ -1,0 +1,28 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	@include font-size(16/16);
+	color: #fff;
+	line-height: 54px;
+	border: 1px solid var(--durotan-background-color-primary);;
+	border-radius: 0;
+	padding: 0 30px;
+	background-color: var(--durotan-background-color-primary);
+	transition: 0.4s;
+    cursor: pointer;
+	font-family: $font__main;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	outline: none;
+
+	&:hover,
+	&:focus{
+		background-color: transparent;
+		color: var(--durotan-background-color-primary);;
+	}
+
+	&:focus{
+		outline: 0;
+	}
+}

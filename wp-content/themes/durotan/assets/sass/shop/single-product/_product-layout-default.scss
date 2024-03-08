@@ -1,0 +1,156 @@
+.single-product {
+    .site-content {
+        padding-top: 50px;
+        padding-bottom: 117px;
+    }
+    div.product {
+        position: relative;
+
+        .product-toolbar {
+            padding: 40px 0 68px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            .site-breadcrumb {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        .post-navigation {
+            padding: 0;
+            margin: 0 0 0 auto;
+
+            .nav-links {
+                display: flex;
+            }
+
+            .nav-previous {
+                &+.nav-next {
+                    border-left: 1px solid #d7d7d7;
+                }
+
+                .durotan-svg-icon {
+                    margin-right: 15px;
+                }
+            }
+
+            .nav-next {
+                padding-left: 31px;
+                margin-left: 31px;
+
+                .durotan-svg-icon {
+                    margin-left: 14px;
+                    margin-right: -3px;
+                }
+            }
+
+            a {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 1.4px;
+            }
+        }
+        .meta-cat {
+            font-size: 13px;
+            display: block;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            line-height: 1;
+            letter-spacing: 1.3px;
+            &:not(:hover) {
+                color: #666666;
+            }
+            + .product_title{
+                margin: 0 0 4px;
+            }
+        }
+        .product_title {
+            font-size: 30px;
+            line-height: 0.9;
+            margin: 0 0 7px;
+            font-family: var(--durotan-font-main);
+        }
+        .entry-summary {
+            width: 44.55%;
+            padding-left: 130px;
+            float: right;
+
+            .woocommerce-product-rating {
+                display: flex;
+                align-items: center;
+            }
+            .woocommerce-review-link {
+                margin-left: 13px;
+                font-size: 14px;
+                color: #666666;
+                line-height: 26px;
+            }
+            .summary-price-box {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                margin: 0 0 20px;
+            }
+            .price {
+                font-size: 24px;
+                color: var(--durotan-color-dark);
+                margin: 15px 0 0;
+                del {
+                    font-size: 30px;
+                    color: var( --durotan-color-gray);
+                    text-decoration: none;
+                    position: relative;
+                    &:before{
+                        content: '';
+                        border-bottom: 1px solid var( --durotan-color-gray);
+                        width: 100%;
+                        position: absolute;
+                        right: 0;
+                        top: 55%;
+                    }
+                }
+                ins {
+                    background-color: transparent;
+                    color: #ea311d;
+                    float: left;
+                    margin-right: 23px;
+                }
+            }
+            .discount {
+                color: #ffffff;
+                font-size: 12px;
+                line-height: 24px;
+                letter-spacing: 0.050em;
+                text-transform: uppercase;
+                font-weight: 500;
+                background-color: #f24d1d;
+                padding: 0 9.18px;
+                margin-left: 22px;
+            }
+            .yith-wcwl-add-to-wishlist,
+            .wcboost-wishlist-button {
+                margin: 0;
+            }
+        }
+    }
+    table.shop_attributes {
+        font-size: 14px;
+        p:first-child {
+            margin-top: 0;
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+        th,
+        td {
+            border-bottom: 0;
+            text-align: left;
+        }
+        th {
+            color: var(--durotan-color-darker);
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}

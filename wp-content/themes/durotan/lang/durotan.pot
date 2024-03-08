@@ -1,0 +1,3704 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Durotan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-21 09:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: durotan"
+
+#: inc/class-durotan-helper.php:299
+msgid " Previous"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:192
+msgid " Products found"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:223
+#: inc/admin/class-durotan-admin-meta-boxes.php:245
+msgid " px"
+msgstr ""
+
+#. 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:57 woocommerce/order/order-details.php:70
+#, php-format
+msgid "%1$s"
+msgid_plural "%1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:266 inc/class-durotan-breadcrumbs.php:272
+#: inc/class-durotan-breadcrumbs.php:278
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s location.
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:298
+#: inc/mobile/class-durotan-mobile-customizer.php:309
+msgid "1 Column"
+msgstr ""
+
+#: inc/class-durotan-options.php:2447
+msgid "1 Columns"
+msgstr ""
+
+#: inc/class-durotan-options.php:2448
+#: inc/mobile/class-durotan-mobile-customizer.php:299
+#: inc/mobile/class-durotan-mobile-customizer.php:310
+msgid "2 Columns"
+msgstr ""
+
+#: inc/class-durotan-options.php:2449
+#: inc/mobile/class-durotan-mobile-customizer.php:300
+#: inc/mobile/class-durotan-mobile-customizer.php:311
+msgid "3 Columns"
+msgstr ""
+
+#: inc/class-durotan-options.php:2450
+msgid "4 Columns"
+msgstr ""
+
+#: 404.php:15
+msgid "404"
+msgstr ""
+
+#: inc/class-durotan-options.php:2451
+msgid "5 Columns"
+msgstr ""
+
+#. 1: Orders URL 2: Address URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:46
+#, php-format
+msgid ""
+"<p>From your account dashboard you can view your <a href=\"%1$s\">Recent "
+"orders</a>.</p><p>Manage your <a href=\"%2$s\">Billing address</a>.</p><p>"
+"Edit your <a href=\"%3$s\">Password and account details</a>.</p>"
+msgstr ""
+
+#. 1: Orders URL 2: Addresses URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:49
+#, php-format
+msgid ""
+"<p>From your account dashboard you can view your <a href=\"%1$s\">Recent "
+"orders</a>.</p><p>Manage your <a href=\"%2$s\">Shipping and Billing "
+"addresses</a>.</p><p>Edit your <a href=\"%3$s\">Password and account "
+"details</a>.</p>"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1436
+msgid ""
+"A small content bar at the top of the browser window which includes relevant "
+"product information and an add-to-cart button. It slides into view once the "
+"standard add-to-cart button has scrolled out of view."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:203
+msgid "Accept Payment Methods"
+msgstr ""
+
+#: inc/class-durotan-header.php:521 inc/class-durotan-header.php:544
+#: inc/class-durotan-options.php:207
+msgid "Account"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:331
+msgid "Account Icon"
+msgstr ""
+
+#: inc/class-durotan-options.php:1445
+msgid "Account Type"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:91
+msgid "Actions"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/libs/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:157
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:71
+#: woocommerce/single-product-reviews.php:80
+msgid "Add a review"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-sidebars.php:74
+msgid "Add sidebar for filters toolbar of the catalog page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-sidebars.php:64
+msgid "Add sidebar for the catalog page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-modules-sticky-atc.php:148
+#: inc/woocommerce/class-durotan-woo-template-product-loop.php:741
+msgid "Add to cart"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:225
+msgid "Add To Cart Button"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1315
+msgid "Add to cart with AJAX"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:184
+msgid "Add video thumbnail"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-helper.php:177
+msgid "Added"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:136
+msgid "Added on:"
+msgstr ""
+
+#. date added label: 1 date added.
+#: woocommerce/wishlist-view.php:236
+#, php-format
+msgid "Added on: %s"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:407
+msgid "Added to Cart Notice"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-helper.php:142
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:1119
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:1128
+msgid "Added to wishlist"
+msgstr ""
+
+#: inc/class-durotan-options.php:737
+msgid "Adjust Header Bottom height when Header Sticky is enable"
+msgstr ""
+
+#: inc/class-durotan-options.php:609
+msgid "Adjust Header Main height when Header Sticky is enable"
+msgstr ""
+
+#: inc/class-durotan-options.php:1431
+msgid "AJAX Product Numbers"
+msgstr ""
+
+#: inc/class-durotan-options.php:1424
+msgid "AJAX Search"
+msgstr ""
+
+#: inc/class-durotan-options.php:2068
+#: inc/woocommerce/class-durotan-woo-helper.php:335
+msgid "All"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. 1: dashboard link.
+#: inc/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:160
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/class-durotan-modules-search-ajax.php:119
+msgid "All Result"
+msgstr ""
+
+#: inc/class-durotan-modules-search-ajax.php:121
+msgid "All Results"
+msgstr ""
+
+#: inc/class-durotan-options.php:2853
+msgid "All rights reserved"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:97
+msgid "Already has an account"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:281
+msgid "Always Show Featured Icons"
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: inc/libs/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:30
+msgid "Apply"
+msgstr ""
+
+#: woocommerce/cart/cart.php:194
+msgid "Apply coupon"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:90
+msgid "Archives"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:114
+msgid "Arrange"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-durotan-options.php:2006 inc/class-durotan-options.php:2115
+msgid "ASC"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:305
+msgid "Attributes"
+msgstr ""
+
+#: inc/class-durotan-options.php:2285
+msgid "Author Box"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:95
+msgid "Author:"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1196
+msgid "Auto Background"
+msgstr ""
+
+#: woocommerce/cart/cart.php:84
+msgid "Available on backorder"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:98
+msgid "Awaiting product image"
+msgstr ""
+
+#: 404.php:20
+msgid "Back to hompage"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1273
+msgid "Back to Shop"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:510
+#: inc/woocommerce/class-durotan-woo-customizer.php:591
+#: inc/woocommerce/class-durotan-woo-customizer.php:658
+#: inc/woocommerce/class-durotan-woo-customizer.php:724
+msgid "Background"
+msgstr ""
+
+#: inc/class-durotan-options.php:769 inc/class-durotan-options.php:840
+#: inc/class-durotan-options.php:969 inc/class-durotan-options.php:2639
+#: inc/woocommerce/class-durotan-woo-customizer.php:1597
+#: inc/woocommerce/class-durotan-woo-settings-product.php:204
+msgid "Background Color"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:117
+msgid "Badges"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-post.php:194
+msgid "Banner"
+msgstr ""
+
+#: inc/class-durotan-options.php:390
+msgid "Base Color Scheme"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:156
+#: inc/libs/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/order/order-details-customer.php:31
+msgid "Billing address"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:91 inc/class-durotan-options.php:133
+msgid "Blog"
+msgstr ""
+
+#: inc/class-durotan-options.php:239 inc/class-durotan-options.php:1751
+msgid "Blog Archive"
+msgstr ""
+
+#: inc/class-durotan-widgets.php:60
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/class-durotan-options.php:263 inc/class-durotan-options.php:2021
+msgid "Blog Toolbar"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:458
+msgid "Both"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:321
+#: inc/woocommerce/class-durotan-woo-customizer.php:1328
+#: inc/woocommerce/class-durotan-woo-customizer.php:1372
+msgid "Brand"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:914
+msgid "BreadCrumb"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1287
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1016
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1041
+msgid "Breadcrumb Text Color"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:123
+msgid "Browse products"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-wcboost-wishlist.php:108
+msgid "Browse wishlist"
+msgstr ""
+
+#: inc/class-durotan-options.php:433
+#: inc/mobile/class-durotan-mobile-customizer.php:117
+msgid "Build my own"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:141
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:142
+msgid "Business Name"
+msgstr ""
+
+#: inc/class-durotan-options.php:2787
+msgid "Button Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:2808
+msgid "Button Color Hover"
+msgstr ""
+
+#: inc/class-durotan-options.php:2829
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:228
+msgid "Buttons Over Thumbnail"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:146
+#: inc/woocommerce/class-durotan-woo-customizer.php:1396
+msgid "Buy Now"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1378
+msgid "Buy Now Button"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1413
+msgid "Buy Now Link"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1393
+msgid "Buy Now Text"
+msgstr ""
+
+#: inc/class-durotan-options.php:187 inc/class-durotan-options.php:901
+msgid "Campaign Bar"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:148
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-durotan-header.php:522 inc/class-durotan-header.php:545
+#: inc/class-durotan-options.php:211
+#: inc/woocommerce/class-durotan-woo-customizer.php:94
+#: inc/woocommerce/class-durotan-woo-customizer.php:262
+#: inc/woocommerce/class-durotan-woo-customizer.php:286
+#: template-parts/modals/cart.php:27
+msgid "Cart"
+msgstr ""
+
+#: inc/class-durotan-options.php:1497
+msgid "Cart Behaviour"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:329
+msgid "Cart Icon"
+msgstr ""
+
+#: inc/class-durotan-options.php:1469
+msgid "Cart Type"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:424
+msgid "Catalog Badges"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:828
+msgid "Catalog Category Tabs"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-sidebars.php:72
+msgid "Catalog Filters Sidebar"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:125
+#: inc/woocommerce/class-durotan-woo-customizer.php:751
+msgid "Catalog Layout"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1635
+msgid "Catalog Page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-sidebars.php:62
+msgid "Catalog Sidebar"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:133
+#: inc/woocommerce/class-durotan-woo-customizer.php:1120
+msgid "Catalog Toolbar"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1147
+msgid "Catalog Type"
+msgstr ""
+
+#: inc/class-durotan-options.php:1383 inc/class-durotan-options.php:2025
+msgid "Categories Filter"
+msgstr ""
+
+#: inc/class-durotan-options.php:2132
+msgid "Categories Number"
+msgstr ""
+
+#: inc/class-durotan-options.php:1401
+msgid "Categories Numbers"
+msgstr ""
+
+#: inc/class-durotan-options.php:2109
+msgid "Categories Order"
+msgstr ""
+
+#: inc/class-durotan-options.php:2085
+msgid "Categories Orderby"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:834
+msgid "Categories Tabs Numbers"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:320
+#: inc/woocommerce/class-durotan-woo-customizer.php:1327
+#: inc/woocommerce/class-durotan-woo-customizer.php:1371
+#: woocommerce/single-product/meta.php:44
+msgid "Category"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-elements-product-showcase.php:191
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-durotan-options.php:2195 inc/class-durotan-options.php:2213
+msgid "Center"
+msgstr ""
+
+#: inc/class-durotan-options.php:533 inc/class-durotan-options.php:661
+#: inc/class-durotan-options.php:2487 inc/class-durotan-options.php:2574
+#: inc/mobile/class-durotan-mobile-customizer.php:166
+msgid "Center Items"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:196
+msgid "Change content to: Customize > Footer > Payments"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1318
+msgid "Check this option to enable add to cart with AJAX on the product page."
+msgstr ""
+
+#: inc/class-durotan-options.php:1427
+msgid "Check this option to enable AJAX search in the header"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1619
+msgid "Check this option to hide the recently viewed products when empty."
+msgstr ""
+
+#: inc/class-durotan-options.php:2291
+msgid "Check this option to show author box."
+msgstr ""
+
+#: inc/class-durotan-options.php:2307
+msgid "Check this option to show related posts."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1475
+msgid "Check this option to show related products in single product page"
+msgstr ""
+
+#: inc/class-durotan-options.php:1226
+msgid "Check this option to show socials share in the hamburger menu footer."
+msgstr ""
+
+#: inc/class-durotan-options.php:2250
+msgid "Check this option to show socials share in the single post."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1593
+msgid ""
+"Check this option to show the recently viewed products above the footer."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1443
+msgid "Check this option to show up-sells products in single product page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-modules-sticky-atc.php:79
+#, php-format
+msgid "Choose your %s"
+msgstr ""
+
+#: inc/class-durotan-options.php:1761
+#: inc/woocommerce/class-durotan-woo-customizer.php:239
+msgid "Classic"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:56
+msgid "Clear"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:865
+msgid "Close"
+msgstr ""
+
+#: woocommerce/compare.php:76
+msgid "Close window [X]"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:782
+msgid "Collapse Widget"
+msgstr ""
+
+#: inc/class-durotan-options.php:411 inc/class-durotan-options.php:940
+#: inc/woocommerce/class-durotan-woo-customizer.php:490
+#: inc/woocommerce/class-durotan-woo-customizer.php:571
+#: inc/woocommerce/class-durotan-woo-customizer.php:638
+#: inc/woocommerce/class-durotan-woo-customizer.php:704
+msgid "Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:1547 inc/class-durotan-options.php:1611
+#: inc/class-durotan-options.php:1639
+msgid "Color Counter"
+msgstr ""
+
+#: inc/class-durotan-options.php:161
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/class-durotan-options.php:1572
+msgid "Color Total Price"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1668
+msgid "Columns"
+msgstr ""
+
+#: inc/class-durotan-maintenance.php:76 inc/class-durotan-options.php:363
+msgid "Coming Soon"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-helper.php:101
+msgid "Comments"
+msgstr ""
+
+#: inc/class-durotan-comments.php:105
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/class-durotan-comments.php:88
+#, php-format
+msgctxt "comments title"
+msgid "%2d Comment"
+msgid_plural "%2d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:150
+msgid "Company Name"
+msgstr ""
+
+#: inc/class-durotan-header.php:524 inc/class-durotan-options.php:219
+#: inc/woocommerce/class-durotan-woo-customizer.php:265
+#: inc/woocommerce/class-durotan-woo-helper.php:156
+msgid "Compare"
+msgstr ""
+
+#: woocommerce/compare.php:22
+msgid "Compare products"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:100
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/class-durotan-options.php:908
+msgid "Content"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1223
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:231
+msgid "Content Bottom Spacing"
+msgstr ""
+
+#: inc/class-durotan-options.php:922
+msgid "Content Color"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:191
+msgid "Content Settings"
+msgstr ""
+
+#: inc/class-durotan-options.php:1773 inc/class-durotan-options.php:2233
+msgid "Content Sidebar"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:209
+msgid "Content Top Spacing"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:197
+#: inc/woocommerce/class-durotan-woo-customizer.php:809
+#: inc/woocommerce/class-durotan-woo-customizer.php:1249
+msgid "Content Width"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-helper.php:551
+#, php-format
+msgid "Continue reading &quot;%s&quot;"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-cart.php:94
+msgid "Continue Shopping"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:66
+msgid "Continue shopping"
+msgstr ""
+
+#: inc/class-durotan-options.php:2488 inc/class-durotan-options.php:2575
+msgid "Control center items of the footer"
+msgstr ""
+
+#: inc/class-durotan-options.php:662
+msgid "Control items at the center of header bottom"
+msgstr ""
+
+#: inc/class-durotan-options.php:534
+#: inc/mobile/class-durotan-mobile-customizer.php:167
+msgid "Control items at the center of header main"
+msgstr ""
+
+#: inc/class-durotan-options.php:636
+msgid "Control items on the left side of header bottom"
+msgstr ""
+
+#: inc/class-durotan-options.php:508
+#: inc/mobile/class-durotan-mobile-customizer.php:141
+msgid "Control items on the left side of header main"
+msgstr ""
+
+#: inc/class-durotan-options.php:688
+msgid "Control items on the right of header bottom"
+msgstr ""
+
+#: inc/class-durotan-options.php:560
+#: inc/mobile/class-durotan-mobile-customizer.php:193
+msgid "Control items on the right of header main"
+msgstr ""
+
+#: inc/class-durotan-options.php:2460 inc/class-durotan-options.php:2547
+msgid "Control left items of the footer"
+msgstr ""
+
+#: inc/class-durotan-options.php:2516 inc/class-durotan-options.php:2603
+msgid "Control right items of the footer"
+msgstr ""
+
+#: inc/class-durotan-footer.php:91 inc/class-durotan-options.php:313
+msgid "Copyright"
+msgstr ""
+
+#: inc/class-durotan-options.php:2090
+msgid "Count"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:52
+#: woocommerce/myaccount/form-login.php:63
+msgid "Create An Account"
+msgstr ""
+
+#: inc/class-durotan-footer.php:95
+msgid "Currecies"
+msgstr ""
+
+#: inc/class-durotan-header.php:525 inc/class-durotan-options.php:223
+#: inc/class-durotan-options.php:337
+msgid "Currencies"
+msgstr ""
+
+#: inc/class-durotan-options.php:1661 inc/class-durotan-options.php:2893
+msgid "Currencies Type"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:215
+#: inc/admin/class-durotan-admin-meta-boxes.php:237
+#: inc/woocommerce/class-durotan-woo-customizer.php:950
+msgid "Custom"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:98
+msgid "Custom Badge Background"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:108
+msgid "Custom Badge Color"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:89
+msgid "Custom Badge Text"
+msgstr ""
+
+#: inc/class-durotan-options.php:2049
+msgid "Custom Categories"
+msgstr ""
+
+#: inc/class-durotan-options.php:2034
+msgid "Custom Categories List"
+msgstr ""
+
+#: inc/class-durotan-options.php:928
+msgid "Custom Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:404
+msgid "Custom Color Scheme"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:345
+msgid "Custom Quick View Text"
+msgstr ""
+
+#: inc/class-durotan-options.php:325 inc/class-durotan-options.php:1206
+msgid "Custom Text"
+msgstr ""
+
+#: inc/class-durotan-options.php:1599
+msgid "Custom Wishlist Link"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:25
+msgid "Customer Information"
+msgstr ""
+
+#. 1: reviews count
+#: woocommerce/single-product-reviews.php:35
+#, php-format
+msgid "Customer review (%1$s)"
+msgid_plural "Customer's review (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-durotan-breadcrumbs.php:96
+msgid "Daily:"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:125
+msgid "Dark"
+msgstr ""
+
+#: inc/class-durotan-options.php:1988
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:46 woocommerce/order/order-details.php:61
+msgid "Date:"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:114
+#: inc/admin/class-durotan-admin-meta-boxes.php:124
+#: inc/admin/class-durotan-admin-meta-boxes.php:213
+#: inc/admin/class-durotan-admin-meta-boxes.php:235
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:287
+msgid "Default"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:250
+msgid "Default sorting"
+msgstr ""
+
+#: inc/class-durotan-options.php:2005 inc/class-durotan-options.php:2114
+msgid "DESC"
+msgstr ""
+
+#: inc/class-durotan-options.php:1699 inc/class-durotan-options.php:1731
+#: inc/woocommerce/class-durotan-woo-customizer.php:916
+msgid "Description"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:989
+msgid "Description Color"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1197
+msgid "Detect background color from product main image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:190
+msgid "Discount Code"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1275
+msgid "Display \"Back to Shop\" on top of product page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:619
+msgid "Display a badges for featured products."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:538
+msgid "Display a badges for new products."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:685
+msgid "Display a badges for out of stock products."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:447
+msgid "Display a badges for sale products."
+msgstr ""
+
+#: inc/class-durotan-options.php:903
+msgid "Display a bar bellow site header."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:408
+msgid "Display a notification when a product is added to cart."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1289
+msgid "Display breadcrumb on top of product page"
+msgstr ""
+
+#: inc/class-durotan-options.php:2028
+msgid "Display categories list above posts list"
+msgstr ""
+
+#: inc/class-durotan-options.php:2852
+msgid "Display copyright info on the left side of footer"
+msgstr ""
+
+#: inc/class-durotan-options.php:1931
+msgid "Display featured posts."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1303
+msgid "Display navigation on top of product page"
+msgstr ""
+
+#: inc/class-durotan-options.php:1886
+msgid "Display newsletter."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1630
+msgid "Display On Page"
+msgstr ""
+
+#: inc/class-durotan-options.php:2155
+msgid "Display search form above posts list"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:198
+msgid "Display Settings"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:557
+msgid "Display the \"New\" badges for how many days?"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:425
+msgid "Display the badges in the catalog page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:433
+msgid "Display the badges in the single page"
+msgstr ""
+
+#: inc/class-durotan-options.php:1803
+msgid "Display the featured content section on blog page"
+msgstr ""
+
+#: inc/class-durotan-options.php:2244
+msgid "Display the featured image on the post"
+msgstr ""
+
+#. Author of the theme
+msgid "DrFuri"
+msgstr ""
+
+#: inc/class-durotan-options.php:1666 inc/class-durotan-options.php:1678
+#: inc/class-durotan-options.php:2898 inc/class-durotan-options.php:2908
+msgid "Dropdown"
+msgstr ""
+
+#. Name of the theme
+msgid "Durotan"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:91
+msgid "Durotan Addons"
+msgstr ""
+
+#: inc/class-durotan-comments.php:241
+msgid "Edit"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-account.php:58
+msgid "Edit Account"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:84
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/class-durotan-options.php:1693
+#: inc/woocommerce/class-durotan-woo-customizer.php:909
+msgid "Elements"
+msgstr ""
+
+#: inc/class-durotan-options.php:1245 inc/class-durotan-options.php:2270
+#: inc/woocommerce/class-durotan-woo-customizer.php:1554
+msgid "Email"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:152
+msgid "Email Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:77
+msgid "Email Address *"
+msgstr ""
+
+#: inc/class-durotan-options.php:1885 inc/class-durotan-options.php:1930
+#: inc/class-durotan-options.php:2290 inc/class-durotan-options.php:2306
+#: inc/woocommerce/class-durotan-woo-customizer.php:537
+#: inc/woocommerce/class-durotan-woo-customizer.php:618
+#: inc/woocommerce/class-durotan-woo-customizer.php:684
+msgid "Enable"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:848
+msgid "Enable Active Product Filters"
+msgstr ""
+
+#: inc/class-durotan-options.php:2633
+msgid "Enable background Scheme"
+msgstr ""
+
+#: inc/class-durotan-options.php:2367
+msgid "Enable Border"
+msgstr ""
+
+#: inc/class-durotan-options.php:1014
+msgid "Enable close button"
+msgstr ""
+
+#: inc/class-durotan-options.php:1541 inc/class-durotan-options.php:1605
+#: inc/class-durotan-options.php:1633
+msgid "Enable Custom Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:2241
+msgid "Enable featured image"
+msgstr ""
+
+#: inc/class-durotan-options.php:350
+msgid "Enable Maintenance Mode"
+msgstr ""
+
+#: inc/class-durotan-options.php:1685
+msgid "Enable Page Header"
+msgstr ""
+
+#: inc/class-durotan-options.php:2380
+msgid "Enable Parallax"
+msgstr ""
+
+#: inc/class-durotan-options.php:1686
+msgid "Enable the blog header on blog pages."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:117
+msgid ""
+"Enable to set this product as a new product. A \"New\" badge will be added "
+"to this product."
+msgstr ""
+
+#: inc/class-durotan-options.php:1534
+msgid "Enable Total Price"
+msgstr ""
+
+#: inc/class-durotan-options.php:1535
+msgid "Enable total price next to the icon or text on the header."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:446
+msgid "Enalble"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:58
+msgid "Enter a different address"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1394
+msgid "Enter Buy not button text."
+msgstr ""
+
+#: inc/class-durotan-options.php:1212
+msgid "Enter content or html"
+msgstr ""
+
+#: woocommerce/cart/cart.php:193 woocommerce/checkout/form-coupon.php:29
+msgid "Enter promo code"
+msgstr ""
+
+#: inc/class-durotan-options.php:909
+msgid ""
+"Enter the content of Campaign bar. Use class: durotan-special-text, add "
+"special text color."
+msgstr ""
+
+#: inc/class-durotan-options.php:2417
+msgid "Enter the shortcode of MailChimp form"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:90
+msgid "Enter this optional to show your badges."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:176
+msgid ""
+"Enter URL of Youtube or Vimeo or specific filetypes such as mp4, webm, ogv."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: inc/class-durotan-options.php:1788
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/class-durotan-options.php:1236 inc/class-durotan-options.php:2261
+#: inc/woocommerce/class-durotan-woo-customizer.php:1549
+msgid "Facebook"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:241
+msgid "Fadein"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:613
+msgid "Featured Badges"
+msgstr ""
+
+#: inc/class-durotan-options.php:245 inc/class-durotan-options.php:1802
+msgid "Featured Content"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:258
+#: inc/woocommerce/class-durotan-woo-customizer.php:282
+msgid "Featured Icons"
+msgstr ""
+
+#: inc/class-durotan-options.php:251
+msgid "Featured Post"
+msgstr ""
+
+#: inc/class-durotan-options.php:1937
+msgid "Featured Posts Title"
+msgstr ""
+
+#: inc/class-durotan-options.php:2766
+msgid "Field Boder Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:2724
+msgid "Field Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:2745
+msgid "Field Text Placeholder Color"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1129
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:351
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:408
+msgid "Filter"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:433
+msgid "Filter By"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:143
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:148
+msgid "First Name *"
+msgstr ""
+
+#: inc/class-durotan-options.php:469 inc/class-durotan-options.php:2353
+#: inc/admin/class-durotan-admin-meta-boxes.php:203
+#: inc/woocommerce/class-durotan-woo-customizer.php:815
+#: inc/woocommerce/class-durotan-woo-customizer.php:1255
+msgid "Fluid"
+msgstr ""
+
+#: inc/class-durotan-options.php:139 inc/class-durotan-widgets.php:66
+msgid "Footer"
+msgstr ""
+
+#: inc/class-durotan-options.php:307
+msgid "Footer Background"
+msgstr ""
+
+#: inc/class-durotan-options.php:2851
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/class-durotan-options.php:295 inc/class-durotan-options.php:2336
+msgid "Footer Extra"
+msgstr ""
+
+#: inc/class-durotan-options.php:277
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/class-durotan-options.php:301 inc/class-durotan-options.php:2335
+msgid "Footer Main"
+msgstr ""
+
+#: inc/class-durotan-options.php:283
+msgid "Footer Newsletter"
+msgstr ""
+
+#: inc/class-durotan-options.php:2329
+msgid "Footer Sections"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:266
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/class-durotan-options.php:289
+msgid "Footer Widget"
+msgstr ""
+
+#: inc/class-durotan-options.php:2334
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/class-durotan-options.php:2347
+msgid "Footer Width"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid "Forgot Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:47
+msgid "Forgot password?"
+msgstr ""
+
+#: inc/class-durotan-options.php:2416
+msgid "Form"
+msgstr ""
+
+#: inc/class-durotan-options.php:1775 inc/class-durotan-options.php:2235
+msgid "Full Content"
+msgstr ""
+
+#: inc/class-durotan-options.php:470 inc/class-durotan-options.php:1870
+#: inc/class-durotan-options.php:2354
+#: inc/admin/class-durotan-admin-meta-boxes.php:141
+#: inc/admin/class-durotan-admin-meta-boxes.php:204
+#: inc/woocommerce/class-durotan-woo-customizer.php:816
+#: inc/woocommerce/class-durotan-woo-customizer.php:1256
+msgid "Full Width"
+msgstr ""
+
+#: inc/class-durotan-options.php:122
+msgid "General"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:140
+msgid "Give your review a tittle "
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:763
+msgid "Go to appearance > widgets find to catalog sidebar to edit your sidebar"
+msgstr ""
+
+#: inc/class-durotan-options.php:2432
+msgid "Go to appearance > widgets find to Footer Widget to edit your sidebar"
+msgstr ""
+
+#: inc/class-durotan-options.php:2425
+msgid "Go to MailChimp form"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:133
+msgid "Good"
+msgstr ""
+
+#: inc/class-durotan-options.php:1238 inc/class-durotan-options.php:2263
+#: inc/woocommerce/class-durotan-woo-customizer.php:1550
+msgid "Google Plus"
+msgstr ""
+
+#: inc/class-durotan-options.php:1760
+#: inc/woocommerce/class-durotan-woo-customizer.php:754
+#: inc/woocommerce/class-durotan-woo-customizer.php:1152
+msgid "Grid"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1151
+msgid "Grid 3"
+msgstr ""
+
+#: inc/class-durotan-header.php:520
+msgid "Hamburger Icon"
+msgstr ""
+
+#: inc/class-durotan-options.php:199 inc/class-durotan-setup.php:110
+msgid "Hamburger Menu"
+msgstr ""
+
+#: inc/class-durotan-options.php:1161
+msgid "Hamburger Menu Type"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:42 woocommerce/order/order-details.php:58
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: inc/class-durotan-options.php:127
+#: inc/mobile/class-durotan-mobile-customizer.php:84
+msgid "Header"
+msgstr ""
+
+#: inc/class-durotan-options.php:183
+#: inc/admin/class-durotan-admin-meta-boxes.php:110
+msgid "Header Background"
+msgstr ""
+
+#: inc/class-durotan-header.php:527 inc/class-durotan-widgets.php:61
+msgid "Header Bar"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:146
+msgid "Header Border Bottom Color"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:136
+msgid "Header Border Bottom Width"
+msgstr ""
+
+#: inc/class-durotan-options.php:179 inc/class-durotan-options.php:493
+msgid "Header Bottom"
+msgstr ""
+
+#: inc/class-durotan-options.php:834
+msgid "Header Bottom Custom Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:590 inc/class-durotan-options.php:718
+#: inc/mobile/class-durotan-mobile-customizer.php:223
+msgid "Header Height"
+msgstr ""
+
+#: inc/class-durotan-options.php:171 inc/class-durotan-options.php:438
+#: inc/mobile/class-durotan-mobile-customizer.php:122
+msgid "Header Layout"
+msgstr ""
+
+#: inc/class-durotan-options.php:175 inc/class-durotan-options.php:492
+msgid "Header Main"
+msgstr ""
+
+#: inc/class-durotan-options.php:763
+msgid "Header Main Custom Color"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:248
+msgid "Header Menu"
+msgstr ""
+
+#: inc/class-durotan-options.php:1113
+msgid "Header Menu Custom Color"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:104
+msgid "Header Settings"
+msgstr ""
+
+#: inc/class-durotan-options.php:482
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/class-durotan-options.php:488
+msgid "Header Sticky Elements"
+msgstr ""
+
+#: inc/class-durotan-options.php:608 inc/class-durotan-options.php:736
+msgid "Header Sticky Height"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:119
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:881
+#: inc/woocommerce/class-durotan-woo-customizer.php:1210
+msgid "Header Transparent"
+msgstr ""
+
+#: inc/class-durotan-options.php:427
+#: inc/mobile/class-durotan-mobile-customizer.php:111
+msgid "Header Type"
+msgstr ""
+
+#: inc/class-durotan-options.php:442
+#: inc/mobile/class-durotan-mobile-customizer.php:126
+msgid "Header v1"
+msgstr ""
+
+#: inc/class-durotan-options.php:451
+msgid "Header v10"
+msgstr ""
+
+#: inc/class-durotan-options.php:443
+#: inc/mobile/class-durotan-mobile-customizer.php:127
+msgid "Header v2"
+msgstr ""
+
+#: inc/class-durotan-options.php:444
+#: inc/mobile/class-durotan-mobile-customizer.php:128
+msgid "Header v3"
+msgstr ""
+
+#: inc/class-durotan-options.php:445
+msgid "Header v4"
+msgstr ""
+
+#: inc/class-durotan-options.php:446
+msgid "Header v5"
+msgstr ""
+
+#: inc/class-durotan-options.php:447
+msgid "Header v6"
+msgstr ""
+
+#: inc/class-durotan-options.php:448
+msgid "Header v7"
+msgstr ""
+
+#: inc/class-durotan-options.php:449
+msgid "Header v8"
+msgstr ""
+
+#: inc/class-durotan-options.php:450
+msgid "Header v9"
+msgstr ""
+
+#: inc/class-durotan-options.php:463
+msgid "Header Width"
+msgstr ""
+
+#: inc/class-durotan-options.php:2661
+msgid "Heading Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:989 inc/class-durotan-options.php:1841
+msgid "Height"
+msgstr ""
+
+#. 1: user display name 2: logout url
+#: woocommerce/myaccount/dashboard.php:37
+#, php-format
+msgid "Hello %1$s <span>(not %1$s? <a href=\"%2$s\">Log out</a>)</span>"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:387
+msgid "Hide Attributes on Variable Products"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:130
+msgid "Hide Border Bottom"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1616
+msgid "Hide Empty Products"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:272
+msgid "Hide Footer"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:172
+msgid "Hide Page Header"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:347
+msgid "Hold & Drag"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:89
+msgid "Home"
+msgstr ""
+
+#: inc/class-durotan-options.php:1665 inc/class-durotan-options.php:1677
+#: inc/class-durotan-options.php:2897 inc/class-durotan-options.php:2907
+msgid "Horizontal"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:626
+#: inc/woocommerce/class-durotan-woo-modules-badges.php:148
+msgid "Hot"
+msgstr ""
+
+#: inc/class-durotan-options.php:1139
+msgid "Hover Color"
+msgstr ""
+
+#. URI of the theme
+msgid "http://demo4.drfuri.com/durotan"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://drfuri.com"
+msgstr ""
+
+#: inc/class-durotan-options.php:1165 inc/class-durotan-options.php:1278
+#: inc/class-durotan-options.php:1449 inc/class-durotan-options.php:1473
+msgid "Icon"
+msgstr ""
+
+#: inc/class-durotan-options.php:1263
+msgid "Icon and search field"
+msgstr ""
+
+#: inc/class-durotan-options.php:1313
+msgid "Icon left"
+msgstr ""
+
+#: inc/class-durotan-options.php:1264
+msgid "Icon only"
+msgstr ""
+
+#: inc/class-durotan-options.php:1314
+msgid "Icon right"
+msgstr ""
+
+#: inc/class-durotan-options.php:1166
+msgid "Icon Text"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:226
+msgid "Icons & Add To Cart Button"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:223
+msgid "Icons & Add to cart text"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:227
+msgid "Icons Boxed & Add To Cart Button"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:224
+msgid "Icons over thumbnail"
+msgstr ""
+
+#: inc/class-durotan-options.php:1986 inc/class-durotan-options.php:2092
+msgid "ID"
+msgstr ""
+
+#: inc/class-durotan-options.php:359
+#, php-format
+msgid ""
+"If you are putting your site into maintenance mode for a longer perior of "
+"time, you should set this to \"Coming Soon\". Maintenance will return HTTP "
+"503, Comming Soon will set HTTP to 200. <a href=\"%s\" target=\"_blank\">"
+"Learn more</a>"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:33
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: inc/class-durotan-options.php:1033 inc/class-durotan-options.php:2876
+#: inc/class-durotan-options.php:2881
+#: inc/woocommerce/class-durotan-woo-customizer.php:895
+msgid "Image"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1346
+msgid "Image Lightbox"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1339
+msgid "Image Zoom"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:186 woocommerce/wishlist-view.php:222
+#: inc/woocommerce/class-durotan-woo-wcboost-wishlist.php:141
+msgid "In Stock"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-general.php:232
+msgid "In stock"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:860
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/libs/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:145
+#: inc/libs/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:144
+#: inc/libs/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: inc/libs/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/admin/class-durotan-admin-plugin-install.php:146
+#: inc/libs/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-modules-quick-view.php:124
+msgid "Invalid product."
+msgstr ""
+
+#: template-parts/content/content-none.php:39
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/class-durotan-options.php:514 inc/class-durotan-options.php:540
+#: inc/class-durotan-options.php:566 inc/class-durotan-options.php:642
+#: inc/class-durotan-options.php:668 inc/class-durotan-options.php:694
+#: inc/class-durotan-options.php:2465 inc/class-durotan-options.php:2493
+#: inc/class-durotan-options.php:2521 inc/class-durotan-options.php:2552
+#: inc/class-durotan-options.php:2580 inc/class-durotan-options.php:2608
+#: inc/mobile/class-durotan-mobile-customizer.php:147
+#: inc/mobile/class-durotan-mobile-customizer.php:173
+#: inc/mobile/class-durotan-mobile-customizer.php:199
+msgid "Item"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:70
+msgid "Kirki"
+msgstr ""
+
+#: inc/class-durotan-options.php:1171 inc/class-durotan-options.php:1291
+#: inc/class-durotan-options.php:1455 inc/class-durotan-options.php:1479
+#: inc/class-durotan-options.php:2866
+#: inc/woocommerce/class-durotan-woo-customizer.php:202
+msgid "Label"
+msgstr ""
+
+#: inc/class-durotan-options.php:1673 inc/class-durotan-options.php:2903
+msgid "Language Type"
+msgstr ""
+
+#: inc/class-durotan-footer.php:94 inc/class-durotan-header.php:526
+#: inc/class-durotan-options.php:227 inc/class-durotan-options.php:341
+msgid "Languages"
+msgstr ""
+
+#: inc/class-durotan-options.php:468 inc/class-durotan-options.php:2352
+#: inc/admin/class-durotan-admin-meta-boxes.php:202
+#: inc/woocommerce/class-durotan-woo-customizer.php:814
+#: inc/woocommerce/class-durotan-woo-customizer.php:1254
+msgid "Large"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:149
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:151
+msgid "Last Name *"
+msgstr ""
+
+#: inc/class-durotan-options.php:1938
+msgid "Latest Articles"
+msgstr ""
+
+#: inc/class-durotan-options.php:1768 inc/class-durotan-options.php:2228
+#: inc/class-durotan-options.php:2431
+#: inc/woocommerce/class-durotan-woo-customizer.php:868
+msgid "Layout"
+msgstr ""
+
+#: inc/class-durotan-options.php:2435
+#: inc/woocommerce/class-durotan-woo-customizer.php:873
+#: inc/woocommerce/class-durotan-woo-customizer.php:1181
+msgid "Layout 1"
+msgstr ""
+
+#: inc/class-durotan-options.php:2436
+#: inc/woocommerce/class-durotan-woo-customizer.php:874
+#: inc/woocommerce/class-durotan-woo-customizer.php:1182
+msgid "Layout 2"
+msgstr ""
+
+#: inc/class-durotan-options.php:2437
+#: inc/woocommerce/class-durotan-woo-customizer.php:875
+#: inc/woocommerce/class-durotan-woo-customizer.php:1183
+msgid "Layout 3"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1184
+msgid "Layout 4"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1185
+msgid "Layout 5"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1186
+msgid "Layout 6"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1187
+msgid "Layout 7"
+msgstr ""
+
+#: inc/class-durotan-comments.php:112
+msgid "Leave A Comment"
+msgstr ""
+
+#. %s is product title
+#: woocommerce/single-product-reviews.php:82
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/class-durotan-options.php:2194 inc/class-durotan-options.php:2212
+msgid "Left"
+msgstr ""
+
+#: inc/class-durotan-options.php:507 inc/class-durotan-options.php:635
+#: inc/class-durotan-options.php:2459 inc/class-durotan-options.php:2546
+#: inc/mobile/class-durotan-mobile-customizer.php:140
+msgid "Left Items"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:767
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:126
+msgid "Light"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:930
+msgid "Limit Description"
+msgstr ""
+
+#: inc/class-durotan-options.php:2886
+msgid "Link"
+msgstr ""
+
+#: inc/class-durotan-options.php:1241 inc/class-durotan-options.php:2266
+msgid "Linkedin"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1153
+msgid "List"
+msgstr ""
+
+#: inc/class-durotan-options.php:1759
+msgid "Listing"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:859
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:550
+msgid "Load More"
+msgstr ""
+
+#: inc/class-durotan-options.php:2171 inc/class-durotan-options.php:2179
+msgid "Load more"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1610
+msgid "Load With Ajax"
+msgstr ""
+
+#: inc/class-durotan-options.php:2177
+msgid "Loading Text"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:50
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Log In Your Account"
+msgstr ""
+
+#: inc/class-durotan-header.php:516 inc/class-durotan-header.php:541
+#: inc/class-durotan-options.php:191 inc/class-durotan-options.php:1059
+msgid "Logo"
+msgstr ""
+
+#: inc/class-durotan-options.php:1090
+msgid "Logo Dimension"
+msgstr ""
+
+#: inc/class-durotan-options.php:1040
+msgid "Logo SVG"
+msgstr ""
+
+#: inc/class-durotan-options.php:1072
+msgid "Logo Text"
+msgstr ""
+
+#: inc/class-durotan-options.php:1029
+msgid "Logo Type"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:107
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/class-durotan-options.php:154 inc/class-durotan-options.php:362
+msgid "Maintenance"
+msgstr ""
+
+#: inc/class-durotan-options.php:376
+msgid "Maintenance Page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:755
+msgid "Masonry"
+msgstr ""
+
+#: inc/class-durotan-footer.php:92 inc/class-durotan-options.php:195
+#: inc/class-durotan-options.php:319 inc/class-durotan-options.php:2858
+msgid "Menu"
+msgstr ""
+
+#: inc/class-durotan-header.php:543
+#: inc/mobile/class-durotan-mobile-customizer.php:332
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/class-durotan-options.php:1989
+msgid "Menu Order"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:63
+msgid "Meta Box"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:65
+msgid "Mobile"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:293
+msgid "Mobile Landscape(767px)"
+msgstr ""
+
+#: inc/class-durotan-setup.php:111
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:304
+msgid "Mobile Portrait(479px)"
+msgstr ""
+
+#: inc/class-durotan-options.php:357
+msgid "Mode"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:97
+msgid "Monthly:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:86
+msgid "more"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:205 woocommerce/wishlist-view.php:255
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:226 woocommerce/wishlist-view.php:275
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: template-parts/headers/account.php:21 woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-elements-product-showcase.php:186
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:974
+#: woocommerce/order/order-details-customer.php:34
+#: woocommerce/order/order-details-customer.php:52
+#: woocommerce/single-product/meta.php:36
+msgid "N/A"
+msgstr ""
+
+#: inc/class-durotan-comments.php:152
+msgid "Name"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1301
+msgid "Navigation "
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:855
+msgid "Navigation Type"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:65
+msgid "Need help? contact us"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:545
+#: inc/woocommerce/class-durotan-woo-modules-badges.php:142
+msgid "New"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:532
+msgid "New Badges"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:116
+msgid "New product?"
+msgstr ""
+
+#: inc/class-durotan-options.php:257 inc/class-durotan-options.php:2333
+msgid "Newsletter"
+msgstr ""
+
+#: inc/class-durotan-options.php:1905
+msgid "NewsLetter Form"
+msgstr ""
+
+#: inc/class-durotan-options.php:1892
+msgid "NewsLetter Title"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:511
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:825
+#: woocommerce/myaccount/orders.php:116
+msgid "Next"
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:124
+msgid "No order has been made yet."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-modules-quick-view.php:114
+msgid "No product."
+msgstr ""
+
+#: woocommerce/compare.php:105
+msgid "No products added in the compare table."
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:251 woocommerce/wishlist-view.php:313
+msgid "No products added to the wishlist"
+msgstr ""
+
+#. $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:57
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:768
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:214
+#: inc/admin/class-durotan-admin-meta-boxes.php:236
+msgid "No spacing"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:413
+#: inc/woocommerce/class-durotan-woo-customizer.php:872
+#: inc/woocommerce/class-durotan-woo-customizer.php:1329
+msgid "None"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:93
+msgid "Not Found"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:135
+msgid "Not that bad"
+msgstr ""
+
+#: template-parts/content/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/class-durotan-modules-search-ajax.php:100
+msgid "Nothing matches your search"
+msgstr ""
+
+#: inc/class-durotan-options.php:1825 inc/class-durotan-options.php:1966
+msgid "Number of Items"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1683
+msgid "Numbers"
+msgstr ""
+
+#: inc/class-durotan-options.php:2170
+#: inc/woocommerce/class-durotan-woo-customizer.php:858
+msgid "Numeric"
+msgstr ""
+
+#: inc/class-durotan-helper.php:134
+msgid "of"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:473
+msgid "Off"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-helper.php:68
+msgid "on "
+msgstr ""
+
+#: inc/class-durotan-comments.php:228
+#, php-format
+msgid "on %1$s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:153
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:412
+msgid "Open mini cart panel"
+msgstr ""
+
+#: inc/class-durotan-options.php:1501
+msgid "Open the cart page"
+msgstr ""
+
+#: inc/class-durotan-options.php:1502
+msgid "Open the cart panel"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1347
+msgid "Opens your images against a dark backdrop"
+msgstr ""
+
+#: inc/class-durotan-options.php:2001
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:54 woocommerce/order/order-details.php:69
+msgid "Order Amount:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:97
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:46
+msgid "Order item"
+msgstr ""
+
+#: woocommerce/order/order-details.php:43
+msgid "Order items"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:40 woocommerce/order/order-details.php:57
+msgid "Order No:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:44
+msgid "Order number"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:25 woocommerce/order/order-details.php:80
+msgid "Order Summary"
+msgstr ""
+
+#: inc/class-durotan-options.php:1982
+msgid "Orderby"
+msgstr ""
+
+#: inc/class-durotan-options.php:1893
+msgid "Our Newsletter"
+msgstr ""
+
+#: inc/class-durotan-maintenance.php:78
+msgid ""
+"Our website is currently undergoing scheduled maintenance. Please check back "
+"soon."
+msgstr ""
+
+#: inc/class-durotan-maintenance.php:76
+msgid ""
+"Our website is under construction. We will be here soon with our new awesome "
+"site."
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:186 woocommerce/wishlist-view.php:222
+msgid "Out of stock"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1093
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1067
+msgid "Padding Top"
+msgstr ""
+
+#: inc/class-durotan-options.php:233
+#: inc/woocommerce/class-durotan-woo-customizer.php:129
+msgid "Page Header"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:166
+msgid "Page Header Settings"
+msgstr ""
+
+#: inc/class-durotan-page-header.php:100
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-post.php:239
+msgid "Pages:"
+msgstr ""
+
+#: inc/class-durotan-options.php:2163
+msgid "Pagination"
+msgstr ""
+
+#: inc/class-durotan-options.php:2190 inc/class-durotan-options.php:2208
+msgid "Pagination Position"
+msgstr ""
+
+#: inc/class-durotan-options.php:2167
+msgid "Pagination Type"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:37
+#: woocommerce/myaccount/form-login.php:83
+msgid "Password *"
+msgstr ""
+
+#: inc/class-durotan-options.php:1042
+msgid "Paste SVG code of your logo here"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr ""
+
+#: inc/class-durotan-options.php:2872
+msgid "Payment Images"
+msgstr ""
+
+#: woocommerce/order/order-details.php:73
+msgid "Payment method:"
+msgstr ""
+
+#: inc/class-durotan-footer.php:93 inc/class-durotan-options.php:331
+msgid "Payments"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:456
+msgid "Percentage"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:132
+msgid "Perfect"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:153
+msgid "Phone"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:205
+msgid ""
+"Pick a background color for product page. Or leave it empty to automatically "
+"detect the background from product main image."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:99
+msgid "Pick background color for your badge"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:109
+msgid "Pick color for your badge"
+msgstr ""
+
+#: inc/class-durotan-options.php:1240 inc/class-durotan-options.php:2265
+#: inc/woocommerce/class-durotan-woo-customizer.php:1555
+msgid "Pinterest"
+msgstr ""
+
+#: inc/class-durotan-options.php:1353
+msgid "Placeholder"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1019
+#: inc/libs/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Please enter your Email Address. You will receive a link to create a new "
+"password via Email."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1206
+#: inc/libs/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:159
+#: inc/libs/class-tgm-plugin-activation.php:394
+#: inc/libs/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-durotan-options.php:1244 inc/class-durotan-options.php:2269
+msgid "Pocket"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:94 inc/class-durotan-breadcrumbs.php:154
+msgid "Portfolio"
+msgstr ""
+
+#: inc/class-durotan-options.php:1309
+msgid "Position Icon"
+msgstr ""
+
+#: inc/class-durotan-helper.php:132
+msgid "post"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-helper.php:81
+#, php-format
+msgctxt "post author"
+msgid " By %s"
+msgstr ""
+
+#: inc/class-durotan-helper.php:132
+msgid "posts"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:510
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:824
+msgid "Prev"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:112
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:78
+#: inc/woocommerce/class-durotan-woo-wcboost-wishlist.php:131
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:88
+#: woocommerce/cart/cart.php:126
+msgid "Price"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:147 woocommerce/cart/cart.php:89
+msgid "Price:"
+msgstr ""
+
+#: inc/class-durotan-header.php:517 inc/class-durotan-setup.php:108
+msgid "Primary Menu"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:68 woocommerce/cart/cart.php:28
+#: woocommerce/cart/cart.php:64
+msgid "Product"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:432
+msgid "Product Badges"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:88
+#: inc/woocommerce/class-durotan-woo-customizer.php:67
+msgid "Product Catalog"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:288
+msgid "Product Columns"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:235
+msgid "Product hover animation."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:142
+#: inc/woocommerce/class-durotan-woo-customizer.php:1177
+msgid "Product Layout"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:277
+#: inc/woocommerce/class-durotan-woo-customizer.php:101
+msgid "Product Loop"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:234
+msgid "Product Loop Hover"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:219
+msgid "Product Loop Layout"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1364
+msgid "Product Meta"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:826
+msgid "Product navigation"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:109
+msgid "Product Notifications"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:162
+#: inc/woocommerce/class-durotan-woo-customizer.php:1534
+msgid "Product Sharing"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:315
+#: inc/woocommerce/class-durotan-woo-customizer.php:1322
+msgid "Product Taxonomy"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:166
+msgid "Product Video"
+msgstr ""
+
+#: inc/class-durotan-options.php:351
+msgid "Put your site into maintenance mode"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:87
+#: inc/woocommerce/class-durotan-woo-elements-product-summary.php:368
+#: woocommerce/cart/cart.php:95 woocommerce/cart/cart.php:132
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:168
+msgid "Quantity:"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:358
+msgid "Quick Shop"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:263
+#: inc/woocommerce/class-durotan-woo-customizer.php:287
+#: inc/woocommerce/class-durotan-woo-helper.php:137
+#: inc/woocommerce/class-durotan-woo-helper.php:139
+msgid "Quick View"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:229
+msgid "Quick View button"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:131
+msgid "Rate&hellip;"
+msgstr ""
+
+#. 1: rating 2: rating count
+#: inc/woocommerce/class-durotan-woo-template-general.php:205
+#, php-format
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: rating
+#: inc/woocommerce/class-durotan-woo-template-general.php:208
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:309
+msgid "Rating"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-elements-product-summary.php:404
+msgid "Read more"
+msgstr ""
+
+#: template-parts/content/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:75
+#: inc/woocommerce/class-durotan-woo-customizer.php:170
+#: inc/woocommerce/class-durotan-woo-customizer.php:1590
+#: inc/woocommerce/class-durotan-woo-customizer.php:1656
+msgid "Recently Viewed"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-modules-recently-viewed.php:115
+msgid ""
+"Recently Viewed Products is a function which helps you keep track of your "
+"recent viewing history."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-durotan-options.php:1242 inc/class-durotan-options.php:2267
+msgid "Reddit"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Register"
+msgstr ""
+
+#: inc/class-durotan-options.php:2301 inc/class-durotan-options.php:2315
+msgid "Related Posts"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:154
+msgid "Related Products"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1483
+msgid "Related products"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1488
+msgid "Related Products By Categories"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1495
+msgid "Related Products By Parent Category"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1509
+msgid "Related Products By Tags"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1516
+msgid "Related Products Numbers"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1525
+msgid "Related Products Per Row"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1481
+msgid "Related Products Title"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:45
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:285
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/cart.php:167 woocommerce/cart/mini-cart.php:82
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:240 woocommerce/wishlist-view.php:285
+#: woocommerce/wishlist-view.php:302
+msgid "Remove this product"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:39
+msgid "Reset password"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:158
+#: inc/libs/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:393
+#: inc/libs/class-tgm-plugin-activation.php:912
+#: inc/libs/class-tgm-plugin-activation.php:2618
+#: inc/libs/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:140
+msgid "Review title"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:38
+msgid "Reviews"
+msgstr ""
+
+#: inc/class-durotan-options.php:2196 inc/class-durotan-options.php:2214
+msgid "Right"
+msgstr ""
+
+#: inc/class-durotan-options.php:559 inc/class-durotan-options.php:687
+#: inc/class-durotan-options.php:2515 inc/class-durotan-options.php:2602
+#: inc/mobile/class-durotan-mobile-customizer.php:192
+msgid "Right Items"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:766
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:442
+msgid "Sale Badges"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-elements-product-showcase.php:143
+#: inc/woocommerce/class-durotan-woo-elements-product-showcase.php:153
+#: inc/woocommerce/class-durotan-woo-elements-product-summary.php:223
+#: inc/woocommerce/class-durotan-woo-elements-product-summary.php:233
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:534
+msgid "Save"
+msgstr ""
+
+#: inc/class-durotan-entry.php:108 inc/class-durotan-header.php:519
+#: inc/class-durotan-header.php:542 inc/class-durotan-options.php:203
+#: inc/class-durotan-options.php:1293
+#: inc/blog/class-durotan-blog-archive.php:348
+#: inc/blog/class-durotan-blog-archive.php:352
+#: template-parts/headers/search.php:41 template-parts/headers/search.php:45
+#: template-parts/headers/search.php:60 template-parts/headers/search.php:64
+#: template-parts/modals/search.php:18
+msgid "Search"
+msgstr ""
+
+#: inc/class-durotan-options.php:2152
+msgid "Search Box"
+msgstr ""
+
+#: inc/class-durotan-options.php:1331
+msgid "Search For"
+msgstr ""
+
+#: inc/class-durotan-options.php:1335
+msgid "Search for everything"
+msgstr ""
+
+#: inc/class-durotan-options.php:1336
+msgid "Search for products"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:333
+msgid "Search Icon"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-archive.php:355
+msgid "Search in blog"
+msgstr ""
+
+#: inc/class-durotan-options.php:1259
+msgid "Search Layout"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:92
+msgid "Search results for"
+msgstr ""
+
+#: inc/class-durotan-page-header.php:98
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/class-durotan-modules-search-ajax.php:107
+msgid "Search Results:"
+msgstr ""
+
+#: inc/class-durotan-options.php:1274
+msgid "Search Type"
+msgstr ""
+
+#: inc/class-durotan-entry.php:106 inc/class-durotan-options.php:1355
+msgid "Search..."
+msgstr ""
+
+#: inc/class-durotan-header.php:518 inc/class-durotan-setup.php:109
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/class-durotan-options.php:428
+msgid "Select a default header or custom header"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:112
+msgid "Select a default mobile header or custom header"
+msgstr ""
+
+#: inc/class-durotan-header.php:515 inc/class-durotan-header.php:540
+msgid "Select a item"
+msgstr ""
+
+#: inc/class-durotan-options.php:2330
+msgid "Select and order footer contents"
+msgstr ""
+
+#: inc/class-durotan-options.php:2944
+msgid "Select Category"
+msgstr ""
+
+#: inc/class-durotan-options.php:2444
+msgid "Select Columns"
+msgstr ""
+
+#: inc/class-durotan-options.php:1771 inc/class-durotan-options.php:2229
+msgid "Select default sidebar for the single post page."
+msgstr ""
+
+#: inc/class-durotan-options.php:3021
+msgid "Select Menu"
+msgstr ""
+
+#: inc/class-durotan-options.php:2050
+msgid "Select product categories you want to show."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1540
+msgid "Select social media for sharing products"
+msgstr ""
+
+#: inc/class-durotan-options.php:1811 inc/class-durotan-options.php:1952
+msgid "Select tag you want to show."
+msgstr ""
+
+#: inc/class-durotan-options.php:1810 inc/class-durotan-options.php:1951
+#: inc/class-durotan-options.php:2988
+msgid "Select Tags"
+msgstr ""
+
+#: inc/class-durotan-options.php:358
+msgid "Select the correct mode for your site"
+msgstr ""
+
+#: inc/class-durotan-options.php:2348
+msgid "Select the width of footer container"
+msgstr ""
+
+#: inc/class-durotan-options.php:1701
+#: inc/woocommerce/class-durotan-woo-customizer.php:918
+#: inc/woocommerce/class-durotan-woo-customizer.php:1134
+msgid "Select which elements you want to show."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-elements-product-summary.php:265
+msgid "Share"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-post.php:258
+msgid "Share on"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:52 woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:50
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:49
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-modules-recently-viewed.php:117
+msgid "Shop Now"
+msgstr ""
+
+#: inc/class-durotan-page-header.php:115
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1324
+msgid "Show a taxonomy above the product title"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1381
+msgid "Show buy now in the single product."
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:268
+msgid "Show Copyright"
+msgstr ""
+
+#: inc/class-durotan-options.php:1200
+msgid "Show Currency"
+msgstr ""
+
+#: inc/class-durotan-options.php:1194
+msgid "Show Language"
+msgstr ""
+
+#: inc/class-durotan-options.php:1184 inc/class-durotan-options.php:1512
+#: inc/mobile/class-durotan-mobile-customizer.php:252
+msgid "Show Menu"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:195
+msgid "Show payments"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1473
+msgid "Show Related Products"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:262
+msgid "Show Socials"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1441
+msgid "Show Upsells Products"
+msgstr ""
+
+#: inc/class-durotan-helper.php:134
+msgid "Showing"
+msgstr ""
+
+#: inc/class-durotan-options.php:1189 inc/class-durotan-options.php:1517
+#: inc/mobile/class-durotan-mobile-customizer.php:257
+msgid "Side to left"
+msgstr ""
+
+#: inc/class-durotan-options.php:1188 inc/class-durotan-options.php:1516
+#: inc/mobile/class-durotan-mobile-customizer.php:256
+msgid "Side to right"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:762
+msgid "Sidebar"
+msgstr ""
+
+#: inc/class-durotan-options.php:1774 inc/class-durotan-options.php:2234
+msgid "Sidebar Content"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:27
+msgid "Sign In"
+msgstr ""
+
+#: template-parts/headers/account.php:46
+msgid "Sign in"
+msgstr ""
+
+#: template-parts/headers/account.php:47
+msgid "Sign up"
+msgstr ""
+
+#: inc/class-durotan-options.php:271
+msgid "Single Post"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:71
+#: inc/woocommerce/class-durotan-woo-customizer.php:1634
+#: inc/woocommerce/class-durotan-woo-sidebars.php:82
+msgid "Single Product"
+msgstr ""
+
+#: inc/class-durotan-options.php:2386
+msgid "Site Content Background Color"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:36
+msgid "SKU"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1369
+msgid "Sku"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-elements-product-showcase.php:186
+#: inc/woocommerce/class-durotan-woo-template-single-product.php:974
+msgid "SKU:"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:240
+msgid "Slider"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-elements-product-summary.php:439
+msgid "Social share"
+msgstr ""
+
+#: inc/class-durotan-options.php:1232 inc/class-durotan-options.php:2257
+msgid "Socials List"
+msgstr ""
+
+#: inc/class-durotan-options.php:1225 inc/class-durotan-options.php:2249
+msgid "Socials Share"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:692
+#: inc/woocommerce/class-durotan-woo-modules-badges.php:135
+msgid "Sold Out"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:680
+msgid "Sold Out Badges"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:147
+#: inc/libs/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: template-parts/content/content-none.php:34
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:153
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:150
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:155
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1131
+msgid "Sort by"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:252
+msgid "Sort by average rating"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:253
+msgid "Sort by latest"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:251
+msgid "Sort by popularity"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:255
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-catalog.php:254
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1678
+#: inc/woocommerce/class-durotan-woo-customizer.php:1693
+msgid ""
+"Specify how many numbers of recently viewed products you want to show on page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1520
+msgid ""
+"Specify how many numbers of related products you want to show on single "
+"product page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1460
+msgid ""
+"Specify how many numbers of up-sells products you want to show on single "
+"product page"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1468
+msgid "Specify the number of of up-sells products you want to display per row"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1529
+msgid "Specify the number of related products you want to display per row"
+msgstr ""
+
+#: inc/class-durotan-options.php:467 inc/class-durotan-options.php:2351
+#: inc/admin/class-durotan-admin-meta-boxes.php:140
+#: inc/admin/class-durotan-admin-meta-boxes.php:201
+#: inc/woocommerce/class-durotan-woo-customizer.php:813
+#: inc/woocommerce/class-durotan-woo-customizer.php:1253
+msgid "Standard"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:96
+#: inc/libs/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:50 woocommerce/order/order-details.php:65
+msgid "Status:"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-helper.php:320
+msgid "Status: "
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:150
+#: inc/woocommerce/class-durotan-woo-customizer.php:1433
+msgid "Sticky Add To Cart"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-wcboost-wishlist.php:138
+msgid "Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view-mobile.php:183
+msgid "Stock:"
+msgstr ""
+
+#: inc/class-durotan-options.php:145
+msgid "Styling"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Submit Review"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-general.php:153
+#: woocommerce/cart/cart-totals.php:30 woocommerce/cart/cart-totals.php:31
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:117
+#: woocommerce/cart/cart.php:154
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/grouped.php:118
+msgid "Subtotal:"
+msgstr ""
+
+#: inc/class-durotan-options.php:1034
+msgid "SVG"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:50
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1370
+msgid "Tags"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:310
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/class-durotan-options.php:1243 inc/class-durotan-options.php:2268
+#: inc/woocommerce/class-durotan-woo-customizer.php:1552
+msgid "Telegram"
+msgstr ""
+
+#: inc/class-durotan-options.php:1035 inc/class-durotan-options.php:1279
+#: inc/class-durotan-options.php:1450 inc/class-durotan-options.php:1474
+#: inc/woocommerce/class-durotan-woo-customizer.php:457
+#: inc/woocommerce/class-durotan-woo-customizer.php:471
+#: inc/woocommerce/class-durotan-woo-customizer.php:544
+#: inc/woocommerce/class-durotan-woo-customizer.php:625
+#: inc/woocommerce/class-durotan-woo-customizer.php:691
+msgid "Text"
+msgstr ""
+
+#: inc/class-durotan-options.php:789 inc/class-durotan-options.php:860
+#: inc/class-durotan-options.php:1119 inc/class-durotan-options.php:2682
+msgid "Text Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:926
+msgid "Text Dark"
+msgstr ""
+
+#: inc/class-durotan-options.php:809 inc/class-durotan-options.php:880
+#: inc/class-durotan-options.php:2703
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/class-durotan-options.php:927
+msgid "Text Light"
+msgstr ""
+
+#. %s: version number
+#: inc/libs/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:56
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Thanks for your order!"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1167
+msgid "The first value will become the default type."
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:154
+#: inc/libs/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:395
+#: inc/libs/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:152
+#: inc/libs/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:151
+#: inc/libs/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-durotan-options.php:1714 inc/class-durotan-page-header.php:104
+#: inc/class-durotan-page-header.php:128
+msgid "The Latest Posts"
+msgstr ""
+
+#: inc/class-durotan-options.php:1756
+msgid "The layout of blog posts"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: 404.php:17
+msgid "This page has been probably moved somewhere.."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: woocommerce/loop/add-to-cart-variable.php:26
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:149
+#: inc/libs/class-tgm-plugin-activation.php:347
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:148
+#: inc/libs/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1353
+msgid "Thumbnail Numbers"
+msgstr ""
+
+#: inc/class-durotan-options.php:1698 inc/class-durotan-options.php:1713
+#: inc/class-durotan-options.php:1987 inc/class-durotan-options.php:2091
+#: inc/class-durotan-options.php:2313 inc/class-durotan-options.php:2409
+#: inc/woocommerce/class-durotan-woo-customizer.php:915
+#: inc/woocommerce/class-durotan-woo-customizer.php:1654
+msgid "Title"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:962
+msgid "Title Color"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1126
+msgid "ToolBar Elements"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:98 woocommerce/cart/cart-totals.php:99
+msgid "Total"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1130
+msgid "Total Products"
+msgstr ""
+
+#: woocommerce/cart/cart.php:118
+msgid "Total:"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:144
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:146
+msgid "Town / City *"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-meta-boxes.php:115
+msgid "Transparent"
+msgstr ""
+
+#: inc/class-durotan-options.php:1239 inc/class-durotan-options.php:2264
+#: inc/woocommerce/class-durotan-woo-customizer.php:1551
+msgid "Tumblr"
+msgstr ""
+
+#: inc/class-durotan-options.php:1237 inc/class-durotan-options.php:2262
+#: inc/woocommerce/class-durotan-woo-customizer.php:1548
+msgid "Twitter"
+msgstr ""
+
+#: inc/class-durotan-options.php:1755
+#: inc/libs/class-tgm-plugin-activation.php:2634
+#: inc/woocommerce/class-durotan-woo-customizer.php:453
+msgid "Type"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1456
+msgid "Up-sells Products Numbers"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1464
+msgid "Up-sells Products Per Row"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1449
+msgid "Up-sells Products Title"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/libs/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/libs/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/cart.php:199
+msgid "Update cart"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/libs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:158
+msgid "Upsells Products"
+msgstr ""
+
+#: inc/class-durotan-options.php:432
+#: inc/mobile/class-durotan-mobile-customizer.php:116
+msgid "Use pre-build header"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:472
+msgid ""
+"Use {%} to display discount percentages, {$} to display discount amount."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:71
+msgid "Username *"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:136
+msgid "Very poor"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:187
+msgid "Video Position"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:179
+msgid "Video Thumbnail"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-settings-product.php:172
+msgid "Video URL"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1132
+msgid "View"
+msgstr ""
+
+#: inc/class-durotan-options.php:2066
+msgid "View All Text"
+msgstr ""
+
+#: inc/blog/class-durotan-blog-helper.php:119
+msgid "Viewed"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:121
+msgid "WCBoost - Products Compare"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:114
+msgid "WCBoost - Wishlist"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:128
+msgid "WCBoost – Variation Swatches"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+msgid ""
+"We getting your order ready to be shipped. We will notify you when it has "
+"been sent"
+msgstr ""
+
+#: inc/class-durotan-maintenance.php:78
+msgid "Website Under Maintenance"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1553
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1567
+msgid "WhatsApp Phone Number"
+msgstr ""
+
+#: inc/class-durotan-options.php:1869
+msgid "Wide"
+msgstr ""
+
+#: inc/class-durotan-options.php:1866
+msgid "Width"
+msgstr ""
+
+#: inc/class-durotan-header.php:523 inc/class-durotan-options.php:215
+#: inc/woocommerce/class-durotan-woo-customizer.php:264
+#: inc/woocommerce/class-durotan-woo-customizer.php:288
+#: woocommerce/loop/add-to-wishlist.php:29
+msgid "Wishlist"
+msgstr ""
+
+#: inc/mobile/class-durotan-mobile-customizer.php:330
+msgid "Wishlist Icon"
+msgstr ""
+
+#: inc/admin/class-durotan-admin-plugin-install.php:77
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:63
+msgid "Woocommerce"
+msgstr ""
+
+#. Description of the theme
+msgid "Woocommerce WordPress Theme"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-durotan-comments.php:107
+msgid "Write your comment here"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid "Write your review here"
+msgstr ""
+
+#: inc/class-durotan-breadcrumbs.php:98
+msgid "Yearly:"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:558
+msgid ""
+"You can also add the NEW badges to each product in the Advanced setting tab "
+"of them."
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1451
+msgid "You may also like"
+msgstr ""
+
+#. %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:126
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:125
+msgid "Your cart is empty."
+msgstr ""
+
+#: inc/class-durotan-comments.php:232
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+msgid "Your Email"
+msgstr ""
+
+#: inc/class-durotan-comments.php:156
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Your Email *"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Your Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid "Your review"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:145
+#: inc/woocommerce/class-durotan-woo-template-checkout.php:147
+msgid "ZIP *"
+msgstr ""
+
+#: inc/woocommerce/class-durotan-woo-customizer.php:1340
+msgid "Zooms in where your cursor is on the image"
+msgstr ""

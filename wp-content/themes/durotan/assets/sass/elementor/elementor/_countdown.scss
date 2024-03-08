@@ -1,0 +1,59 @@
+.durotan-countdown{
+    display: flex;
+    justify-content: center;
+
+    .timer{
+        position: relative;
+        text-align: center;
+        padding: 0 32px;
+        min-width: 150px;
+
+        &:first-child{
+            padding-left: 0 ! important;
+        }
+
+        &:last-child{
+            padding-right: 0 ! important;
+        }
+
+        .divider{
+            display: none;
+            position: absolute;
+            top: 0;
+            right: -8px;
+            font-size: 47px;
+            line-height: 1;
+            color: #ffffff;
+            font-family: $font__main;
+        }
+    }
+
+    &.has-divider {
+        .timer {
+            .divider {
+                display: block;
+            }
+        }
+    }
+
+    .digits{
+        display: block;
+        color: #ffffff;
+        font-size: 72px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.025em;
+        font-family: $font__main;
+        margin-bottom: 26px;
+    }
+
+    .text{
+        display: block;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.025em;
+        font-family: $font__main;
+    }
+}

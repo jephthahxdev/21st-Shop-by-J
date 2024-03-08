@@ -1,0 +1,211 @@
+.single-product {
+    div.product {
+        .entry-summary{
+            .stock {
+                display: none;
+            }
+        }
+        .product_meta {
+            padding: 22px 0 20px;
+            border-top: 1px solid var(--durotan-border-input-color);
+            &>span {
+                display: block;
+                line-height: 25px;
+                position: relative;
+                padding-left: 100px;
+                &>span,
+                &>a {
+                    font-size: 14px;
+                    color: var(--durotan-color-darker);
+                    letter-spacing: 0.35px;
+                }
+            }
+            .label {
+                font-size: 13px;
+                letter-spacing: 0.65px;
+                text-transform: uppercase;
+                color: var(--durotan-text-main-color);
+                display: inline-block;
+                min-width: 100px;
+                position: absolute;
+                left: 0;
+            }
+        }
+        .durotan-stock {
+            font-size: 16px;
+            color: var(--durotan-color-gray);
+            margin: 20px 0 30px;
+            .durotan-svg-icon {
+                margin-right: 13px;
+            }
+            .availability {
+                color: #669900;
+                font-weight: 600;
+                padding-left: 7px;
+                &.out-of-stock {
+                    color: #e73405;
+                }
+            }
+        }
+        .woocommerce-product-details__short-description {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            p {
+                font-size: 16px;
+                margin: 0 0 10px;
+                color: var(--durotan-text-main-color);
+            }
+        }
+        .product-share {
+            margin: 23px 0 25px;
+            .sharing-icon {
+                margin-right: 11px;
+                color: var(--durotan-color-darker);
+            }
+            .durotan-social-links__link {
+                font-size: 15px;
+                display: inline-block;
+                line-height: 30px;
+                color: var(--durotan-color-darker);
+                margin-right: 23px;
+                background-color: transparent !important;
+                &:hover {
+                    color: var(--durotan-color-primary);
+                }
+            }
+        }
+        .product-button-wrapper {
+            padding: 43px 0 16px;
+            margin-top: 50px;
+            border-top: 1px solid var(--durotan-border-input-color);
+            >* {
+                margin-bottom: 20px;
+            }
+            .durotan-break {
+                flex-basis: 100%;
+                height: 0px;
+                margin: 0;
+                overflow: hidden;
+            }
+            .durotan-button{
+                color: var(--durotan-color-darker);
+                background-color: transparent;
+                line-height: 25px;
+                margin: 10px 0;
+                & + .product-size-guide{
+                    padding-left:30px;
+                    border-left: 1px solid #cccccc;
+                }
+                & + .durotan-button{
+                    border-left: 1px solid #cccccc;
+                    padding: 0 30px;
+                }
+            }
+            .product-size-guide{
+                line-height: 25px;
+                margin: 10px 0;
+                font-size: 14px;
+                text-transform: uppercase;
+                .durotan-svg-icon{
+                    margin-right: 10px;
+                }
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .product-button-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .single_add_to_cart_button {
+            flex: auto;
+            font-size: 16px;
+            text-transform: uppercase;
+            padding-left: 45px;
+            padding-right: 45px;
+            line-height: 52px;
+            position: relative;
+            color:var(--durotan-color-light);
+            background-color: var(--durotan-background-color-primary);
+            border: 1px solid var(--durotan-background-color-primary);
+            &.loading {
+                opacity: 0.5;
+                &:before {
+                    content: "";
+                    width: 19px;
+                    height: 19px;
+                    display: inline-block;
+                    border-radius: 50%;
+                    border: 2px solid;
+                    border-top-color: transparent;
+                    -webkit-animation: durotan-spin infinite 1s linear;
+                    animation: durotan-spin infinite 1s linear;
+                    transition: opacity .2s linear .2s;
+                    vertical-align: middle;
+                    margin-top: -1px;
+                    margin-right: 16px;
+                    line-height: 1;
+                }
+            }
+        }
+        .durotan-buy-now-button {
+            width: 100%;
+            font-size: 16px;
+            line-height: 52px;
+            letter-spacing: .4px;
+            background-color: var(--durotan-background-color-primary);
+            border: 1px solid var(--durotan-background-color-primary);
+            color:var(--durotan-color-light);
+            &.disabled{
+                opacity: .5;
+                cursor: not-allowed;
+            }
+        }
+    }
+    .quantity {
+        .label{
+            display: none;
+        }
+        .qty-box {
+            margin-right: 10px;
+            position: relative;
+            max-width: 140px;
+            border: 1px solid #d0d0d0;
+            transition: 0.4s;
+            &:focus,
+            &:hover {
+                border-color: var(--durotan-color-gray);
+            }
+            .decrease,
+            .increase {
+                cursor: pointer;
+                font-size: 16px;
+                transition: 0.5s;
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50px;
+                height: 100%;
+                line-height: 55px;
+                text-align: center;
+                color: var(--durotan-color-gray);
+                &:hover {
+                    color: var(--durotan-color-primary);
+                }
+            }
+            .increase {
+                right: 0;
+                left: auto;
+            }
+            .qty {
+                line-height: 52px;
+                width: auto;
+                max-width: 100%;
+                font-size: 16px;
+                padding: 0 50px;
+            }
+        }
+    }
+}

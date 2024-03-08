@@ -1,0 +1,176 @@
+.durotan-banner {
+    position: relative;
+    padding: 81px 76px 87px;
+    overflow: hidden;
+
+    &:hover {
+        .durotan-banner__bg {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.durotan-banner__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    transition: .4s;
+}
+
+.durotan-banner__link-all {
+    position: absolute;
+    top: -80px;
+    bottom: -80px;
+    right: -76px;
+    left: -76px;
+    z-index: 3;
+    transition: .4s;
+}
+
+.durotan-banner__content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.durotan-banner__before-heading {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--durotan-color-primary);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.durotan-banner__heading {
+    font-size: 60px;
+    line-height: 60px;
+    color: var(--durotan-color-darker);
+    text-transform: uppercase;
+    margin-bottom: 47px;
+}
+
+.durotan-banner__description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+    margin-bottom: 126px;
+}
+
+.durotan-banner__content {
+    .button-text {
+        display: inline-block;
+        color: var( --durotan-color-light );
+        border: 1px solid var(--durotan-background-color-primary);
+        line-height: 58px;
+        letter-spacing: 0.25px;
+        text-transform: uppercase;
+        padding: 0 39px;
+        margin-right: 28px;
+        transition: .5s;
+        z-index: 4;
+        cursor: pointer;
+        position: relative;
+
+        @include button-background-hover();
+
+        &:before {
+            background-color: var(--durotan-background-color-primary);
+        }
+
+        &:hover {
+            color: var( --durotan-color-primary );
+            border-color: var( --durotan-color-primary );
+        }
+    }
+
+    .button-text--2 {
+        color: var( --durotan-color-primary );
+        border: 1px solid var( --durotan-border-color-primary );
+        margin-right: 0;
+
+        &:before {
+            background-color: transparent;
+        }
+
+        &:after {
+            background-color: var(--durotan-background-color-primary);
+        }
+
+        &:hover {
+            &:after {
+                background-color: var(--durotan-background-color-primary);
+            }
+            color: var( --durotan-color-light );
+            border-color: transparent;
+        }
+    }
+
+    .button-text--line {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 700;
+        background-color: transparent;
+        border-width: 0 0 1px 0;
+        text-transform: uppercase;
+        margin-right: 28px;
+        letter-spacing: 0.025em;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            border-bottom: 1px solid;
+        }
+
+        &:hover {
+            &:before {
+                display: none;
+                width: 100%;
+            }
+        }
+
+        @include underline-hover();
+
+        line-height: 55px;
+
+        &:after {
+            transition: width 0.5s;
+        }
+    }
+
+    .button-text--line-2 {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 700;
+        background-color: transparent;
+        border-width: 0 0 1px 0;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        line-height: 24px;
+
+        &::after {
+            content: "";
+            display: inline-block;
+            width: 39%;
+            border-bottom: 1px solid #ffffff;
+            transition: .4s;
+        }
+
+        &:hover {
+            color: #ffffff;
+            &::after {
+                width: 100%;
+                border-color: #ffffff;
+            }
+        }
+    }
+}

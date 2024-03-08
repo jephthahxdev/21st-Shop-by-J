@@ -1,0 +1,21 @@
+.header-compare {
+    position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+	> a {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.header-compare__icon {
+	display: block;
+	position: relative;
+	padding-right: 10px;
+
+	.durotan-svg-icon {
+		font-size: 24px;
+	}
+}

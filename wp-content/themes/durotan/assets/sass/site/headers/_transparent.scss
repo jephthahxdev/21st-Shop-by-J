@@ -1,0 +1,59 @@
+.header-transparent {
+	.site-header {
+		position: absolute;
+		left: 0;
+		right: 0;
+		z-index: 999;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.durotan-header-minimized {
+		display: none;
+	}
+
+	.campaign-bar {
+		display: none;
+	}
+}
+
+.header-transparent-text-light {
+	.site-header {
+		--durotan-header-text-color: var(--durotan-color-light);
+		--durotan-header-text-hover-color: var(--durotan-color-primary);
+	}
+
+	.header-cart__counter ,
+	.header-wishlist__counter {
+		color: var( --durotan-color-light );
+		background-color: var( --durotan-background-color-darker );
+	}
+
+	&.header-sticky {
+		.minimized {
+			--durotan-header-text-color: var( --durotan-color-darker );
+			box-shadow: 0 1px 1px 0 #f0f0f0;
+			border: none;
+
+			.header__wrapper {
+				border: none;
+			}
+		}
+	}
+
+	.logo {
+		.logo-light + .logo-dark {
+			display: none;
+		}
+	}
+
+	.site-header.minimized{
+		.logo-dark {
+			display: block;
+		}
+
+		.logo-light {
+			display: none;
+		}
+	}
+}

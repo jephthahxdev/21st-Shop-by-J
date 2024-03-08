@@ -1,0 +1,146 @@
+@media (max-width: 1820px){
+	.durotan-product-carousel,
+    .durotan-products-group-tabs{
+        .durotan-swiper-button--out{
+            &.durotan-swiper-button-prev{
+                left: -63px;
+            }
+            &.durotan-swiper-button-next{
+                right: -63px;
+            }
+        }
+    }
+}
+@media (max-width: 1720px){
+	.durotan-product-carousel,
+    .durotan-products-group-tabs{
+        .durotan-swiper-button--out {
+            background-color: rgba( 255, 255, 255, 0.9 );
+            box-shadow: 0 0 5px rgba( 0, 0, 0, 0.3 );
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+
+            &.durotan-swiper-button-prev{
+                left: 0;
+            }
+            &.durotan-swiper-button-next{
+                right: 0;
+            }
+        }
+    }
+}
+@media (max-width: 1500px) {
+	.icon-box-horizontal {
+		.durotan-icons-box {
+			.icon-box {
+				padding: 0 44px;
+			}
+		}
+	}
+
+    .durotan-twitter-carousel__arrow {
+
+        .durotan-swiper-button {
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.4 );
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 20px;
+            z-index: 99;
+        }
+
+        .durotan-swiper-button-prev {
+            left: 0;
+        }
+        .durotan-swiper-button-next {
+            right: 0;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+	.description-layout__layout_2 {
+		.durotan-slide__description {
+			left: 80px;
+		}
+	}
+}
+@media (max-width: 1440px) and (min-width: 1200px) {
+    .durotan-slider-product {
+		.durotan-sliders__inner {
+			margin-top: 90px;
+			padding-bottom: 30px;
+            padding-left: 160px;
+		}
+
+		.button-product-text-container {
+			bottom: 30px;
+            .button-product-text {
+			    font-size: 26px;
+            }
+		}
+
+		.durotan-slide__fraction--style-2 {
+			bottom: 30px;
+		}
+	}
+
+	.durotan-slide__product {
+		padding: 30px 40px;
+		.woocommerce-loop-product__title {
+			font-size: 40px;
+			line-height: 32px;
+		}
+
+		.price-sumary {
+			margin-bottom: 19px;
+		}
+
+		.product_meta {
+			padding-bottom: 24px;
+		}
+
+		.product-button {
+			margin-top: 30px;
+		}
+	}
+}
+
+@media (max-width: 1440px) and (min-width: 992px) {
+    .durotan-product-shortcode-4{
+        &.single-product {
+            div.product{
+                .durotan-product-deal{
+                    margin-top: 36px;
+                    margin-bottom:17px;
+                    .deal-expire-text,
+                    .deal-expire-countdown{
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 767px) {
+    .durotan-slide__fraction--style-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1250px) {
+	.description-layout__layout_2 {
+		.durotan-slide__description {
+			left: 130px;
+		}
+	}
+}

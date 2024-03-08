@@ -1,0 +1,49 @@
+.durotan-image-parallax {
+	height: 750px;
+	padding: 201px 0 0 0;
+
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.durotan-image-parallax__content {
+	max-width: 840px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.durotan-image-parallax__text {
+	color: #fbf7ef;
+	font-size: 36px;
+	line-height: 60px;
+	margin-bottom: 93px;
+}
+
+.durotan-image-parallax__title {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 18px;
+	letter-spacing: 0.025em;
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+
+	&::after {
+		position: absolute;
+		bottom: -17px;
+		content: "";
+		display: inline-block;
+		width: 30%;
+		border-bottom: 1px solid #ffffff;
+		transition: .4s;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&:hover {
+		color: #ffffff;
+		&::after {
+			width: 100%;
+		}
+	}
+}

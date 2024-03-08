@@ -1,0 +1,46 @@
+.woocommerce-page {
+	&.has-pageheader {
+		.page-header {
+			padding-bottom: 79px;
+			.page-header__title {
+				font-size: 48px;
+			}
+		}
+		.site-content {
+			padding-top: 0;
+		}
+	}
+	.woocommerce-account-table {
+		display: none;
+	}
+}
+
+/** Cart **/
+@import "cart";
+/** Checkout **/
+@import "checkout";
+/** ThankYou **/
+@import "thankyou";
+/** OrderTracking **/
+@import "order-tracking";
+/** Account **/
+@import "account";
+/** Wishlist **/
+@import "wishlist";
+@import "wcboost-wishlist-table";
+
+@import "wcboost-compare";
+@import "components";
+@import "pagination";
+@import "recently-viewed";
+
+.durotan-product-taxonomy-list__catalog {
+	.durotan-product-taxonomy-list {
+		margin-bottom: 65px;
+		padding-bottom: 15px;
+
+		li {
+			margin-right: 38px;
+		}
+	}
+}

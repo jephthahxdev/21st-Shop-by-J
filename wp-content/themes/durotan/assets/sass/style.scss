@@ -1,0 +1,93 @@
+/*!
+Theme Name: Durotan
+Theme URI: http://demo4.drfuri.com/durotan
+Author: DrFuri
+Author URI: http://drfuri.com
+Description: Woocommerce WordPress Theme
+Version: 1.1.4
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 7.4
+License: GNU General Public License v2+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: durotan
+Domain Path: /lang/
+Tags: one-column, two-columns, left-sidebar, right-sidebar, full-width-template, post-formats, theme-options, threaded-comments, translation-ready
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Layout
+# Modules
+# Elementor
+# Navigation
+# Form
+# Media
+# Content
+# Shop
+# Responsive
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "variables/variables";
+
+@import "mixins/mixins-master";
+
+@import "mixins/common";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "layout/layout";
+
+/*--------------------------------------------------------------
+# Modules
+--------------------------------------------------------------*/
+@import "modules/modules";
+
+/*--------------------------------------------------------------
+# Elementor
+--------------------------------------------------------------*/
+@import "elementor/elements";
+@import "elementor/elementor/elements";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Form
+--------------------------------------------------------------*/
+@import "form/form";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@import "responsive/responsive";

@@ -1,0 +1,117 @@
+.single-product {
+    div.product {
+        &.layout-v6 {
+            .yith-wcwl-wishlistexistsbrowse,
+            .yith-wcwl-wishlistaddedbrowse {
+                &.durotan-loop_button {
+                    .loop_button-text{
+                        color: #da5f39;
+                    }
+                }
+            }
+
+            .wcboost-wishlist-button {
+                &.added {
+                    .wcboost-wishlist-button__text {
+                        color: #da5f39;
+                    }
+                }
+            }
+        }
+        .durotan-wishlist-button {
+            padding: 0;
+            &+.durotan-button {
+                border-left: 1px solid #cccccc;
+            }
+            .durotan-loop_button {
+                padding: 0 25px;
+                >.yith-wcwl-icon,
+                .durotan-svg-icon {
+                    margin: 0;
+                    font-size: 16px;
+                }
+                .yith-wcwl-icon {
+                    color: var(--durotan-color-dark);
+                    margin-right: 0;
+                }
+                .loop_button-text,
+                .wcboost-wishlist-button__text {
+                    display: none;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    letter-spacing: 0.4px;
+                }
+                &.loading:before {
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 10px;
+                }
+            }
+            &:hover {
+                .durotan-svg-icon {
+                    transform: none;
+                }
+            }
+            &.show-wishlist-title {
+                padding: 0 25px 0 0;
+
+                &.durotan-wishlist-button {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .durotan-loop_button {
+                    display: flex;
+                    align-items: center;
+                    padding: 0;
+
+                    >.yith-wcwl-icon,
+                    .durotan-svg-icon {
+                        margin: 0 10px 0 0;
+                    }
+                }
+                .loop_button-text,
+                .wcboost-wishlist-button__text {
+                    display: inline-block;
+                }
+            }
+            .blockUI.blockOverlay {
+                background: transparent !important
+            }
+        }
+        .yith-wcwl-wishlistexistsbrowse,
+        .yith-wcwl-wishlistaddedbrowse {
+            &.durotan-loop_button {
+                >.yith-wcwl-icon,
+                svg {
+                    fill: #da5f39;
+                }
+            }
+        }
+
+        .wcboost-wishlist-button {
+            &:hover {
+                &:not(.loading) {
+                    &::before {
+                        left: 50%;
+                        right: auto;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+
+            &.loading {
+                svg {
+                    margin-right: 10px;
+                }
+            }
+
+            &.added {
+                .wcboost-wishlist-button__icon {
+                    color: #da5f39;
+                }
+            }
+        }
+    }
+}

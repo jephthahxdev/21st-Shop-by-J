@@ -1,0 +1,207 @@
+.single-product {
+    div.product {
+        .product-gallery-summary {
+            position: relative;
+        }
+        .woocommerce-product-gallery {
+            position: relative;
+            float: left;
+            width: 55.45%;
+            .woocommerce-product-gallery__trigger {
+                display: none;
+            }
+            figure {
+                margin: 0;
+            }
+
+            .woocommerce-product-gallery__image {
+                a,
+                img {
+                    cursor: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjQgMjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxyZWN0IGZpbGw9Im5vbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPjxwb2x5Z29uIHBvaW50cz0iMjAsMTEgMTMsMTEgMTMsNCAxMSw0IDExLDExIDQsMTEgNCwxMyAxMSwxMyAxMSwyMCAxMywyMCAxMywxMyAyMCwxMyAiLz48L3N2Zz4=), auto;
+                }
+                img {
+                    vertical-align: middle;
+                }
+                &.durotan-product-video {
+                    display: flex !important;
+                }
+            }
+            &.has-video {
+                .flex-control-nav li {
+                    position: relative;
+                    .i-video {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+                .woocommerce-product-gallery__wrapper {
+                    display: flex;
+                }
+            }
+            .durotan-video-wrapper {
+                position: relative;
+                width: 100%;
+                padding-bottom: 56.25%;
+                &.video-youtube,
+                &.video-vimeo {
+                    iframe,
+                    video {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                &.video-vimeo {
+                    overflow: hidden;
+                    background: var(--durotan-background-color-darker);
+                }
+                iframe,
+                video {
+                    height: 100%;
+                }
+                .wp-video {
+                    height: 100%;
+                    margin: 0 auto;
+                }
+                .wp-video-shortcode {
+                    min-height: 100% !important;
+                    height: 100%;
+                }
+            }
+        }
+        .woocommerce-product-gallery__thumbs-carousel {
+            .durotan-swiper-button {
+                cursor: pointer;
+                outline: none;
+                font-size: 20px;
+                opacity: 0;
+                z-index: 1;
+                transition: .3s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &.swiper-button-lock {
+                    display: none;
+                }
+                > svg{
+                    fill:none;
+                }
+            }
+            &.swiper-container-vertical {
+                flex-direction: column;
+                overflow: hidden;
+                height: 100%;
+                .durotan-swiper-button {
+                    position: absolute;
+                    transform: none;
+                    width: 100%;
+                    height: 20px;
+                    line-height: 20px;
+                    left: 0;
+                    right: 0;
+                    color: var(--durotan-color-darker);
+                    background-color: rgba(255,255,255,.4);
+                }
+                .durotan-thumbs-button-prev {
+                    top: 0;
+                    svg {
+                        transform: rotate(90deg);
+                    }
+                }
+                .durotan-thumbs-button-next {
+                    bottom: 0;
+                    top: auto;
+                    svg {
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+            &.swiper-container-horizontal {
+                .durotan-swiper-button {
+                    line-height: 48px;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 30px;
+                    height: 50px;
+
+                }
+                .durotan-thumbs-button-prev {
+                    left: 0;
+                }
+                .durotan-thumbs-button-next {
+                    right: 0;
+                }
+            }
+            .swiper-button-disabled {
+                cursor: not-allowed;
+            }
+            &:hover {
+                .durotan-swiper-button {
+                    opacity: 1;
+                }
+            }
+        }
+        .flex-control-thumbs {
+            margin: 0;
+            padding: 0;
+            li {
+                display: block;
+                width: 100%;
+                list-style: none;
+                cursor: pointer;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                img {
+                    vertical-align: middle;
+                    border: 1px solid transparent;
+                    transition: .3s;
+                    &.flex-active {
+                        border-color: var(--durotan-color-gray);
+                    }
+                }
+                &:hover {
+                    img {
+                        border-color: var(--durotan-color-gray);
+                    }
+                }
+            }
+        }
+        .flex-direction-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            a {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                z-index: 500;
+                top: 50%;
+                transform: translate(0, -50%);
+                padding: 0;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                background: transparent;
+                font-size: 30px;
+                color: var(--durotan-color-gray);
+                &:hover {
+                    color: var(--durotan-color-dark);
+                }
+                &.flex-prev {
+                    left: 25px;
+                }
+                &.flex-next {
+                    right: 25px;
+                }
+            }
+        }
+    }
+}

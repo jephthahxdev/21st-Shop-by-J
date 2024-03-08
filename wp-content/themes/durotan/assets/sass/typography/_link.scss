@@ -1,0 +1,12 @@
+a {
+	color: var(--durotan-color-darker);
+	text-decoration: none;
+	transition: 0.3s ease-in;
+
+	&:focus,
+	&:hover,
+	&:active {
+		outline: 0;
+		color: var(--durotan-color-primary);
+	}
+}

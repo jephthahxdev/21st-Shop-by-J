@@ -1,0 +1,76 @@
+input[type="password"],
+input[type="number"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"] {
+	color: var(--durotan-color-darker);
+	border: 1px solid #d0d0d0;
+	box-sizing: border-box;
+    line-height: 30px;
+	padding: 11px 15px 13px;
+    font-size: 18px;
+    transition: all .1s ease-in-out;
+    outline: none;
+
+	&::placeholder {
+		color: #999999;
+	}
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="text"],
+textarea {
+	border: 0;
+	border-bottom: 1px solid var(--durotan-border-input-color);
+	border-radius: 0;
+	transition: 0.4s;
+    box-shadow: none;
+	padding: 12px 0;
+	font-size: 14px;
+	letter-spacing: 0.015em;
+	font-family: $font__main;
+	color: #010101;
+
+	&::placeholder {
+		color: #999999;
+	}
+
+	&:focus {
+		outline: none;
+		border-color: var(--durotan-border-input-focus-color);
+	}
+}
+
+select {
+	border: 1px solid var(--durotan-border-input-focus-color);
+    padding: 12px 25px;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNSIgdmlld0JveD0iMCAwIDEwIDUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNNC41MDQ5NSA0LjgyMDExTDAuMjA1MjQxIDEuMDQ4NTZDLTAuMDY4NDEzNyAwLjgwODY0NiAtMC4wNjg0MTM3IDAuNDE5NjYzIDAuMjA1MjQxIDAuMTc5ODY0QzAuNDc4NjUyIC0wLjA1OTk1NDcgMC45MjIwOTggLTAuMDU5OTU0NyAxLjE5NTQ5IDAuMTc5ODY0TDUuMDAwMDcgMy41MTcxTDguODA0NTIgMC4xNzk5NjFDOS4wNzgwNSAtMC4wNTk4NTc3IDkuNTIxNDUgLTAuMDU5ODU3NyA5Ljc5NDg2IDAuMTc5OTYxQzEwLjA2ODQgMC40MTk3OCAxMC4wNjg0IDAuODA4NzQzIDkuNzk0ODYgMS4wNDg2Nkw1LjQ5NTA4IDQuODIwMkM1LjM1ODMxIDQuOTQwMTEgNS4xNzkyNSA1IDUuMDAwMDkgNUM0LjgyMDg1IDUgNC42NDE2NSA0Ljk0IDQuNTA0OTUgNC44MjAxMVoiIGZpbGw9IiM3Njc2NzYiLz4NCjwvc3ZnPg0K);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) 50%;
+    transition: .1s;
+    padding-right: 40px;
+}
+
+textarea {
+	width: 100%;
+	height: 108px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	-webkit-appearance:none;
+}

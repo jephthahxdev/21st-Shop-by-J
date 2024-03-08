@@ -1,0 +1,131 @@
+.durotan-countdown-banner {
+	position: relative;
+	height: 880px;
+	padding-top: 104px;
+
+	.durotan-countdown-banner__bg {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: 1;
+		transition: .4s;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+	.durotan-countdown-banner__content {
+		position: relative;
+		z-index: 2;
+		text-align: center;
+	}
+
+	.durotan-countdown-banner__before-heading {
+		color: #ffffff;
+		font-size: 18px;
+		line-height: 90px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		margin-bottom: 8px;
+	}
+
+	.durotan-countdown-banner__heading {
+		color: #ffffff;
+		font-weight: 300;
+		font-size: 72px;
+		line-height: 80px;
+		margin-bottom: 76px;
+	}
+
+	.durotan-countdown-banner__countdown {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 74px;
+	}
+
+	.durotan-countdown-banner__button {
+		display: inline-block;
+		color: #000000;
+		border: 1px solid transparent;
+		line-height: 58px;
+		letter-spacing: 0.25px;
+		text-transform: uppercase;
+		padding: 0 34.167px;
+		transition: .5s;
+		z-index: 1;
+		cursor: pointer;
+		margin-bottom: 100px;
+
+		@include button-background-hover();
+
+		&:before {
+			background-color: #ffffff;
+		}
+
+		&:hover {
+			border-color: #ffffff;
+			color: #ffffff;
+		}
+	}
+
+	.durotan-countdown-banner__description {
+		color: #ffffff;
+		font-size: 16px;
+		line-height: 28px;
+
+		span {
+			display: inline-block;
+			background-color: #fee2a7;
+			padding: 0 12px;
+			margin: 0 5px;
+		}
+	}
+
+    .timer{
+        position: relative;
+        text-align: center;
+        padding: 0 20px;
+		min-width: 145px;
+
+        .divider{
+            display: none;
+            position: absolute;
+            top: 0;
+            right: -8px;
+            font-size: 47px;
+            line-height: 1;
+            color: #ffffff;
+            font-family: $font__main;
+        }
+    }
+
+    &.has-divider {
+        .timer {
+            .divider {
+                display: block;
+            }
+        }
+    }
+
+    .digits{
+        display: block;
+        color: #ffffff;
+        font-size: 72px;
+        font-weight: 300;
+        line-height: 44px;
+        font-family: $font__main;
+        margin-bottom: 26px;
+    }
+
+    .text{
+        display: block;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.050em;
+        font-family: $font__main;
+		text-transform: uppercase;
+    }
+}

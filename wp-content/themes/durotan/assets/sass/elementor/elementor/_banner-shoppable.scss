@@ -1,0 +1,295 @@
+.durotan-banner-shoppable {
+	height: 900px;
+}
+
+.durotan-banner-shoppable__inner {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.durotan-banner-shoppable__content {
+	max-width: 533px;
+}
+
+.durotan-banner-shoppable__before-heading {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 100px;
+	letter-spacing: 0.1em;
+}
+
+.durotan-banner-shoppable__heading {
+	color: #ffffff;
+	font-size: 100px;
+	line-height: 100px;
+	font-family: $font__main;
+	margin-bottom: 58px;
+}
+
+.durotan-banner-shoppable__description {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 120px;
+}
+
+.button-banner-shoppable {
+	display: inline-block;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	&::after {
+		content: "";
+		display: inline-block;
+		width: 30%;
+		border-bottom: 1px solid #ffffff;
+		transition: .4s;
+	}
+
+	&:hover {
+		color: #ffffff;
+		&::after {
+			width: 100%;
+			border-color: #ffffff;
+		}
+	}
+}
+
+.durotan-hotspot__point {
+	position: absolute;
+	top: 40%;
+    left: 40%;
+	z-index: 2;
+
+	.durotan-hotspot__point-icon {
+		cursor: pointer;
+		position: relative;
+		.durotan-svg-icon {
+			font-size: 14px;
+			color: #000000;
+			position: absolute;
+			z-index: 2;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+		&::before {
+			content: '';
+			display: block;
+			width: 46px;
+			height: 46px;
+			background-color: #ffffff;
+			opacity: .15;
+			border-radius: 50%;
+			position: absolute;
+			left: -8px;
+			top: -8px;
+			-webkit-animation: anim-ripple 2.5s linear 0s infinite;
+			animation: anim-ripple 2.5s linear 0s infinite;
+		}
+
+		&::after {
+			content: '';
+			display: block;
+			width: 30px;
+			height: 30px;
+			background-color: #d8d2ba;
+			border-radius: 50%;
+			transform: scale(1);
+			transition: .4s;
+		}
+		&:hover {
+			&::after {
+				transform: scale(1.6);
+			}
+			&::before {
+				display: none;
+			}
+		}
+	}
+
+	.durotan-hotspot__item {
+		display: flex;
+		background-color: #ffffff;
+		position: absolute;
+		width: 470px;
+		height: 208px;
+		opacity: 0;
+		transition: .3s;
+		z-index: 3;
+		visibility: hidden;
+
+		&::after {
+			content: '';
+			display: block;
+			width: 0;
+			height: 0;
+			position: absolute;
+		}
+
+		&.durotan-hotspot__item--top {
+			left: -417px;
+			top: -253px;
+
+			&::after {
+				bottom: -19px;
+				right: 29px;
+				border-style: solid;
+				border-width: 19px 8.5px 0 8.5px;
+				border-color: #ffffff transparent transparent transparent;
+			}
+		}
+
+		&.durotan-hotspot__item--right {
+			left: 78px;
+    		top: -22px;
+
+			&::after {
+				top: 26px;
+    			left: -19px;
+				border-style: solid;
+				border-width: 8.5px 19px 8.5px 0;
+				border-color: transparent #ffffff transparent transparent;
+			}
+		}
+
+		&.durotan-hotspot__item--bottom {
+			left: -417px;
+			top: 75px;
+
+			&::after {
+				top: -19px;
+				right: 29px;
+				border-style: solid;
+				border-width: 0 8.5px 19px 8.5px;
+				border-color: transparent transparent #ffffff transparent;
+			}
+		}
+
+		&.durotan-hotspot__item--left {
+			left: -515px;
+    		top: -22px;
+
+			&::after {
+				top: 26px;
+    			right: -19px;
+				border-style: solid;
+				border-width: 8.5px 0 8.5px 19px;
+				border-color: transparent transparent transparent #ffffff;
+			}
+		}
+	}
+
+	&.active {
+		.durotan-hotspot__item {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+
+	.durotan-hotspot__image {
+		overflow: hidden;
+	}
+
+	.durotan-hotspot__content {
+		flex: auto;
+		padding: 25px 28px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.durotan-hotspot__heading {
+		--durotan-color-box-shadow: transparent;
+
+		font-size: 18px;
+		color: #000000;
+		display: inline;
+		line-height: 26px;
+		transition: .3s;
+		box-shadow: inset 0 -0.175em white, inset 0 -0.2em var(--durotan-color-box-shadow);
+
+		&:hover {
+			--durotan-color-box-shadow: #000000;
+		}
+	}
+
+	.durotan-hotspot__price {
+		display: flex;
+		align-items: center;
+		margin-top: 8px;
+	}
+
+	.durotan-hotspot__price-number {
+		display: block;
+		font-size: 20px;
+		letter-spacing: 0;
+		text-transform: uppercase;
+		color: #000000;
+	}
+
+	ins.durotan-hotspot__price-number {
+		color: #ea311d;
+		margin-right: 7px;
+		background: 0 0;
+		text-decoration: none;
+	}
+
+	del.durotan-hotspot__price-number {
+		color: #666666;
+		font-size: 16px;
+	}
+
+	.durotan-hotspot__button {
+		position: absolute;
+		bottom: 18px;
+		transition: .4s;
+		cursor: pointer;
+		a {
+			transition: .4s;
+		}
+		.durotan-hotspot__button-text {
+			color: #999999;
+			text-transform: uppercase;
+			letter-spacing: 0.050em;
+			font-size: 14px;
+			transition: .4s;
+		}
+
+		.durotan-hotspot__button-icon {
+			color: #999999;
+			font-size: 16px;
+			margin-right: 12px;
+			transition: .4s;
+		}
+
+		&:hover {
+			.durotan-hotspot__button-text,
+			.durotan-hotspot__button-icon {
+				color: var(--durotan-color-darker);
+			}
+		}
+	}
+
+	.durotan-hotspot__button-close {
+		padding-top: 25px;
+		padding-right: 24px;
+		.durotan-svg-icon {
+			color: #000000;
+			font-size: 16px;
+			transition: .3s;
+			cursor: pointer;
+
+			&:hover {
+				color: var(--durotan-color-primary);
+			}
+		}
+	}
+}

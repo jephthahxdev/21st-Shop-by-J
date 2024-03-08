@@ -1,0 +1,12 @@
+.quick-view-button {
+	.durotan-svg-icon {
+		font-size: 17px;
+	}
+
+	&.loading {
+		&::before {
+			width: 17px;
+			height: 17px;
+		}
+	}
+}

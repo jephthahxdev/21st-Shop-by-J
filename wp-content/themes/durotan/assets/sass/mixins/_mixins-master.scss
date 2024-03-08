@@ -1,0 +1,430 @@
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get($columns, $numberColumns);
+}
+
+@mixin durotan-loading() {
+	position: relative;
+
+	&:before{
+		content: '';
+		display: block;
+		border-radius: 100px;
+	    position: absolute;
+	}
+
+	&:before{
+		background-color: var(--durotan-background-color-primary);
+		height: 13px;
+		width: 13px;
+		top: 0;
+		left: 0;
+		animation: durotan-scale 1s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
+	}
+}
+
+@mixin durotan-spinner-loading() {
+	position:absolute;
+	width:55px;
+	height:55px;
+	left:50%;
+	top:50%;
+
+	> div {
+		position: absolute;
+		width: 2px;
+		height: 17px;
+		background-color: #999999;
+		opacity: 0.05;
+	  	animation: durotan-spinner 0.8s linear infinite;
+
+		&.bar-1 {
+			transform: rotate(0deg) translate(0, -19px);
+			animation-delay:0.05s;
+		}
+
+		&.bar-2 {
+			transform: rotate(45deg) translate(0, -19px);
+			animation-delay:0.15s;
+		}
+
+		&.bar-3 {
+			transform: rotate(90deg) translate(0, -19px);
+			animation-delay:0.25s;
+		}
+
+		&.bar-4 {
+			transform: rotate(135deg) translate(0, -19px);
+			animation-delay:0.35s;
+		}
+
+		&.bar-5 {
+			transform: rotate(180deg) translate(0, -19px);
+			animation-delay:0.45s;
+		}
+
+		&.bar-6 {
+			transform: rotate(225deg) translate(0, -19px);
+			animation-delay:0.55s;
+		}
+
+		&.bar-7 {
+			transform: rotate(270deg) translate(0, -19px);
+			animation-delay:0.65s;
+		}
+
+		&.bar-8 {
+			transform: rotate(315deg) translate(0, -19px);
+			animation-delay:0.75s;
+		}
+	}
+}
+
+@mixin underline-hover() {
+	line-height: 1;
+	position: relative;
+	display: inline-block;
+
+	&:after {
+		content: "";
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 0;
+		border-bottom: 1px solid;
+		transition: width 0.4s;
+	}
+
+	&.active,
+	&:hover {
+		text-decoration: none;
+
+		&:after {
+			width: 100%;
+			left: 0;
+		}
+	}
+}
+
+@mixin button-background-hover() {
+	position: relative;
+	&:before {
+		position: absolute;
+		content: "";
+		display: block;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		transform: scale(1,1);
+		transform-origin: left center;
+		z-index: -1;
+		transition: transform .45s cubic-bezier(.785, .135, .15, .86);
+	}
+
+	&:after {
+		position: absolute;
+		content: "";
+		display: block;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		transform: scale(0, 1);
+		transform-origin: right center;
+		z-index: -1;
+		transition: transform .45s cubic-bezier(.785, .135, .15, .86);
+	}
+
+	&.active,
+	&:hover,
+	&:focus {
+		&:before {
+			transform-origin: right center;
+			transform: scale(0,1);
+		}
+
+		&:after {
+			transform: scale(1,1);
+			transform-origin: left center;
+		}
+	}
+}
+
+@mixin durotan-scrollable() {
+	overflow-y: auto;
+	scrollbar-color: var( --durotan-color-primary ) #e5e5e5;
+	scrollbar-width: thin;
+	max-height: 290px;
+
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: #e5e5e5;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: var( --durotan-color-primary );
+	}
+}
+
+@mixin durotan-button() {
+	font-size: 14px;
+	line-height: 50px;
+	letter-spacing: .3px;
+	text-transform: uppercase;
+	display: inline-block;
+	background-color: var( --durotan-background-color-primary );
+	color: var( --durotan-color-light );
+    padding: 0 37px;
+    text-align: center;
+	transition: ease .3s;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+@mixin durotan-input-select() {
+	position: relative;
+	padding-left: 35px;
+	display: block;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 400;
+	color: var(--durotan-color-darker);
+	margin-bottom: 0;
+	line-height: 1.5;
+
+	input {
+		display: none;
+	}
+
+	span {
+		&:before,
+		&:after {
+			content: "";
+			width: 20px;
+			height: 20px;
+			margin-right: 10px;
+			position: absolute;
+			left: 0;
+			top: 1px;
+			transition: 0.4s;
+		}
+
+		&:before {
+			border: 1px solid #999999;
+			background-color: #ffffff;
+		}
+
+		&:after {
+			opacity: 0;
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxMnB4IiBoZWlnaHQ9IjEycHgiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTIgMTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwb2x5Z29uIHBvaW50cz0iNC4xNzcsMTAuNTQzIDAuNDM0LDYuOCAxLjU2Niw1LjY2OCA0LjE3Nyw4LjI3OSAxMC40MzUsMi4wMjMgMTEuNTY1LDMuMTU1ICIvPjwvZz48L2c+PC9zdmc+) no-repeat center center;
+		}
+
+		&.required:before,
+		&.required:after {
+			display: none;
+		}
+	}
+
+	:checked ~ span {
+		color: var(--durotan-color-darker);
+
+		&:before {
+			border-color: var(--durotan-color-primary);
+			background-color: var(--durotan-color-primary);
+		}
+
+		&:after {
+			opacity: 1;
+			filter: brightness(0) invert(1);
+		}
+	}
+}
+@mixin durotan-input-radio() {
+	input[type="radio"] {
+		display: none;
+
+		+ label {
+			position: relative;
+			padding-left: 33px;
+			cursor: pointer;
+			color: var(--durotan-text-input-color);
+
+			&:before,
+			&:after {
+				content: "";
+				width: 20px;
+				height: 20px;
+				margin-right: 10px;
+				position: absolute;
+				left: 0;
+				top: 1px;
+				transition: 0.4s;
+			}
+
+			&:before {
+				border: 1px solid #999999;
+				background-color: #ffffff;
+			}
+
+			&:after {
+				opacity: 0;
+				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxMnB4IiBoZWlnaHQ9IjEycHgiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTIgMTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwb2x5Z29uIHBvaW50cz0iNC4xNzcsMTAuNTQzIDAuNDM0LDYuOCAxLjU2Niw1LjY2OCA0LjE3Nyw4LjI3OSAxMC40MzUsMi4wMjMgMTEuNTY1LDMuMTU1ICIvPjwvZz48L2c+PC9zdmc+) no-repeat center center;
+			}
+
+			&.required:before,
+			&.required:after {
+				display: none;
+			}
+		}
+
+		&:checked {
+			+ label {
+				color: var(--durotan-color-darker);
+
+				&:before {
+					border-color: var(--durotan-color-primary);
+					background-color: var(--durotan-color-primary);
+				}
+
+				&:after {
+					opacity: 1;
+					filter: brightness(0) invert(1);
+				}
+			}
+		}
+	}
+}
+
+@mixin durotan-button-outline() {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	transition: none;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 46px;
+	padding: 0 40px;
+	text-decoration: none;
+	background-color: transparent;
+	color: var(--durotan-color-darker);
+	border: 1px solid;
+	white-space: nowrap;
+}
+
+// Loading
+@keyframes bubble {
+	0%, 100% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
+
+@keyframes durotanFadeInUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 80px, 0);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes durotan-scale {
+	30% {
+        transform: scale(0.3);
+    }
+	100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes durotan-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes durotan-loading {
+	0%, 20%, 40%, 60%, 100% {
+		-webkit-transform: scale(.2);
+		transform: scale(.2);
+		opacity: 0;
+	}
+	10%, 30%, 50%, 70% {
+		-webkit-transform: scale(.5);
+		transform: scale(.5);
+		opacity: 1;
+	}
+}
+
+@keyframes durotan-spinner {
+	0%{ opacity:1; }
+	100%{ opacity:0; }
+}
+
+@keyframes anim-ripple {
+    0% {
+        transform: scale(0.8);
+        opacity: 0
+    }
+    20% {
+        transform: scale(1);
+        opacity: .4
+    }
+    to {
+        transform: scale(1.2);
+        opacity: 0
+    }
+}

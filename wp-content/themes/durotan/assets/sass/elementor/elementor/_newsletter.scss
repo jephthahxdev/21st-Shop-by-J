@@ -1,0 +1,91 @@
+.durotan-newsletter {
+    form {
+        max-width: 432px;
+    }
+
+    .mc4wp-form {
+        .durotan-svg-icon {
+            color: #FFFFFF;
+            font-size: 24px;
+        }
+        input[type=submit] {
+            color: #FFFFFF;
+        }
+    }
+}
+
+.durotan-newsletter-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 370px;
+    padding: 67px 99px;
+
+    form {
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid #d0d0d0;
+        padding: 10.5px 23px 7.5px 22px;
+
+        .mc4wp-form-fields {
+            display: flex;
+            align-items: center;
+        }
+        .durotan-svg-icon {
+            position: static;
+            transform: translateY(0);
+        }
+    }
+
+    .mc4wp-form input[type="text"],
+    .mc4wp-form input[type="email"] {
+        padding-bottom: 0;
+        font-size: 18px;
+        color: #999999;
+        padding: 0 0 0 19px;
+    }
+
+    .mc4wp-form input[type="submit"],
+    .mc4wp-form button {
+        font-size: 18px;
+    }
+}
+
+.durotan-newsletter-2__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.durotan-newsletter-2__before-heading {
+    color: #999999;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.050em;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.durotan-newsletter-2__heading {
+    font-family: var(--durotan-heading-font);
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.025em;
+    color: #685d33;
+
+    span {
+        color: #f45828;
+    }
+}
+
+.durotan-newsletter-2__description {
+    color: #666666;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.durotan-newsletter-2__text {
+    color: #999999;
+    font-size: 16px;
+    line-height: 30px;
+}

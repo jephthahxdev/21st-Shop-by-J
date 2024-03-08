@@ -1,0 +1,80 @@
+/* WooCommerce Price Filter Widget */
+.widget_price_filter {
+	.price_slider {
+		margin-bottom: 15px;
+	}
+
+	.price_slider_amount {
+		line-height: 2.4em;
+		display: flex;
+		flex-direction: column-reverse;
+
+		.button {
+			display: block;
+			width: 100%;
+		}
+
+		.price_label {
+			font-size: 16px;
+			color: var( --durotan-color-gray );
+
+			span {
+				color: var( --durotan-color-darker );
+			}
+		}
+	}
+
+	.ui-slider {
+		position: relative;
+		text-align: left;
+	}
+
+	.ui-slider .ui-slider-handle {
+		position: absolute;
+		width: 10px;
+		height: 15px;
+		cursor: ew-resize;
+		outline: none;
+		box-sizing: border-box;
+		margin-top: 0;
+		border: 1px solid #c0c0c0;
+		background-color: #fff;
+		opacity: 1;
+	}
+
+	.ui-slider .ui-slider-range {
+		position: absolute;
+		display: block;
+		border: 0;
+		background-color: var( --durotan-background-color-primary );
+		top: 5px;
+	}
+
+	.price_slider_wrapper .ui-widget-content {
+		&:before {
+			content: "";
+			position: absolute;
+			top: 5px;
+			background-color: #ececec;
+			height: 4px;
+			width: 100%;
+		}
+	}
+
+	.ui-slider-horizontal {
+		height: 4px;
+	}
+
+	.ui-slider-horizontal .ui-slider-range {
+		height: 4px;
+	}
+}
+
+.catalog-sidebar {
+	.widget-title {
+		font-family: var( --durotan-font-main );
+		font-size: 30px;
+		text-transform: none;
+		margin-bottom: 32px;
+	}
+}

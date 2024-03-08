@@ -1,0 +1,72 @@
+.icon-box-horizontal {
+    .durotan-icons-box__wrapper{
+        display: flex;
+    }
+
+    .durotan-icons-box {
+        .icon-box {
+            display: flex;
+            transition: 0.3s;
+            padding: 0px 100px 0px 45px;
+        }
+
+        .durotan-icon {
+            line-height: 1;
+            font-size: 40px;
+            margin-right: 41px;
+            color: #000000;
+        }
+
+        .icon-box__title{
+            margin: 0;
+            font-family: $font__main;
+            font-size: 22px;
+            text-transform: uppercase;
+            line-height: 18px;
+            color: #000000;
+        }
+
+        .icon-box__description {
+            color: #999999;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}
+
+.icon-box-vertical {
+    .durotan-icons-box {
+        .icon-box {
+            display: flex;
+            transition: 0.3s;
+            width: 100%;
+            padding-bottom: 72px;
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        .durotan-icon {
+            line-height: 1;
+            font-size: 60px;
+            margin-right: 46px;
+            color: #000000;
+        }
+
+        .icon-box__title{
+            margin: 0 0 25px 0;
+            font-family: $font__main;
+            font-size: 24px;
+            text-transform: uppercase;
+            line-height: 29px;
+            color: #000000;
+            letter-spacing: 0.05em;
+        }
+
+        .icon-box__description {
+            color: #999999;
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.compare-button {
+	.loop_button-text {
+		display: none;
+	}
+	.blockUI {
+		display: none !important;
+	}
+}
+
+.wcboost-products-compare-button {
+	.wcboost-products-compare-button__icon {
+		margin-right: 0;
+	}
+
+	.wcboost-products-compare-button__text {
+		display: none;
+	}
+
+	&.loading {
+		.durotan-svg-icon {
+			display: inline-flex !important;
+		}
+
+		&::before,
+		&::after {
+			display: none;
+		}
+	}
+}
+
+.yith_woocompare_colorbox #cboxTopCenter,
+.yith_woocompare_colorbox #cboxTopLeft,
+.yith_woocompare_colorbox #cboxTopRight,
+.yith_woocompare_colorbox #cboxMiddleLeft,
+.yith_woocompare_colorbox #cboxMiddleRight,
+.yith_woocompare_colorbox #cboxBottomLeft,
+.yith_woocompare_colorbox #cboxBottomCenter,
+.yith_woocompare_colorbox #cboxBottomRight {
+	background: transparent;
+    width: 0;
+    height: 0;
+}
+
+.yith_woocompare_colorbox #cboxClose {
+	top: 10px;
+	right: 20px;
+	bottom: auto;
+	position: fixed;
+	background: none;
+	text-indent: inherit;
+	.durotan-svg-icon {
+		font-size: 18px;
+		color: #ffffff;
+	}
+}
+
+.admin-bar .yith_woocompare_colorbox #cboxClose {
+    top: 40px;
+}

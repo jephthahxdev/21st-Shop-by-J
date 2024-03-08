@@ -1,0 +1,279 @@
+.main-navigation {
+	height: 100%;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		ul {
+			white-space: nowrap;
+			position: absolute;
+			left: 0;
+			top: 100%;
+			opacity: 0;
+			padding: 20px 0;
+			background: #fff;
+			box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+
+			&::before {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 1px;
+				left: 0;
+				top: -1px;
+				background-color: transparent;
+				z-index: -1;
+			}
+		}
+	}
+
+	li {
+		a {
+			position: relative;
+
+			.durotan-badges-text {
+				position: absolute;
+				left: calc( 100% + 10px );
+				top: 0;
+				font-size: 11px;
+				text-transform: uppercase;
+			}
+		}
+
+		li {
+			padding: 0 40px;
+
+			ul {
+				left: 100%;
+				top: -20px;
+				transform: translateX( 10px );
+
+				&:before {
+					content: '';
+					position: absolute;
+					width: 3px;
+					height: 100%;
+					left: -3px;
+					top: 0;
+				}
+			}
+
+			a {
+				font-size: 18px;
+				color: #000;
+				&:hover {
+					color: var(--durotan-header-text-hover-color);
+				}
+			}
+
+			&:hover {
+				ul {
+					transform: translateX( 0 );
+				}
+			}
+		}
+
+		&.menu-item-has-children {
+			> ul {
+				transform: translateY( 20px );
+				transition: transform 0.3s, opacity 0.3s;
+				visibility: hidden;
+			}
+
+			&:hover > ul {
+				opacity: 1;
+				transform: translateY(0);
+				z-index: 1000;
+				visibility: inherit;
+			}
+		}
+	}
+	.menu-item {
+		position: relative;
+	}
+
+	ul.menu {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		margin: 0 -35px;
+
+		> li {
+			display: flex;
+			align-items: center;
+
+			> a {
+				font-size: 16px;
+				text-transform: uppercase;
+				padding: 0 34px;
+				letter-spacing: 0.7px;
+				position: relative;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				z-index: 100;
+			}
+
+			&:hover,
+			&.current-menu-item {
+				> a {
+					color: var(--durotan-header-text-hover-color);
+				}
+			}
+
+			&.menu-item {
+				height: 100%;
+			}
+		}
+	}
+
+	// Mega Menu
+	.is-mega-menu {
+		position: relative;
+		&.mega-fullwidth {
+			position: static;
+			> .dropdown-submenu {
+				width: 100%;
+			}
+		}
+		&.align-left {
+			.dropdown-submenu {
+				left: -80%;
+				right: auto;
+			}
+		}
+		&.align-center {
+			.dropdown-submenu {
+				left: 50%;
+				transform: translate(-50%, 20px);
+			}
+			&:hover {
+				.dropdown-submenu {
+					transform: translate(-50%, 0);
+				}
+			}
+		}
+		&.align-right {
+			.dropdown-submenu {
+				right: 0;
+				left: auto;
+			}
+		}
+		.dropdown-submenu {
+			padding: 70px;
+			white-space: normal;
+			&::before {
+				display: none;
+			}
+
+			.mega-menu__container {
+				padding: 0;
+			}
+		}
+
+		.mega-menu-content {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0;
+		}
+
+		.menu-item-mega {
+			position: relative;
+			> a,
+			a.is-label {
+				color: var( --durotan-color-lighter );
+				font-size: 14px;
+				text-transform: uppercase;
+				margin-bottom: 18px;
+				display: block;
+				white-space: nowrap;
+			}
+			a.is-label {
+				margin-top: 72px;
+			}
+			> li:first-child {
+				a.is-label {
+					margin-top: 0;
+				}
+			}
+			ul {
+				position: static;
+				opacity: 1;
+				margin: 0;
+				padding: 0;
+				box-shadow: none;
+				transform: translateY(0);
+				background: 0;
+
+				&.menu-brands-list {
+					display: flex;
+					flex-wrap: wrap;
+					margin: 0 -30px;
+
+					li {
+						padding: 6px 30px;
+					}
+				}
+			}
+			li {
+				padding: 0;
+			}
+		}
+	}
+}
+
+// Smart dot
+.durotan-menu-item__dot {
+	width: 8px;
+	height: 8px;
+	background-color: var(--durotan-color-primary);
+	border-radius: 50%;
+	position: absolute;
+	bottom: -3px;
+	transition: .4s;
+	z-index: 9;
+}
+
+.header-v3 {
+	.main-navigation {
+		ul.menu {
+			margin-left: -29px;
+			margin-right: -29px;
+
+			> li {
+				> a {
+					padding-left: 29px;
+					padding-right: 29px;
+				}
+			}
+		}
+	}
+}
+
+.header-v5 {
+	.main-navigation {
+		ul.menu {
+			margin-left: -29px;
+			margin-right: -29px;
+
+			> li {
+				> a {
+					padding-left: 29px;
+					padding-right: 29px;
+				}
+			}
+			.current-menu-item {
+				a {
+					--durotan-header-text-color: #da5f39;
+				}
+			}
+			a {
+				&:hover {
+					--durotan-header-text-hover-color: #da5f39;
+				}
+			}
+		}
+	}
+}

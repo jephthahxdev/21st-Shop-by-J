@@ -1,0 +1,33 @@
+figure {
+	&.is-resized{
+		margin: 0;
+	}
+
+	&.alignleft,
+	&.alignright {
+		margin-top: 0;
+	}
+}
+
+img.alignright {
+	clear: both;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.wp-block-image.is-resized{
+	&.alignleft{
+		margin-right: 2em;
+	}
+
+	&.alignright{
+		margin-left: 2em;
+	}
+}
+
+.blocks-gallery-grid .blocks-gallery-item  figcaption,
+.wp-block-gallery .blocks-gallery-item  figcaption {
+	padding: 20px;
+}

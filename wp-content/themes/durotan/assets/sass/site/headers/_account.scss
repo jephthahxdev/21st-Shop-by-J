@@ -1,0 +1,77 @@
+.header-account {
+	display: flex;
+	align-items: center;
+	color: #000;
+	height: 100%;
+	position: relative;
+
+	.account-text {
+		font-size: 16px;
+    	text-transform: uppercase;
+		letter-spacing: 0.7px;
+	}
+
+	.durotan-svg-icon {
+		font-size: 25px;
+	}
+
+	.account-links {
+		position: absolute;
+		left: 50%;
+		top: calc( 100% + 1px );
+		min-width: 190px;
+		opacity: 0;
+		z-index: -1;
+		visibility: hidden;
+		text-align: left;
+		list-style: none;
+		margin: 0;
+		padding: 20px 40px;
+		box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+		transition: 0.3s;
+		transform: translate(-50%, 20px);
+		background-color: var(--durotan-background-color-light);
+		li {
+			position: relative;
+			a {
+				color: #161619;
+				font-size: 16px;
+				letter-spacing: 0.025em;
+			}
+		}
+	}
+	&:hover {
+		.account-links {
+			opacity: 1;
+			z-index: 10000;
+			visibility: inherit;
+			transform: translate(-50%, 0);
+		}
+	}
+}
+
+.header-account__links {
+	display: flex;
+	align-items: center;
+	margin-left: 38px;
+
+	a {
+		font-size: 14px;
+		color: #999999;
+		line-height: 1;
+		text-transform: uppercase;
+		padding-right: 17px;
+		margin-right: 17px;
+		border-right: 1px solid #999999;
+
+		&:hover {
+			color: #000;
+		}
+
+		&:last-child {
+			padding-right: 0;
+			margin-right: 0;
+			border-right: 0;
+		}
+	}
+}

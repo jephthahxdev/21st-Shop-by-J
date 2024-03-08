@@ -1,0 +1,630 @@
+@media (max-width: 768px) {
+	.durotan-sliders__inner {
+		left: 0;
+	}
+
+	.durotan-slide__tag {
+		left: -16px;
+	}
+
+	.durotan-slider-product {
+		.durotan-sliders__inner {
+			padding-left: 15px;
+			flex-direction: column;
+			margin-top: 0;
+			align-items: center;
+			justify-content: center;
+			padding-bottom: 0;
+		}
+		.durotan-slide__content {
+			order: 2;
+		}
+		.durotan-slide__content--product {
+			order: 1;
+			height: auto;
+		}
+
+		.durotan-slide__heading {
+			font-size: 14px;
+		}
+
+		.durotan-slide__description {
+			font-size: 16px;
+		}
+
+		.durotan-slide__product {
+			margin-bottom: 30px;
+			padding: 20px;
+
+			.product-tag {
+				font-size: 14px;
+				line-height: 24px;
+			}
+
+			.woocommerce-loop-product__title {
+				font-size: 24px;
+				line-height: 26px;
+				margin: 0 0 9px;
+			}
+
+			.product-price,
+			.price {
+				margin-bottom: 10px;
+
+				span {
+					font-size: 20px;
+				}
+
+				del {
+					span {
+						font-size: 14px;
+					}
+				}
+
+				.discount {
+					margin-left: 20px;
+					font-size: 12px;
+				}
+			}
+
+			.product_meta {
+				padding-top: 14px;
+				padding-bottom: 14px;
+
+				.meta_wrapper {
+					font-size: 14px;
+
+					a {
+						font-size: 14px;
+					}
+				}
+			}
+
+			.deal-expire-text,
+			.deal-sold-text {
+				display: none;
+			}
+
+			.product-button-wrapper .single_add_to_cart_button {
+				line-height: 40px;
+				font-size: 14px;
+			}
+
+			.product-button {
+				margin-top: 20px;
+			}
+
+			div.product-type-simple,
+			div.product-type-variable {
+				.quantity .qty-box {
+					height: 42px;
+				}
+			}
+
+			div.product-type-grouped {
+				.qty-label {
+					display: none;
+				}
+				.woocommerce_grouped_product__total {
+					margin-bottom: 20px;
+
+					span.label {
+						font-size: 14px;
+					}
+
+					span.amount {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		.button-product-text-container {
+			bottom: 30px;
+
+			.button-product-text {
+				font-size: 20px;
+			}
+		}
+	}
+
+	.elementor-widget-durotan-slider-product .durotan-slider-product #pp-nav {
+		left: auto !important;
+		right: 15px;
+		width: auto;
+	}
+
+	.durotan-slider-product .durotan-slide__fraction--style-2 {
+		display: none;
+	}
+
+	.durotan-twitter-carousel-item {
+		padding: 30px 20px;
+	}
+
+	.durotan-twitter-carousel-item__header {
+		padding-right: 0;
+	}
+
+	.durotan-twitter-carousel-item__content {
+		font-size: 26px;
+		line-height: 35px;
+	}
+
+	.durotan-newsletter-2 {
+		height: auto;
+	}
+
+	.durotan-newsletter-2__before-heading {
+		margin-bottom: 10px;
+	}
+
+	.durotan-newsletter-2__heading {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.durotan-newsletter-2__description {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+
+	.durotan-newsletter-2__text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.durotan-newsletter-2 form .durotan-svg-icon {
+		font-size: 18px;
+	}
+
+	.durotan-newsletter-2 .mc4wp-form input[type="text"],
+	.durotan-newsletter-2 .mc4wp-form input[type="email"] {
+		font-size: 14px;
+	}
+
+	.durotan-newsletter-2 .mc4wp-form input[type="submit"],
+	.durotan-newsletter-2 .mc4wp-form button {
+		font-size: 12px;
+	}
+
+	.durotan-product-shortcode {
+		.durotan-product-shortcode__subtitle {
+			margin-bottom: 60px;
+		}
+	}
+
+	.durotan-product-shortcode,
+	.durotan-product-shortcode-2,
+	.durotan-product-shortcode-3{
+		.durotan-product-shortcode__title{
+			font-size: 36px;
+		}
+	}
+	.durotan-product-shortcode-4{
+		&.single-product{
+			div.product{
+				.inner-summary{
+					padding: 25px 20px;
+				}
+				.entry-summary{
+					.product_title{
+						font-size: 36px;
+					}
+				}
+			}
+		}
+	}
+	.durotan-product-grid{
+		.durotan-product-grid__title{
+			font-size: 36px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+		}
+        .heading-link{
+           font-size: 14px;
+        }
+    }
+	.durotan-posts-carousel__heading{
+        padding-bottom: 50px;
+        .durotan-heading__title{
+            font-size: 36px;
+            margin-bottom: 16px;
+        }
+        .durotan-heading__desc{
+            font-size: 14px;
+        }
+        .durotan-button.button-link{
+            font-size: 13px;
+        }
+		.durotan-heading__button{
+			text-align: right;
+		}
+    }
+	.durotan-instagram-carousel__heading {
+		font-size: 28px;
+	}
+
+	.durotan-instagram-carousel__text {
+		font-size: 14px;
+	}
+
+	.durotan-instagram-carousel .durotan-instagram-carousel__pagination {
+		margin-top: 38px;
+	}
+
+	.durotan-twitter-carousel-2__icon {
+		margin-bottom: 0;
+
+		.durotan-svg-icon {
+			font-size: 40px;
+		}
+	}
+
+	.durotan-twitter-carousel-2__text {
+		font-size: 18px;
+	}
+
+	.durotan-twitter-carousel-2__after-text {
+		font-size: 12px;
+	}
+
+	.durotan-image-parallax__text {
+		font-size: 26px;
+	}
+}
+@media (max-width: 767px) {
+    .durotan-sliders-bg-wrapper,
+	.durotan-sliders__bg {
+		height: 555px;
+	}
+
+	.durotan-sliders__inner {
+		margin-top: 90px;
+	}
+
+	.durotan-slide__heading {
+		font-size: 48px;
+		line-height: 54px;
+		margin-bottom: 20px;
+	}
+
+	.durotan-slide__before-heading {
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+
+	.durotan-slide__after-heading {
+		font-size: 18px;
+		margin-bottom: 25px;
+	}
+
+	.durotan-slide__description {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.durotan-slide__price-text {
+		font-size: 12px;
+	}
+
+	ins.durotan-slide__price-number {
+		font-size: 30px;
+	}
+
+	del.durotan-slide__price-number {
+		font-size: 16px;
+	}
+
+	.durotan-slide-button {
+		margin-top: 65px;
+		.button-text {
+            font-size: 13px;
+            line-height: 42px;
+            padding: 0 28px;
+        }
+	}
+
+	.elementor-widget-durotan-slides.sliders-dot-position__left .durotan-slider-carousel .durotan-slide__pagination,
+    .durotan-slide__play-video {
+		display: none;
+	}
+
+	.elementor-widget-durotan-slides2 {
+		&.sliders-dot-position__left .durotan-slider-carousel #pp-nav {
+			bottom: 20px;
+			top: auto;
+			left: 0;
+			right: 0;
+			justify-content: center;
+			ul {
+				flex-direction: row;
+			}
+		}
+		.durotan-slide__arrow {
+			display: none;
+		}
+	}
+
+	.durotan-slide__arrow {
+		bottom: 40px;
+	}
+
+	.durotan-slide__arrow-button {
+		font-size: 12px;
+	}
+
+	.durotan-slide__arrow-button--prev {
+		padding-right: 15px;
+		margin-right: 10px;
+
+		&:before {
+			height: 12px;
+		}
+	}
+
+	.durotan-slide__tag {
+		display: none;
+	}
+
+	.durotan-slide__fraction {
+		display: none;
+	}
+
+	.elementor-widget-durotan-slides .durotan-slider-carousel .durotan-slide__pagination {
+		justify-content: flex-start;
+	}
+
+	.durotan-banner-shoppable {
+		height: 555px;
+	}
+
+	.durotan-banner-shoppable__before-heading {
+		font-size: 14px;
+		line-height: 40px;
+	}
+
+	.durotan-banner-shoppable__heading {
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	.durotan-banner-shoppable__description {
+		font-size: 16px;
+		margin-bottom: 80px;
+	}
+
+	.durotan-countdown-banner {
+		padding-top: 54px;
+
+		.durotan-countdown-banner__heading {
+			font-size: 52px;
+			line-height: 60px;
+		}
+	}
+
+	.icon-box-horizontal {
+		.durotan-icons-box__wrapper {
+			overflow: hidden;
+			overflow-x: scroll;
+			flex: 1;
+			flex-wrap: nowrap;
+			padding-bottom: 39px;
+
+			scrollbar-color: #000000 #e6e6e6;
+			scrollbar-width: thin;
+
+			&::-webkit-scrollbar {
+				height: 2px;
+			}
+
+			&::-webkit-scrollbar-track {
+				background-color: #e6e6e6;
+			}
+
+			&::-webkit-scrollbar-thumb {
+				background-color: #000000;
+			}
+		}
+
+		.durotan-icons-box {
+			.icon-box {
+				padding: 0 40px 0 66px;
+				flex: 1;
+			}
+
+			.durotan-icon {
+				font-size: 26px;
+				margin-right: 23px;
+			}
+
+			.icon-box__title {
+				font-size: 14px;
+				margin-bottom: 5px;
+			}
+
+			.icon-box__description {
+				font-size: 12px;
+				line-height: 18px;
+			}
+
+			.icon-box__content {
+				min-width: 182px;
+			}
+		}
+	}
+
+	.durotan-swiper-carousel-elementor {
+		&.navigation-mobile-dots,
+		&.navigation-mobile-none {
+			.durotan-swiper-button {
+				display: none !important;
+			}
+			.swiper-scrollbar {
+				display: none !important;
+			}
+		}
+
+		&.navigation-mobile-arrows,
+		&.navigation-mobile-none {
+			.swiper-pagination {
+				display: none !important;
+			}
+			.swiper-scrollbar {
+				display: none !important;
+			}
+		}
+
+		&.navigation-mobile-scrollbar,
+		&.navigation-mobile-none {
+			.durotan-swiper-button {
+				display: none !important;
+			}
+			.swiper-pagination {
+				display: none !important;
+			}
+        }
+
+		&.navigation-mobile-dots-arrows,
+		&.navigation-mobile-none {
+			.swiper-scrollbar {
+				display: none !important;
+			}
+        }
+    }
+
+	.durotan-product-shortcode,
+	.durotan-product-shortcode-2,
+	.durotan-product-shortcode-3{
+		.durotan-product-shortcode__title{
+			font-size: 36px;
+		}
+	}
+
+	.durotan-instagram-grid {
+		overflow: hidden;
+		overflow-x: scroll;
+		padding-bottom: 41px;
+		scrollbar-color: var(--durotan-color-primary) #eeeeee;
+		scrollbar-width: thin;
+
+		&::-webkit-scrollbar {
+			height: 2px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background-color: #eeeeee;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: var(--durotan-color-primary);
+		}
+
+		ul {
+			flex-wrap: nowrap;
+		}
+
+		li {
+			flex: 0 0 121px;
+			width: 121px !important;
+			height: 121px;
+		}
+	}
+
+	.durotan-posts-not-carousel {
+        .list-posts__inner {
+            flex-direction: column;
+            .swiper-slide {
+                width: 100%;
+                margin-bottom: 33px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+	.durotan-countdown-banner__countdown,
+    .durotan-countdown {
+        .timer {
+            padding: 0 22px;
+			min-width: 85px;
+        }
+
+        .digits {
+            font-size: 48px;
+        }
+
+        .text{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 640px) {
+	.durotan-posts-carousel{
+        .blog-wrapper{
+            &.layout-1{
+                .post-thumbnail{
+                    margin-bottom: 30px;
+                }
+                .post-summary{
+                    .post-meta{
+                        font-size: 11px;
+                    }
+                    .post-title{
+                        font-size: 18px;
+                    }
+                }
+                .post-date{
+					padding-right: 30px;
+                    span{
+                        font-size: 11px;
+                        &.day{
+                            font-size: 48px;
+                        }
+                    }
+                }
+            }
+            &.layout-2{
+                .post-summary{
+                    padding: 33px 55px 25px 33px;
+                    .post-meta,
+                    .btn-read-more{
+                        font-size: 11px;
+                    }
+                    .post-title{
+                        font-size: 20px;
+                        line-height: 1.5;
+                        margin-top: 8px;
+                        margin-bottom: 28px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+            &.layout-3{
+                .post-summary{
+                    padding-right: 0;
+                    .post-meta{
+                        font-size: 11px;
+                    }
+                    .post-title{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+	.durotan-slide__image-swatches-text {
+		margin-bottom: 15px;
+	}
+
+	.durotan-slide__image-swatches-link img {
+		width: 50px;
+		height: 61px;
+	}
+}

@@ -1,0 +1,323 @@
+.content-sidebar ,
+.sidebar-content {
+	.single-post__header {
+		margin-bottom: 96px;
+	}
+}
+
+.sidebar-content {
+	.site-content {
+		.content-area {
+			order: 2;
+		}
+
+		.widget-area {
+			order: 1;
+		}
+	}
+}
+
+.site-content{
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+	&.no-top-spacing {
+		padding-top: 0 !important;
+	}
+
+	&.no-bottom-spacing {
+		padding-bottom: 0 !important;
+	}
+}
+
+.durotan-container-narrow {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	max-width: 1560px;
+}
+
+.durotan-container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	max-width: 1680px;
+}
+
+.durotan-container-fluid {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 70px;
+	padding-right: 70px;
+	max-width: 1900px;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media ( min-width: 768px ) {
+	.container {
+		width: 750px;
+	}
+}
+@media ( min-width: 992px ) {
+	.container {
+		width: 970px;
+	}
+}
+@media ( min-width: 1200px ) {
+	.container {
+		width: 1170px;
+	}
+}
+
+@media ( max-width: 1790px ) {
+	.durotan-container-fluid {
+		width: 100%;
+	}
+}
+
+@media ( max-width: 1590px ) {
+	.durotan-container {
+		width: 100%;
+	}
+}
+
+@media ( max-width: 1470px ) {
+	.durotan-container-narrow {
+		width: 100%;
+	}
+}
+
+@media ( max-width: 1199px ) {
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.durotan-container,
+	.durotan-container-narrow,
+	.durotan-container-fluid {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+@media ( max-width: 767px ) {
+	.durotan-container,
+	.durotan-container-narrow,
+	.durotan-container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.row--inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4,
+.col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8,
+.col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12,
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4,
+.col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4,
+.col-md-5, .col-md-6, .col-md-7, .col-md-8,
+.col-md-9, .col-md-10, .col-md-11, .col-md-12,
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4,
+.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
+.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+.col-xs-1-10, .col-xs-2-10, .col-xs-3-10, .col-xs-4-10, .col-xs-5-10,
+.col-xs-6-10, .col-xs-7-10, .col-xs-8-10, .col-xs-9-10,
+.col-sm-1-10, .col-sm-2-10, .col-sm-3-10, .col-sm-4-10, .col-sm-5-10,
+.col-sm-6-10, .col-sm-7-10, .col-sm-8-10, .col-sm-9-10,
+.col-md-1-10, .col-md-2-10, .col-md-3-10, .col-md-4-10, .col-md-5-10,
+.col-md-6-10, .col-md-7-10, .col-md-8-10, .col-md-9-10,
+.col-lg-1-10, .col-lg-2-10, .col-lg-3-10, .col-lg-4-10, .col-lg-5-10,
+.col-lg-6-10, .col-lg-7-10, .col-lg-8-10, .col-lg-9-10 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-mega-1_8 {
+	width: 12.5%;
+}
+
+.col-mega-1_5 {
+	width: 20%;
+}
+
+.col-mega-1_4 {
+	width: 25%;
+}
+
+.col-mega-1_3 {
+	width: 33.33%;
+}
+
+.col-mega-3_8 {
+	width: 37.5%;
+}
+
+.col-mega-2_5 {
+	width: 40%;
+}
+
+.col-mega-1_2 {
+	width: 50%;
+}
+
+.col-mega-3_5 {
+	width: 60%;
+}
+
+.col-mega-5_8 {
+	width: 62.5%;
+}
+
+.col-mega-2_3 {
+	width: 66.6666%;
+}
+
+.col-mega-3_4 {
+	width: 75%;
+}
+
+.col-mega-4_5 {
+	width: 80%;
+}
+
+.col-mega-7_8 {
+	width: 87.5%;
+}
+
+.col-mega-1_1 {
+	width: 100%;
+}
+
+
+// Define flex columns
+$i: 12;
+@while $i > 0 {
+	.col-xs-#{$i} {
+		flex: 0 0 $i / 12 * 100%;
+		max-width: $i / 12 * 100%;
+	}
+
+	$i: $i - 1;
+}
+
+@for $index from 1 through 9 {
+	.col-xs-#{$index}-10 {
+		flex: 0 0 $index / 10 * 100%;
+		max-width: $index / 10 * 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	$i: 12;
+	@while $i > 0 {
+		.col-sm-#{$i} {
+			flex: 0 0 $i / 12 * 100%;
+			max-width: $i / 12 * 100%;
+		}
+
+		$i: $i - 1;
+	}
+
+	@for $index from 1 through 9 {
+		.col-sm-#{$index}-10 {
+			flex: 0 0 $index / 10 * 100%;
+			max-width: $index / 10 * 100%;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	$i: 12;
+	@while $i > 0 {
+		.col-md-#{$i} {
+			flex: 0 0 $i / 12 * 100%;
+			max-width: $i / 12 * 100%;
+		}
+
+		$i: $i - 1;
+	}
+
+	@for $index from 1 through 9 {
+		.col-md-#{$index}-10 {
+			flex: 0 0 $index / 10 * 100%;
+			max-width: $index / 10 * 100%;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	$i: 12;
+	@while $i > 0 {
+		.col-flex-lg-#{$i} {
+			flex: 0 0 $i / 12 * 100%;
+			max-width: $i / 12 * 100%;
+		}
+
+		$i: $i - 1;
+	}
+
+	@for $index from 1 through 9 {
+		.col-lg-#{$index}-10 {
+			flex: 0 0 $index / 10 * 100%;
+			max-width: $index / 10 * 100%;
+		}
+	}
+}
+
+// Visibility
+.hidden {
+	display: none !important;
+}
+
+@media (max-width: 767px) {
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.hidden-sm {
+		display: none !important;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.hidden-md {
+		display: none !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.hidden-lg {
+		display: none !important;
+	}
+}

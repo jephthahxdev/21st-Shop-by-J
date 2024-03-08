@@ -1,0 +1,38 @@
+.header-bar {
+    display: flex;
+    .widget {
+        margin: 0 30px 0 0;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+.header-custom-html {
+    display: flex;
+    margin: 0 -45px;
+}
+
+.header-icon-box {
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 0 45px;
+}
+
+.header-icon-box__icon {
+    font-size: 25px;
+    padding-right: 25px;
+}
+
+.header-icon-box__content {
+    font-size: 16px;
+
+    h4 {
+        color: #999999;
+        font-size: 12px;
+        font-family: $font__main;
+        margin: 0;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,153 @@
+.durotan-twitter-carousel {
+	position: relative;
+}
+.durotan-twitter-carousel__heading {
+	font-family: var(--durotan-heading-font);
+	font-size: 48px;
+	line-height: 64px;
+	letter-spacing: -0.025em;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 72px;
+}
+
+.durotan-twitter-carousel-item {
+	padding: 67px 47px 67px 59px;
+	border: 1px solid #dbdbdb;
+	height: auto !important;
+	background-color: #ffffff;
+}
+
+.durotan-twitter-carousel-item__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 47px;
+	padding-right: 15px;
+}
+
+.durotan-twitter-carousel-item__header--infor {
+	display: flex;
+	align-items: center;
+}
+
+.elementor .durotan-twitter-carousel__avatar {
+	border-radius: 100%;
+	margin-right: 22px;
+	width: 60px;
+	height: 60px;
+}
+
+.durotan-twitter-carousel__name {
+	font-size: 20px;
+	color: #000000;
+	line-height: 24px;
+}
+
+.durotan-twitter-carousel__details {
+	font-size: 16px;
+	color: #999999;
+	letter-spacing: 0.015em;
+}
+
+.durotan-twitter-carousel-item__header--icon {
+	.durotan-svg-icon {
+		font-size: 36px;
+		color: #999999;
+	}
+}
+
+.durotan-twitter-carousel-item__content {
+	font-size: 30px;
+	line-height: 40px;
+	color: #000000;
+
+	a {
+		color: #00ccff;
+	}
+}
+
+.durotan-twitter-carousel__arrow {
+	.durotan-swiper-button {
+		position: absolute;
+		top: 73%;
+    	transform: translateY(-73%);
+		color: #cccccc;
+		font-size: 48px;
+		cursor: pointer;
+		transition: .3s;
+
+		&:hover {
+			color: #928656;
+		}
+	}
+	.durotan-swiper-button-prev {
+		left: -140px;
+	}
+	.durotan-swiper-button-next {
+		right: -140px;
+	}
+}
+
+.durotan-twitter-carousel {
+	.durotan-twitter-carousel__pagination {
+		width: 100%;
+		margin-top: 41px;
+		z-index: 3;
+		display: flex;
+		justify-content: center;
+		position: static;
+	}
+
+	.swiper-pagination-bullet {
+		width: 8px;
+		height: 8px;
+		margin-right: 22px;
+		background-color: #ccc;
+		border-radius: 5px;
+		opacity: 1;
+		display: inline-block;
+		border: none;
+		&.swiper-pagination-bullet-active{
+			width: 36px;
+			background-color: var(--durotan-color-primary);
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.durotan-twitter-carousel__heading-arrow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+
+	.durotan-twitter-carousel__heading {
+		font-size: 36px;
+		margin-bottom: 0;
+	}
+
+	.durotan-twitter-carousel__arrow {
+		.durotan-swiper-button {
+			position: static;
+			transform: translateY(0);
+			font-size: 30px;
+		}
+
+		.durotan-swiper-button-prev {
+			margin-right: 25px;
+		}
+	}
+}
+
+.durotan-twitter-carousel--col-1 {
+	.durotan-twitter-carousel__items {
+		border: 1px solid #dbdbdb;
+	}
+
+	.durotan-twitter-carousel-item {
+		border: none;
+	}
+}

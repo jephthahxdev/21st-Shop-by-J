@@ -1,0 +1,14 @@
+.wp-block-columns .wp-block-column > *:first-child{
+	margin-top: 0;
+}
+
+.wp-block-columns.alignwide,
+.wp-block-columns.alignfull {
+	margin-left: -10px;
+	margin-right: -10px;
+
+	.wp-block-column {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

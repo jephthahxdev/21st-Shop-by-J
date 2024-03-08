@@ -1,0 +1,126 @@
+@media (min-width: 1200px) {
+	.durotan-product-shortcode-2{
+        &.single-product {
+            div.product{
+                .deal-expire-date{
+					flex-direction: column;
+					.deal-expire-countdown,
+					.deal-expire-text{
+						width: 100%;
+						flex: 1;
+						padding: 0;
+					}
+				}
+            }
+        }
+    }
+	.durotan-product-shortcode-3{
+        &.single-product {
+            div.product{
+                &.layout-v6{
+                    .entry-summary{
+                        background-color: transparent;
+                        padding-left:130px;
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1550px) {
+	.durotan-product-shortcode-3{
+        &.single-product {
+            div.product{
+                &.layout-v6{
+                    .entry-summary{
+                        padding-left:20px;
+                    }
+                }
+				.product-button-wrapper .durotan-button + .product-share {
+					padding-left: 15px;
+				}
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+	.durotan-map > * {
+        height: 400px;
+    }
+
+	.icon-box-horizontal {
+		.durotan-icons-box {
+			.icon-box {
+				padding: 0 24px;
+			}
+
+			.icon-box__description {
+                br {
+                    display: none;
+                }
+            }
+		}
+	}
+
+	.durotan-newsletter-2 {
+		padding: 60px 40px;
+	}
+
+	.durotan-product-category{
+		.category-list{
+			li{
+				padding: 0 15px;
+			}
+		}
+	}
+
+	.durotan-product-carousel,
+    .durotan-products-group-tabs{
+        .durotan-swiper-button--out {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+		}
+	}
+}
+
+@media (max-width: 1250px) {
+	.description-layout__layout_2 {
+		.durotan-slide__description {
+			left: 50px;
+		}
+	}
+
+	.durotan-slider-product {
+		.durotan-sliders__inner {
+			justify-content: flex-end;
+		}
+		.durotan-slide__content {
+			display: none;
+		}
+	}
+
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+	.durotan-product-shortcode-4{
+        &.single-product {
+            div.product{
+                .inner-summary{
+					padding: 25px 20px;
+				}
+				.entry-summary{
+					.product_title{
+						font-size: 36px;
+					}
+				}
+            }
+        }
+    }
+
+	.durotan-slide__product .single-product div.product .durotan-product-deal .deal-expire-text,
+	.durotan-slide__product .single-product div.product .durotan-product-deal .deal-sold-text {
+		width: 100%;
+	}
+}

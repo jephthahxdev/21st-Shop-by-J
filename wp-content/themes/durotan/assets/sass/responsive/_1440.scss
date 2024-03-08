@@ -1,0 +1,32 @@
+@media (max-width: 1390px) and ( min-width: 1066px) {
+	.header-v9 .footer-main__col-3 {
+		.row {
+			justify-content: space-between;
+		}
+		.footer-main__items--left {
+			max-width: 30%;
+			flex: 30%;
+		}
+		.footer-main__items--center {
+			max-width: 25%;
+			flex: 25%;
+		}
+		.footer-main__items--right {
+			max-width: 45%;
+			flex: 45%;
+			justify-content: flex-end;
+		}
+	}
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+	.header__items--left > * {
+		padding-right: 80px;
+	}
+
+	.header-v1 {
+		.durotan-language {
+			padding-right: 20px;
+		}
+	}
+}

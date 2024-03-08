@@ -1,0 +1,23 @@
+body.page {
+	&.has-pageheader {
+		.page-header {
+			padding-bottom: 79px;
+			.page-header__title {
+				font-size: 48px;
+			}
+		}
+		.site-content {
+			padding-top: 0;
+		}
+	}
+}
+
+.maintenance-page {
+	overflow: hidden;
+	.site-content {
+		padding: 0;
+		overflow: hidden;
+	}
+}
+
+@import "page404";

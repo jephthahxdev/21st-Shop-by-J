@@ -1,0 +1,20 @@
+.woocommerce-badges {
+	position: absolute;
+	top: 15px;
+	left: 17px;
+	z-index: 1;
+	.wc-badges {
+		color: var(--durotan-color-darker);
+		font-size: 12px;
+		letter-spacing: 0.3px;
+		font-weight: 500;
+		text-transform: uppercase;
+		background-color: var(--durotan-color-light);
+		padding: 2px 10px;
+	}
+
+	.onsale {
+		background-color: #da5f39;
+		color: var(--durotan-color-light);;
+	}
+}

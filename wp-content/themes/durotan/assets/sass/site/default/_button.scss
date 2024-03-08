@@ -1,0 +1,65 @@
+.wp-block-button{
+	margin-bottom: 25px;
+	.wp-block-button__link{
+		background-color: var(--durotan-background-color-primary);
+		padding: 19px 30px 18px;
+		border: 1px solid var(--durotan-background-color-primary);
+		font-family: $font__main;
+		font-size: 16px;
+		line-height: 18px;
+		font-weight: 400;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
+		&:hover{
+			background-color: #fff;
+			color: var(--durotan-background-color-primary);
+		}
+	}
+	&.is-style-outline{
+		.wp-block-button__link{
+			color: var(--durotan-color-darker);
+			border-color: var(--durotan-background-color-darker);
+			background-color: transparent;
+			font-size: 14px;
+			line-height: 30px;
+			letter-spacing: 0.075em;
+			&:hover{
+				background-color: var(--durotan-background-color-darker);
+				color: var(--durotan-color-light);
+			}
+		}
+	}
+}
+
+.durotan-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    display: inline-block;
+    background-color: var(--durotan-background-color-darker);
+    color: var(--durotan-color-light);
+    padding: 0 37px;
+    text-align: center;
+    transition: ease .3s;
+    white-space: nowrap;
+    text-decoration: none;
+	&.button-normal{
+		padding: 0;
+		line-height: inherit;
+		color: var(--durotan-color-darker);
+		background-color: transparent;
+	}
+	.durotan-svg-icon {
+		vertical-align: middle;
+		margin-left: 18px;
+		font-size: 13px;
+		transition: ease .3s;
+		display: inline-block;
+		svg {
+			vertical-align: -0.125em;
+			width: 1em;
+			height: 1em;
+			display: inline-block;
+		}
+	}
+}

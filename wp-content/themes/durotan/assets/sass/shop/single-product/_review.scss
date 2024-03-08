@@ -1,0 +1,288 @@
+.woocommerce-Reviews {
+    .woocommerce-Reviews-title {
+        font-size: 30px;
+        margin: 0 0 55px;
+        letter-spacing: .5px;
+        font-family: var(--durotan-font-main);
+        display: none;
+    }
+    ol.commentlist {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            position: relative;
+            margin-bottom: 20px;
+            padding: 40px 0;
+            border-bottom: 1px solid #d8d8d8;
+            &:first-child {
+                padding-top: 0;
+            }
+            &:last-child {
+                border: none;
+            }
+            .comment_container {
+                display: flex;
+                align-items: flex-start;
+            }
+            img.avatar {
+                width: 70px;
+                border: none;
+                padding: 0;
+                border-radius: 50%;
+            }
+            .comment-text {
+                margin: 0 0 0 35px;
+                border-radius: 0;
+                padding: 0;
+                border: none;
+                width: 100%;
+            }
+            .star-rating {
+                float: right;
+                margin-top: 5px;
+                .user-rating{
+                    .durotan-svg-icon {
+                        color: #40a106;
+                    }
+                }
+            }
+            p.meta {
+                margin: 0 0 10px;
+            }
+            .woocommerce-review__author {
+                font-size: 14px;
+                font-weight: normal;
+                letter-spacing: .2px;
+                text-transform: uppercase;
+                color: var(--durotan-color-dark);
+            }
+            .woocommerce-review__dash {
+                display: none;
+            }
+            .woocommerce-review__published-date {
+                font-size: 14px;
+                padding-left: 10px;
+                color: var(--durotan-color-gray);
+            }
+            .review-title {
+                font-size: 20px;
+                letter-spacing: .3px;
+                line-height: normal;
+                color: var(--durotan-color-dark);
+            }
+            .description {
+                margin-bottom: 16px;
+                p {
+                    margin-bottom: 0;
+                    font-size: 16px;
+                    letter-spacing: 0.2px;
+                }
+            }
+        }
+    }
+    .comment-respond {
+        padding: 0;
+        .comment-form {
+            text-align: left;
+            p.stars {
+                margin: 10px 10px 0 30px;
+                display: inline-block;
+                a {
+                    border-right: 17px solid transparent;
+                }
+            }
+            textarea {
+                padding: 16px 0;
+            }
+            .comment-form-title,
+            .comment-form-comment {
+                label {
+                    display: none;
+                }
+            }
+            .comment-form-author,
+            .comment-form-email {
+                position: relative;
+                label {
+                    position: absolute;
+                    top: 50%;
+                    left: 15px;
+                    transform: translateY(-50%);
+                    color: var(--durotan-text-input-color);
+                    transition: .2s opacity;
+                }
+                input {
+                    &:focus~label {
+                        display: none;
+                    }
+                    &::placeholder {
+                        opacity: 0;
+                    }
+                    &:not(:placeholder-shown)~label {
+                        display: none;
+                    }
+                }
+            }
+            label {
+                font-size: 14px;
+                color: var(--durotan-color-darker);
+            }
+            .required {
+                color: #e82c19;
+            }
+        }
+        .comment-notes {
+            display: block;
+            font-size: 14px;
+            color: var(--durotan-color-gray);
+            margin-bottom: 20px;
+            letter-spacing: .2px;
+        }
+        .comment-reply-title {
+            font-size: 30px;
+            display: block;
+            margin-bottom: 5px;
+            text-transform: capitalize;
+            letter-spacing: .5px;
+            color: var(--durotan-color-darker);
+        }
+        .stars:hover {
+            a:before {
+                color: var(--durotan-color-darker);
+            }
+        }
+        .comment-form-rating {
+            margin: 20px 0 20px;
+            padding: 0 15px;
+            label {
+                text-transform: uppercase;
+                letter-spacing: 0.6px;
+                .required {
+                    display: none;
+                }
+            }
+        }
+        .comment-form-author {
+            width: 50%;
+            float: left;
+            padding-right: 15px;
+        }
+        .comment-form-email {
+            width: 50%;
+            padding-left: 15px;
+            float: left;
+        }
+        .comment-form-cookies-consent,
+        .form-submit {
+            clear: both;
+        }
+        .comment-form-cookies-consent {
+            padding-top: 32px;
+            display: flex;
+            #wp-comment-cookies-consent {
+                display: none;
+                cursor: pointer;
+                &:checked {
+                    ~label::before {
+                        background: var(--durotan-color-primary);
+                        border-color: var(--durotan-color-primary);
+                    }
+                    ~label::after {
+                        opacity: 1;
+                    }
+                }
+            }
+            label {
+                cursor: pointer;
+                position: relative;
+                letter-spacing: .2px;
+                padding-left: 30px;
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 20px;
+                    height: 20px;
+                    border: 1px solid var(--durotan-color-gray);
+                }
+                &::after {
+                    content: '';
+                    transition: all 0.2s;
+                    top: 5px;
+                    left: 5px;
+                    width: 10px;
+                    height: 10px;
+                    z-index: 9;
+                    color: #fff;
+                    opacity: 0;
+                    position: absolute;
+                    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMi4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA2NCA2NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjQgNjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMi4zLDUyLjZjLTEsMC0yLjEtMC40LTIuOS0xLjJsLTE5LTE4LjZjLTAuNi0wLjYtMC42LTEuNSwwLTIuMWMwLjYtMC42LDEuNS0wLjYsMi4xLDBsMTksMTguNmMwLjQsMC40LDEuMSwwLjQsMS41LDANCgkJbDM4LjQtMzcuNWMwLjYtMC42LDEuNS0wLjYsMi4xLDBjMC42LDAuNiwwLjYsMS41LDAsMi4xTDI1LjIsNTEuNEMyNC40LDUyLjIsMjMuNCw1Mi42LDIyLjMsNTIuNnoiLz4NCjwvZz4NCjwvc3ZnPg0K');
+                }
+            }
+        }
+        .form-submit {
+            margin-top: 20px;
+            .submit {
+                min-width: 150px;
+                color:var(--durotan-color-light);
+                background-color: var(--durotan-background-color-primary);
+                border: 1px solid var(--durotan-background-color-primary);
+            }
+        }
+    }
+    .woocommerce-noreviews {
+        margin: 0;
+    }
+}
+
+.woocommerce-tabs.panels-offscreen {
+    .woocommerce-Reviews {
+        position: relative;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        #comments {
+            padding-bottom: 60px;
+            flex: 1;
+        }
+        .add-review {
+            width: 100%;
+        }
+        #review_form_wrapper {
+            display: none;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            z-index: 9;
+        }
+        #review_form {
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+        .comment-respond {
+            margin-top: -110px;
+            padding-top: 0;
+            width: 100%;
+        }
+        .cancel-review {
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            margin: 0;
+            a {
+                color: var(--durotan-color-gray);
+                text-transform: uppercase;
+                &:hover {
+                    color: var(--durotan-color-dark);
+                }
+            }
+        }
+    }
+}

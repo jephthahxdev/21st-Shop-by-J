@@ -1,0 +1,96 @@
+.durotan-product-carousel {
+    .durotan-product-carousel__title{
+        margin-top: 0;
+        margin-bottom: 56px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .heading-link{
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: var( --durotan-color-darker);
+        letter-spacing: .9px;
+        font-family: var( --durotan-font-main);
+        margin-left: auto;
+    }
+    .products-content{
+        position: relative;
+    }
+    ul.swiper-wrapper {
+        flex-wrap: nowrap;
+        margin: 0;
+        box-sizing: border-box;
+
+        li {
+            clear: none;
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    ul.products {
+        li.product {
+            padding-left: 0;
+            padding-right: 0;
+            margin-bottom: 80px;
+
+            .product-thumbnail {
+                margin-bottom: 33px;
+            }
+
+            .woocommerce-loop-product__title {
+                font-size: 18px;
+                line-height: 26px;
+            }
+
+            .price {
+                margin-top: 13px;
+            }
+        }
+    }
+    .durotan-swiper-button{
+        font-size: 48px;
+        color: #cccccc;
+        transition: .4s;
+        cursor: pointer;
+        z-index: 99;
+        position: absolute;
+        top: calc(50% - 41px);
+        transform: translate(0, -50%);
+        &:hover{
+            color: var(--durotan-color-darker);
+        }
+        &.durotan-swiper-button-prev{
+            left: -132px;
+        }
+        &.durotan-swiper-button-next{
+            right: -132px;
+        }
+    }
+    .swiper-pagination {
+        position: relative;
+        margin-top: 20px;
+
+        .swiper-pagination-bullet {
+            border: none;
+            width: 8px;
+            height: 8px;
+            margin: 0 10px;
+            background-color: #cccccc;
+            vertical-align: middle;
+            opacity: 1;
+            &:hover{
+                background-color: var(--durotan-background-color-primary);
+            }
+            &.swiper-pagination-bullet-active {
+                width: 36px;
+                height: 8px;
+                border-radius: 3px;
+                background-color: var(--durotan-background-color-primary);
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+.comment-list{
+    list-style: none;
+    margin: 39px 0 0 0;
+    padding: 0;
+
+    .children{
+        list-style: none;
+    }
+
+    .comment-author{
+        float: left;
+
+        img{
+            border-radius: 50%;
+        }
+
+        ~ .comment-content {
+            margin-left: 105px;
+        }
+    }
+
+    .comment-desc{
+        font-size: 16px;
+        letter-spacing: .15px;
+        line-height: (26/16);
+    }
+
+    .comment-metadata{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+
+        .fn{
+            font-size: 18px;
+            color: var(--durotan-color-darker);
+            font-style: inherit;
+            padding-right: 25px;
+            max-width: 75%;
+        }
+
+        a.date{
+            font-size: 14px;
+            color: var(--durotan-color-gray);
+            max-width: 35%;
+        }
+    }
+
+    .comment-body {
+        padding: 42px 0;
+        position: relative;
+
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 1px;
+            background-color: #d8d8d8 ;
+        }
+    }
+
+    > li:first-child .comment-body {
+        padding-top: 0;
+
+        &:before{
+            display: none;
+        }
+    }
+
+    .comment-respond {
+        margin-bottom: 70px;
+
+        .comment-reply-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            small {
+                font-size: 60%;
+            }
+        }
+    }
+}
+
+.comments-title.has-comments{
+    margin: 40px 0 51px;
+}
+
+.comment-respond{
+    .comment-reply-title{
+        font-size: 24px;
+        margin: 0 0 29px;
+    }
+
+    .comment-notes{
+        font-size: 14px;
+    }
+
+    .comment-form-author,
+    .comment-form-email {
+        width: 50%;
+        float: left;
+    }
+
+    .comment-form{
+        margin-left: -15px;
+        margin-right: -15px;
+
+        > p{
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0 0 15px;
+        }
+
+        input[type=text],
+        input[type=email] {
+           width: 100%;
+           display: block;
+       }
+
+       .form-submit{
+           display: inline-block;
+           margin: 46px 0 0;
+
+           input[type="submit"]{
+                text-transform: uppercase;
+           }
+       }
+    }
+}
+
+.no-comments {
+    margin-top: 35px;
+    padding: 10px 20px;
+    color: var(--durotan-color-light);
+    background-color: var(--durotan-background-color-primary);
+}

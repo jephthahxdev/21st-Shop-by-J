@@ -1,0 +1,74 @@
+.durotan-icon-box-list__wrapper{
+    opacity: 0;
+}
+
+.durotan-icon-box-list{
+    .durotan-icon {
+        font-size: 48px;
+        margin-right: 1.375rem;
+        transition: 0.3s;
+    }
+
+    .icon-box{
+        position: relative;
+        padding: 0;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        &:hover{
+            .durotan-icon,
+            .icon-box__title{
+                color: var(--durotan-color-primary);
+            }
+        }
+    }
+
+    .icon-box__btn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .icon-box__title{
+        margin: 0;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: var(--durotan-font-main);
+        transition: 0.3s;
+    }
+
+    .swiper-pagination{
+        position: absolute;
+        width: 100%;
+        margin-top: 0;
+        bottom: -40px;
+        .swiper-pagination-bullet {
+            border: none;
+            width: 8px;
+            height: 8px;
+            margin: 0 10px;
+            background-color: #cccccc;
+            vertical-align: middle;
+            opacity: 1;
+            &:hover{
+                background-color: var(--durotan-background-color-primary);
+            }
+            &.swiper-pagination-bullet-active {
+                width: 36px;
+                height: 8px;
+                border-radius: 3px;
+                background-color: var(--durotan-background-color-primary);
+            }
+        }
+    }
+
+    .durotan-swiper-scrollbar {
+        height: 3px;
+
+        .swiper-scrollbar-drag {
+            background-color: rgba( 255, 255, 255, 0.2);
+        }
+    }
+}

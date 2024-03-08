@@ -1,0 +1,313 @@
+body {
+    .blockUI.blockOverlay {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.7) !important;
+        background-image: none !important;
+        &:after {
+            display: none;
+        }
+        &:before {
+            display: block;
+            background-image: none;
+            background-color: var(--durotan-background-color-primary);
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            animation: durotan-loading 2s infinite ease-in-out;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            content: "";
+            z-index: 9999;
+            color: transparent !important;
+            font-size: 0;
+            margin: 0;
+        }
+    }
+}
+
+/**
+ * Star rating
+ */
+.star-rating {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    .rating-stars {
+        display: block;
+        line-height: 1;
+    }
+    .max-rating .durotan-svg-icon {
+        color: var( --durotan-color-gray);
+    }
+    .user-rating {
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        .durotan-svg-icon {
+            color: #ffbb05;
+        }
+    }
+}
+
+p.stars {
+    line-height: 1;
+    display: block;
+    margin: 0 0 15px;
+    >span {
+        display: flex;
+        height: 15px;
+    }
+    a {
+        position: relative;
+        height: 15px;
+        width: 15px;
+        text-indent: -999em;
+        font-size: 0;
+        color: #cccccc;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 400;
+        transition: none;
+        &:hover {
+            ~a {
+                color: #cccccc;
+            }
+        }
+        span {
+            text-indent: 0;
+            display: block;
+            font-size: 16px;
+        }
+    }
+    &:hover {
+        a {
+            color: #40a106;
+        }
+    }
+    &.selected {
+        a.active {
+            color: #40a106;
+            ~a {
+                color: #cccccc;
+            }
+        }
+        a:not(.active) {
+            color: #40a106;
+        }
+    }
+}
+
+
+/**
+ * Tabs
+ */
+
+.woocommerce-tabs {
+    >ul.tabs {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        border-bottom: 1px solid #dedede;
+        margin: 0;
+        >li {
+            display: block;
+            margin: 0;
+            position: relative;
+            padding: 0 22px;
+            &:first-child {
+                padding-left: 0;
+            }
+            >a {
+                display: block;
+                position: relative;
+                padding: 15px 0;
+                font-size: 16px;
+                color: #666666;
+                text-transform: uppercase;
+                letter-spacing: 0.8px;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: -1px;
+                    left: 0;
+                    right: 0;
+                    width: 0;
+                    height: 2px;
+                    background-color: var(--durotan-background-color-darker);
+                    transition: .5s;
+                    opacity: 0;
+                }
+            }
+            >a:hover {
+                color: var(--durotan-color-dark);
+            }
+            &.active>a {
+                color: var(--durotan-color-dark);
+                &:after {
+                    opacity: 1;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+/**
+ * Icon video product thumbnail
+ */
+
+.i-video {
+    width: 40px;
+    height: 40px;
+    background: var(--durotan-background-color-primary);
+    border-radius: 50%;
+    position: relative;
+    &:after {
+        content: '';
+        width: 14px;
+        height: 14px;
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMi4wLjEsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA2NCA2NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjQgNjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik05LjMsNjRjLTAuNiwwLTEuMy0wLjItMS44LTAuNWMtMS4yLTAuNy0xLjktMS44LTEuOS0zLjJWMy42YzAtMS4zLDAuNy0yLjUsMS45LTMuMmMxLjItMC43LDIuNy0wLjYsMy44LDAuMXYwTDU2LjgsMjkNCgkJYzEuMSwwLjcsMS43LDEuOCwxLjcsM2MwLDEuMi0wLjYsMi40LTEuNywzTDExLjMsNjMuNEMxMC43LDYzLjgsMTAsNjQsOS4zLDY0eiBNOS4zLDNDOS4xLDMsOC45LDMuMSw4LjksMy4xDQoJCUM4LjcsMy4yLDguNSwzLjMsOC41LDMuNnY1Ni43YzAsMC4zLDAuMiwwLjUsMC4zLDAuNmMwLjEsMC4xLDAuNCwwLjIsMC44LDBsNDUuNS0yOC40YzAuMy0wLjIsMC4zLTAuNCwwLjMtMC41DQoJCWMwLTAuMSwwLTAuMy0wLjMtMC41TDkuNiwzLjF2MEM5LjUsMyw5LjQsMyw5LjMsM3oiLz4NCjwvZz4NCjwvc3ZnPg0K");
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+/**
+ * Notices
+ */
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+    padding: 20px 30px;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #1e85be;
+    color: #fff;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+    font-size: 14px;
+    .icon-message {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 30px;
+    }
+    .close-message {
+        position: absolute;
+        right: 15px;
+        top: 23px;
+        cursor: pointer;
+    }
+    .button {
+        float: right;
+        color: #fff;
+        border-bottom: 1px solid;
+        font-size: 15px;
+    }
+    a {
+        color: #fff;
+    }
+    li {
+        list-style: none outside !important; // Required for default theme compatibility
+        padding-left: 0 !important; // Required for default theme compatibility
+        margin-left: 0 !important; // Required for default theme compatibility
+    }
+}
+
+.woocommerce-message {
+    background-color: #8ed3af;
+}
+
+.woocommerce-error {
+    background-color: #b81c23;
+}
+
+.durotan-product-taxonomy-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 0 60px;
+    padding: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+
+    li {
+        cursor: pointer;
+        font-size: 16px;
+        color: var( --durotan-color-darker);
+        margin-right: 45px;
+        transition: .4s;
+        text-transform: uppercase;
+        line-height: 1;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover,
+        &.active {
+            color: var( --durotan-color-primary);
+            a {
+                color: var( --durotan-color-primary);
+            }
+        }
+    }
+}
+// Preloader
+.durotan-preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    background: rgba(255,255,255,.95);
+    .loading-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: block;
+    }
+    .bubble{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        &:nth-child(2){
+            .dot{
+                -webkit-animation-delay: -.3s;
+                animation-delay: -.3s;
+            }
+        }
+        &:nth-child(3){
+            .dot{
+                -webkit-animation-delay: 0s;
+                animation-delay: 0s;
+            }
+        }
+    }
+    .dot{
+        display: block;
+        border-radius: 50%;
+        background-color: #23232c;
+        width: 100%;
+        height: 100%;
+        transform-origin: 50% 50%;
+        animation: bubble 1.2s -.6s infinite ease-out;
+        -webkit-animation: bubble 1.2s -.6s infinite ease-out;
+    }
+}

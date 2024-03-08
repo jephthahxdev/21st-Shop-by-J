@@ -1,0 +1,55 @@
+.durotan-image-box-2__link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+
+	img {
+		transition: .4s;
+	}
+
+	&:hover {
+		img {
+			transform: scale(1.1);
+		}
+
+		.durotan-image-box-2__text {
+			&::after {
+				width: 100%;
+				right: auto;
+				left: 0;
+			}
+		}
+	}
+}
+
+.durotan-image-box-2__bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.durotan-image-box-2__text {
+	position: absolute;
+	color: #fbfbfb;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 0.050em;
+
+	&::after {
+		position: absolute;
+		bottom: 5px;
+		content: "";
+		display: inline-block;
+		width: 0;
+		border-bottom: 1px solid #ffffff;
+		transition: .4s;
+		right: 0;
+	}
+}

@@ -1,0 +1,26 @@
+.site-breadcrumb{
+    padding: 21px 0;
+	margin: 0;
+	font-size: 14px;
+	color: var(--durotan-color-dark);
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .7px;
+	li{
+		list-style: none;
+		display: inline-block;
+	}
+
+	a{
+		color: var(--durotan-color-gray);
+		&:hover {
+			color: var(--durotan-color-dark);
+		}
+	}
+
+	.delimiter{
+	    margin: 0 13px;
+		color: #cccccc;
+	}
+
+}

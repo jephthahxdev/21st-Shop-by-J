@@ -1,0 +1,25 @@
+.woocommerce .track_order {
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+	max-width: 768px;
+	margin: 0 auto;
+
+	.form-row {
+		text-align: left;
+
+		label {
+			margin-bottom: 5px;
+			display: block;
+		}
+
+		input.input-text {
+			width: 100%;
+		}
+
+		.button {
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+}

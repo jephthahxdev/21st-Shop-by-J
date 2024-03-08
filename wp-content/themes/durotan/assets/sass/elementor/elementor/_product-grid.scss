@@ -1,0 +1,37 @@
+.durotan-product-grid {  
+    .durotan-product-grid__title{
+        margin-top: 0;
+        margin-bottom: 66px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .heading-link{
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: var( --durotan-color-darker);
+        letter-spacing: .9px;
+        font-family: var( --durotan-font-main);
+        margin-left: auto;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            left: 0;
+            right: 0;
+            width: 0;
+            height: 1px;
+            background-color: var(--durotan-color-darker);
+            transition: .5s;
+            opacity: 0;
+        }
+        &:hover{
+            &::after{
+                opacity: 1;
+                width: 100%;
+            }
+        }
+    }
+}

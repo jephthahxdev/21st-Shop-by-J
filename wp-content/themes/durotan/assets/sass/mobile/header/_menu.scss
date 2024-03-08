@@ -1,0 +1,127 @@
+.durotan-menu-mobile-modal {
+    &.open {
+        .offscreen-panel__wrapper {
+            transform: translateX(0) !important;
+        }
+    }
+
+    &.slide-right {
+        .offscreen-panel__wrapper {
+            left: auto;
+            right: 0;
+            transform: translateX(100%);
+        }
+    }
+
+    .offscreen-panel__header {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .offscreen-panel__button-close {
+        top: 50%;
+        transform: translateY(-50%);
+        right: 30px;
+
+        .durotan-svg-icon {
+            font-size: 16px;
+            svg{
+                vertical-align: 0;
+            }
+        }
+    }
+
+    .offscreen-panel__wrapper {
+        width: 470px;
+        left: 0;
+        right: auto;
+        transform: translateX(-100%);
+    }
+
+    .offscreen-panel__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    ul.nav-menu {
+        list-style: none;
+        padding-left: 0;
+        ul {
+            list-style: none;
+            padding-left: 10px;
+            display: none;
+
+            li {
+                padding: 6px 0;
+                a {
+                    font-size: 20px;
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        li {
+            &.menu-item-has-children {
+                > a {
+                    position: relative;
+                    display: block;
+                }
+                .toggle-menu-children {
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 55%;
+                    transform: translateY(-50%);
+                    line-height: 1;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+                &.active {
+                    > a {
+                        color: var(--durotan-color-primary);
+                        .durotan-svg-icon {
+                            transform: rotate(180deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        > li {
+            padding-left: 0;
+            width: 100%;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 10px;
+
+            > a {
+                font-size: 24px;
+            }
+        }
+
+        a {
+            line-height: 36px;
+            color: var(--durotan-color-darker);
+        }
+    }
+    .offscreen-panel__footer {
+        padding: 30px 0 0 0;
+
+        .durotan-socials__humburger-menu {
+            margin-bottom: 35px;
+        }
+        .durotan-menu__copyright {
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.admin-bar {
+    .offscreen-panel__wrapper {
+        height: calc( 100% - 32px );
+    }
+}

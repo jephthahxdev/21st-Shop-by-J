@@ -1,0 +1,142 @@
+/**
+ * Loop buttons
+**/
+
+.product-loop__buttons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #fff;
+	padding: 13.5px 8px 13.5px 17px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	opacity: 0;
+	transform: translateY(30%);
+	transition: .4s;
+	.loop-buttons {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 10px;
+	}
+}
+
+.durotan-loop_button--external {
+	margin-top: 27px;
+	z-index: -1;
+	opacity: 0;
+	transform: translateY(30%);
+	transition: .4s;
+	background-color: var(--durotan-color-light);
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	display: block;
+	text-align: center;
+	padding: 12.5px 0;
+	border: 1px solid var(--durotan-color-darker);
+	&:hover {
+		background-color: var(--durotan-color-darker);
+		color: var(--durotan-color-light);
+	}
+}
+
+li.product {
+	.product-inner {
+		&:hover {
+			.product-loop__buttons {
+				opacity: 1;
+				z-index: 1;
+				transform: none;
+			}
+
+			.durotan-loop_button--external {
+				opacity: 1;
+				z-index: 1;
+				transform: none;
+			}
+		}
+	}
+}
+
+.durotan-loop_button {
+	position: relative;
+	.durotan-svg-icon {
+		font-size: 20px;
+	}
+	&.loading {
+		position: relative;
+		&::before {
+			opacity: 1;
+			width: 20px;
+			height: 20px;
+			content: "";
+			display: block;
+			border-radius: 50%;
+			border: 1px solid #000000;
+			background-color: transparent;
+			border-top-color: transparent;
+			-webkit-animation: durotan-spin infinite 1s linear;
+			animation: durotan-spin infinite 1s linear;
+			transition: opacity .2s linear .2s;
+		}
+
+		.durotan-svg-icon {
+			display: none;
+		}
+	}
+	&:not(.loading) {
+		&:before {
+			content: attr(data-text);
+			background-color: #000;
+			color: #fff;
+			position: absolute;
+			top: -38px;
+			right: -4px;
+			white-space: nowrap;
+			display: none;
+			font-size: 14px;
+			padding: 5px 8px;
+			line-height: 1;
+			pointer-events: none;
+		}
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: -14px;
+			left: 50%;
+			margin-left: -5px;
+			border-style: solid;
+			border-width: 11px 4.5px 0 4.5px;
+			border-color: #000 transparent transparent transparent;
+			display: none;
+			pointer-events: none;
+		}
+	}
+	&:hover {
+		&:before,
+		&:after {
+			display: block;
+		}
+		&.durotan-loop_button--cart-text {
+			&::before,
+			&::after {
+				display: none;
+			}
+			&.loading {
+				&::before {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+@import "quick-view";
+@import "wishlist";
+@import "compare";
+@import "loop-buttons-layout";

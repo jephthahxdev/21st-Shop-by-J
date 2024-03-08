@@ -1,0 +1,316 @@
+.quick-view-modal-opened{
+	.cart-panel.open,
+	.header-cart__mini-cart {
+		z-index: 2001 !important;
+	}	
+	.size-guide-modal{
+		&.open{
+			z-index: 2001;
+			overflow: hidden;
+		}
+		.modal-content{
+			background-color: var(--durotan-background-color-light);
+		}
+	}
+}
+.quick-view-modal {
+	position: fixed;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 1100;
+    overflow: hidden;
+
+	.modal__backdrop {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba( 0, 0, 0, 0.4);
+		transition: .4s;
+		cursor: pointer;
+	}
+	.modal-content {
+		max-width: 1140px;
+		max-height: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: transparent;
+		padding: 0;
+		opacity: 0;
+		transition: .4s;
+	}
+
+	.durotan-spinner-loading {
+		opacity: 0;
+		transition: .4s;
+	}
+
+	&.loading {
+		display: block;
+		.button-close,
+		.product {
+			opacity: 0;
+		}
+
+		.durotan-spinner-loading {
+			opacity: 1;
+			> div {
+				background-color: #ffffff;
+			}
+		}
+	}
+
+	&.loaded {
+		display: block;
+		.modal-content {
+			opacity: 1;
+		}
+		.durotan-spinner-loading {
+			display: none;
+		}
+	}
+
+	.woocommerce div.product {
+		background-color: #fff;
+		overflow: hidden;
+		max-height: 736px;
+		min-height: 60vh;
+		display: flex;
+		.woocommerce-product-gallery {
+			width: 100%;
+			height: 100%;
+			.woocommerce-product-gallery__image {
+				a{
+					display: block;
+					height: inherit;
+				}
+				img {
+					cursor: default;
+					object-fit: cover;
+				}
+			}
+		}
+		.woocommerce-product-details__short-description{
+			p{
+				font-size: 14px;
+			}
+		}
+		.entry-thumbnail {
+			width: 52.631578%;
+			position: relative;
+			overflow: hidden;
+
+			&:hover {
+				.durotan-swiper-button,
+				.durotan-product-pagination {
+					opacity: 1;
+				}
+			}
+			.woocommerce-badges {
+				left: 26px;
+				top: 25px;
+			}
+		}
+
+		.entry-summary {
+			padding: 60px 70px 20px 70px;
+			width: 47.368422%;
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 100%;
+		}
+
+		form.cart:not(.variations_form),
+		.woocommerce-variation-add-to-cart{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 10px;
+		}
+		.single_add_to_cart_button{
+			flex: auto;
+			font-size: 16px;
+			text-transform: uppercase;
+			line-height: 52px;
+			position: relative;
+			letter-spacing: 0.4px;
+			&.loading {
+                opacity: 0.5;
+                &:before {
+                    content: "";
+                    width: 19px;
+                    height: 19px;
+                    display: inline-block;
+                    border-radius: 50%;
+                    border: 2px solid;
+                    border-top-color: transparent;
+                    -webkit-animation: durotan-spin infinite 1s linear;
+                    animation: durotan-spin infinite 1s linear;
+                    transition: opacity .2s linear .2s;
+                    vertical-align: middle;
+                    margin-top: -1px;
+                    margin-right: 16px;
+                    line-height: 1;
+                }
+            }
+			&.disabled {
+				opacity: .5;
+				cursor: not-allowed;
+			}
+		}
+		.woocommerce-variation.single_variation{
+			display: none;
+		}
+
+		form.cart:not(.variations_form){
+			padding-top: 10px;
+		}
+		.product-button{
+			margin-bottom: 9px;
+			.product-button-wrapper{
+				padding: 0;
+				margin: 0;
+				border: none;
+			}
+		}
+		.product_meta{
+			padding:24px 0 15px;
+		}
+		.durotan-product-deal {
+			margin: 30px 0 20px;
+		}
+		&.product-type-variable {
+			.summary {
+				form.cart {
+					border: none;
+					padding-top: 15px;
+					margin-top: 0;
+					.variations {
+						td.label {
+							label {
+								display: inline;
+							}
+						}
+						.durotan-attr-value {
+							letter-spacing: 0.025em;
+						}
+					}
+	
+					.tawcvs-swatches {
+						.swatch-color {
+							&:hover,
+							&.selected {
+								&::before {
+									display: block;
+									content: "";
+									border: 1px solid var(--durotan-color-gray);
+									width: 30px;
+									height: 30px;
+									border-radius: 100%;
+									top: -5px;
+									left: -5px;
+									margin: 0;
+									transform: none;
+									position: absolute;
+								}
+							}
+							&.swatch-white {
+								border: 1px solid #c0c0c0;
+								&::before {
+									top: -6px;
+									   left: -6px;
+								}
+							}
+						}
+	
+						.swatch-label {
+							border-radius: 0;
+							background: none;
+							color: var(--durotan-color-gray);
+							border: 1px solid var(--durotan-color-gray);
+	
+							&:hover,
+							&.selected {
+								color: var(--durotan-color-primary);
+								border-color: var(--durotan-color-primary);
+							}
+	
+							&.disabled {
+								opacity: 1 !important;
+								text-decoration: line-through;
+							}
+						}
+	
+						.swatch-image {
+							border-radius: 0;
+							width: 40px;
+							height: 49px;
+							border: 1px solid transparent;
+							img {
+								max-width: 40px;
+								height: 49px;
+							}
+							&:hover,
+							&.selected {
+								border-color: var(--durotan-color-primary);
+							}
+						}
+					}
+				}
+			}
+		}
+		&.product-type-grouped{
+			form.cart{
+				border: none;
+				padding: 0;
+				margin-top: 0;
+				flex-direction: column;
+			}
+			table.woocommerce-grouped-product-list{
+				margin-bottom: 0;
+			}
+			.woocommerce_grouped_product__total{
+				margin-bottom: 25px;
+			}
+		}
+		
+	}
+
+	.durotan-swiper-button {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		display: block;
+		cursor: pointer;
+		outline: none;
+		text-align: center;
+		color: var(--durotan-color-gray);
+		opacity: 0;
+		z-index: 9;
+		font-size: 30px;
+		transition: .3s;
+
+		&:hover {
+			color: var(--durotan-color-darker);
+		}
+	}
+
+	.durotan-quickview-button-prev {
+		left: 29px;
+	}
+
+	.durotan-quickview-button-next {
+		right: 29px;
+	}
+
+	.durotan-product-pagination {
+		opacity: 0;
+		transition: .3s;
+	}
+}

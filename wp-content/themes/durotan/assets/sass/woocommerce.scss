@@ -1,0 +1,39 @@
+/*
+Theme Name: Durotan
+
+WooCommerce styles override
+*/
+
+//@import "variables/variables";
+@import "mixins/mixins-master";
+@import "shop/columns";
+
+/**
+ * Shop
+ */
+ @import "shop/shop";
+
+/**
+ * Products
+ */
+ @import "shop/products/products";
+
+ /**
+ * WooCommerce widgets
+ */
+@import "shop/widgets";
+
+  /**
+ * Product Fillter
+ */
+@import "shop/products-filter/products-filter";
+
+ /**
+ * Single product
+ */
+@import "shop/single-product/single-product";
+
+ /**
+ * WooCommerce Responsive
+ */
+@import "shop/responsive/responsive";

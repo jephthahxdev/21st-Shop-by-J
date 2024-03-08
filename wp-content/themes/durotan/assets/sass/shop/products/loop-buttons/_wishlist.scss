@@ -1,0 +1,32 @@
+.yith-wcwl-add-to-wishlist {
+	margin: 0;
+}
+.yith-wcwl-wishlistexistsbrowse,
+.yith-wcwl-wishlistaddedbrowse {
+	.durotan-svg-icon {
+		color: var(--durotan-color-darker);
+	}
+}
+
+.wcboost-wishlist-button {
+	line-height: 1;
+	margin: 0;
+
+	.wcboost-wishlist-button__icon {
+		margin-right: 0;
+	}
+
+	.durotan-svg-icon {
+		font-size: inherit;
+	}
+
+	&.loading {
+		.wcboost-wishlist-button__icon {
+			display: none;
+		}
+	}
+
+	&.added {
+		color: var(--durotan-color-darker);
+	}
+}

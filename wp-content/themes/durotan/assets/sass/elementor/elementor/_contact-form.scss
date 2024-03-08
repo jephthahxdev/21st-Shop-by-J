@@ -1,0 +1,21 @@
+.durotan-contact-form-7 {
+    input:not([type="submit"]) {
+        padding: 30px 0 15px 0;
+        width: 100%;
+    }
+    textarea {
+        padding: 30px 0px 0 0px;
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        margin-top: 48px;
+    }
+    
+    .wpcf7-form{
+        .wpcf7-response-output{
+            margin:2em 0 1em;
+        }
+    }
+    
+}

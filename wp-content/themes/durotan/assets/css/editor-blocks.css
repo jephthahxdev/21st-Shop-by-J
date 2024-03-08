@@ -1,0 +1,285 @@
+/*
+Theme Name: Durotan
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+/* Block --------------------------------- */
+.block-editor-block-list__block .wp-block-heading{
+	text-transform: uppercase;
+    letter-spacing: .25px;
+    margin: 0 0 17px;
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+.wp-block-search .wp-block-search__label{
+    font-weight: normal;
+}
+.wp-block-search .wp-block-search__button{
+    font-size: 16px;
+    color: var(--durotan-color-light);
+    font-weight: 500;
+    line-height: 45px;
+    border: 0;
+    padding: 0 25px;
+    background-color: var(--durotan-background-color-primary);
+    transition: 0.5s;
+    outline: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+.wp-block-search .wp-block-search__input{
+    border-color: var(--durotan-border-input-color);
+    width: auto;
+}
+.wp-block-search .wp-block-search__button.wp-block-search__button.wp-block-search__button{
+    padding:0 25px;
+}
+.block-editor-block-list__block.wp-block-calendar .wp-block-calendar {
+    position: relative;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    padding: 21px 19px 12px;
+}
+.block-editor-block-list__block.wp-block-calendar .wp-block-calendar table{
+    margin-bottom: 5px;
+    border: none;
+}
+.wp-block-calendar table caption{
+    margin-bottom: 15px;
+    letter-spacing: -0.4px;
+    padding: 0 6px;
+    color: var(--durotan-color-darker);
+    text-align: left;
+}
+.wp-block-calendar table thead, .wp-block-calendar table tbody{
+    border: none;
+    margin-left: -.25em;
+    margin-right: -.25em;
+}
+.wp-block-calendar table th, .wp-block-calendar table td{
+    background: transparent;
+    border: 0;
+    line-height: 2;
+    vertical-align: middle;
+    word-break: normal;
+    text-align: center;
+    padding: .25em;
+}
+.wp-block-calendar table thead th{
+    visibility: hidden;
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    color: #999;
+}
+.wp-block-calendar table thead th:after {
+    content: '';
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wp-block-calendar table thead th[title="Monday"]:after {
+    content: 'Mo';
+}
+
+.wp-block-calendar table thead th[title="Tuesday"]:after {
+    content: 'Tu';
+}
+
+.wp-block-calendar table thead th[title="Wednesday"]:after {
+    content: 'We';
+}
+
+.wp-block-calendar table thead th[title="Thursday"]:after {
+    content: 'Th';
+}
+
+.wp-block-calendar table thead th[title="Friday"]:after {
+    content: 'Fr';
+}
+
+.wp-block-calendar table thead th[title="Saturday"]:after {
+    content: 'Sa';
+}
+
+.wp-block-calendar table thead th[title="Sunday"]:after {
+    content: 'Su';
+}
+.wp-block-calendar table #today{
+    position: relative;
+    z-index: 9;
+}
+.wp-block-calendar table #today:after{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    background-color: #fab528;
+    border-radius: 50%;
+    z-index: -1;
+}
+.wp-block-calendar .wp-calendar-nav{
+    position: absolute;
+    top: 21px;
+    right: 19px;
+}
+.wp-block-calendar .wp-calendar-nav .wp-calendar-nav-next a,
+.wp-block-calendar .wp-calendar-nav .wp-calendar-nav-prev a{
+    font-size: 0;
+}
+.wp-block-calendar .wp-calendar-nav .wp-calendar-nav-prev a:before{
+    content: '';
+    background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPgo8dGl0bGU+Y2hldnJvbi1sZWZ0PC90aXRsZT4KPHBhdGggZD0iTTE2LjggMjRjMC4xNTQgMCAwLjMwNy0wLjA1OSAwLjQyNC0wLjE3NiAwLjIzNC0wLjIzNCAwLjIzNC0wLjYxNCAwLTAuODQ5bC0xMC4zNzYtMTAuMzc2IDEwLjM3Ni0xMC4zNzZjMC4yMzQtMC4yMzQgMC4yMzQtMC42MTQgMC0wLjg0OXMtMC42MTQtMC4yMzQtMC44NDkgMGwtMTAuOCAxMC44Yy0wLjIzNCAwLjIzNC0wLjIzNCAwLjYxNCAwIDAuODQ5bDEwLjggMTAuOGMwLjExNyAwLjExNyAwLjI3MSAwLjE3NiAwLjQyNCAwLjE3NnoiPjwvcGF0aD4KPC9zdmc+Cg==);
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-size: cover;
+}
+.wp-block-calendar .wp-calendar-nav .wp-calendar-nav-next a:before{
+    content: '';
+    background-image: url(data:image/svg+xml;base64,PCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPgo8dGl0bGU+Y2hldnJvbi1yaWdodDwvdGl0bGU+CjxwYXRoIGQ9Ik02IDI0Yy0wLjE1NCAwLTAuMzA3LTAuMDU5LTAuNDI0LTAuMTc2LTAuMjM0LTAuMjM0LTAuMjM0LTAuNjE0IDAtMC44NDlsMTAuMzc2LTEwLjM3Ni0xMC4zNzYtMTAuMzc2Yy0wLjIzNC0wLjIzNC0wLjIzNC0wLjYxNCAwLTAuODQ5czAuNjE0LTAuMjM0IDAuODQ5IDBsMTAuOCAxMC44YzAuMjM0IDAuMjM0IDAuMjM0IDAuNjE0IDAgMC44NDlsLTEwLjggMTAuOGMtMC4xMTcgMC4xMTctMC4yNzEgMC4xNzYtMC40MjQgMC4xNzZ6Ij48L3BhdGg+Cjwvc3ZnPgo=);
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-size: cover;
+}
+.wp-block-archives .wp-block-archives-list,
+.wp-block-page-list ul.wp-block-page-list,
+.wp-block-categories .wp-block-categories__list,
+.wp-block-rss ul.wp-block-rss{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.wp-block.wp-block-page-list ul{
+    list-style: none;
+}
+.wp-block-archives .wp-block-archives-list li,
+.wp-block-categories .wp-block-categories__list li{
+    padding: 7px 0;
+    clear: both;
+    border-bottom: 1px solid #dadada;
+    font-size: 16px;
+}
+.wp-block-archives .wp-block-archives-list li:first-child,
+.wp-block-categories .wp-block-categories__list li:first-child{
+    padding-top: 0;
+}
+.wp-block-archives .wp-block-archives-list li:last-child,
+.wp-block-categories .wp-block-categories__list li:last-child{
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.wp-block.wp-block-tag-cloud a{
+    display: inline-block;
+    font-size: 14px !important;
+    line-height: 26px;
+    color: #999999;
+    border: 1px solid #dadada;
+    padding: 0 10px;
+    margin: 0 5px 5px 0;
+}
+
+.wp-block.wp-block-tag-cloud a:hover{
+    color: #fff;
+    border-color: var(--durotan-color-primary);
+    background-color: var(--durotan-background-color-primary);
+    text-decoration: none !important;
+}
+
+/**
+* views
+*/
+.wp-block {
+    max-width: 770px;
+}
+.wp-block[data-align=center] > * {
+	text-align: center;
+}
+.editor-styles-wrapper .wp-block[data-align=wide], .editor-styles-wrapper .wp-block.alignwide {
+    max-width: 1170px;
+}
+
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container>.wp-block[data-align=full] {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.editor-styles-wrapper .wp-block[data-align=full], .editor-styles-wrapper .wp-block.alignfull {
+    max-width: none;
+}
+
+.editor-styles-wrapper .wp-block[data-align=full] .wp-block-column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.editor-styles-wrapper .wp-block-pullquote blockquote p{
+    font-size: 1.75em;
+}
+
+.editor-styles-wrapper .components-placeholder__input[type=url]{
+    width: auto;
+}
+
+.post-type-page .wp-block {
+    max-width: 1170px;
+}
+
+.post-type-page .editor-styles-wrapper .wp-block[data-align=wide], .post-type-page .editor-styles-wrapper .wp-block.alignwide {
+    max-width: 1380px;
+}
+/**
+* Editor Post Title
+*/
+.post-type-post .wp-block.editor-post-title__block .editor-post-title__input {
+    font-size: 36px;
+    line-height: calc( 46/36);
+    letter-spacing: -0.015em;
+    margin: 0 auto 82px;
+    padding: 0;
+    max-width: 540px;
+    text-align: center;
+}
+.post-type-page .wp-block.editor-post-title__block .editor-post-title__input {
+    font-size: 48px;
+    text-align: center;
+    padding: 75px 0 79px;
+}
+.wp-block.editor-post-title__block .editor-post-title__input {
+    font-family: var(--durotan-heading-font);
+    font-weight: 400;
+    color: var(--durotan-color-darker);
+}
+
+.editor-styles-wrapper a {
+    color: #00ccff;
+}
+
+/**
+*  Block table
+*/
+.editor-styles-wrapper .wp-block-table th,
+.editor-styles-wrapper .wp-block-table td {
+	padding: 10px;
+}
+
+.editor-styles-wrapper .wp-block-table th.has-text-align-right,
+.editor-styles-wrapper .wp-block-table td.has-text-align-right{
+    text-align: right;
+}
+.editor-styles-wrapper .wp-block-table th.has-text-align-left,
+.editor-styles-wrapper .wp-block-table td.has-text-align-left{
+    text-align: left;
+}
+
+.blocks-gallery-grid figcaption, .wp-block-gallery figcaption {
+    margin-bottom: 40px;
+    font-style: italic;
+}

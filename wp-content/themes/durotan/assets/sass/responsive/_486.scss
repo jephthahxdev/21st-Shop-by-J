@@ -1,0 +1,339 @@
+@media (max-width: 480px) {
+    .footer-main__col-1 .footer-main__items > div {
+        margin: 40px 0 50px;
+    }
+    .header-v3,
+	.header-v4 {
+		.footer-widgets__v2 {
+            &.child-more {
+                .footer-widget-1 {
+                    margin-bottom: 7px;
+                    .widget-title {
+                        font-size: 10px;
+                    }
+                }
+                .footer-widget-3 {
+                    margin-bottom: 0;
+                    .widget-title {
+                        font-size: 10px;
+                        margin-bottom: 12px;
+                    }
+                    ul {
+                        li {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            .footer-widget {
+                margin-bottom: 34px;
+            }
+		}
+	}
+
+    .header-v5,
+    .header-v7 {
+        .footer-extra__wrapper {
+            display: flex;
+            margin-bottom: 0;
+        }
+        .footer-extra__col-3 {
+            .footer-extra__wrapper {
+                margin-bottom: 30px;
+            }
+            .footer__items--center ul {
+                margin: 0;
+                li {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+
+    .durotan-posts-header {
+        display: block;
+    }
+
+    .durotan-posts-header__search {
+        margin-top: 1em;
+    }
+
+    .durotan-posts-newsletter h3 {
+        margin: 1em 0;
+    }
+
+    .durotan-posts-newsletter > .container {
+        display: block;
+    }
+
+    .blog-classic .post--small:nth-child(6n+2),
+    .blog-classic .post--small:nth-child(6n+3) {
+        padding: 0 15px;
+    }
+
+    .blog-listing .post__thumbnail {
+        margin: 0 auto 30px;
+        width: 100%;
+    }
+
+	.comment-list{
+        margin-bottom: 0;
+
+        .comment-metadata{
+            display: block;
+
+            .fn{
+                padding-right: 0;
+                max-width: 100%;
+                display: block;
+            }
+            a.date{
+                max-width: 100%;
+                display: block;
+            }
+        }
+
+        .comment-author ~ .comment-content{
+            margin-left: 65px;
+        }
+    }
+
+    .comment-respond .comment-form-author,
+    .comment-respond .comment-form-email{
+        width: 100%;
+    }
+
+    .related-posts {
+        .durotan-posts-list {
+            margin: 0 -7.5px;
+        }
+
+        .post {
+            padding-left: 7.5px;
+            padding-right: 7.5px;
+        }
+    }
+
+    // Footer
+    .site-footer {
+        .footer-newsletter input[type="email"],
+        .footer-newsletter input[type="text"] {
+            padding-left: 30px;
+            width: calc(70% - 30px);
+            font-size: 14px;
+        }
+        .footer-newsletter .mc4wp-form .durotan-svg-icon {
+            font-size: 16px;
+        }
+        .footer-newsletter input[type="submit"],
+        .footer-newsletter button {
+            font-size: 13px;
+        }
+        .footer-widget,
+        .footer-main,
+        .footer-extra {
+            .durotan-language,
+            .durotan-currency {
+                font-size: 13px;
+                .durotan-language--list-dropdown,
+                .durotan-currency--list-dropdown {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .footer-newsletter__title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .footer-newsletter__wrapper {
+        padding: 36px 45px 67px;
+    }
+
+    .footer-widgets {
+        .footer-widgets-diff {
+            display: block;
+            .footer-widget-diff {
+                .widget {
+                    margin-bottom: 45px;
+                }
+                &:last-child {
+                    .widget {
+                        &:last-child {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .widget-title {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        .durotan-show-widget {
+            font-size: 14px;
+            margin-bottom: 35px;
+        }
+		.widget {
+            margin-bottom: 15px;
+            p {
+                font-size: 14px;
+            }
+            ul {
+                li {
+                    margin-bottom: 0;
+                    a {
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                }
+            }
+		}
+        .durotan-instagram-widget {
+            .instagram-desc {
+                font-size: 14px;
+            }
+        }
+        > :not(.footer-widget__v3) {
+            .widget_mc4wp_form_widget {
+                .durotan-show-widget {
+                    margin-bottom: 35px;
+                    font-size: 14px;
+                }
+            }
+            .mc4wp-form {
+                input[type="text"],
+                input[type="email"]{
+                    height: 36px;
+                    font-size: 14px;
+                }
+                input[type="submit"],
+                button {
+                    font-size: 13px;
+                    line-height: 41px;
+                }
+            }
+        }
+
+        .durotan-social-links {
+            margin-top: 40px;
+        }
+	}
+
+    .footer-widgets__v1{
+        .footer-widget {
+            &:first-child {
+                .widget {
+                    &:first-child {
+                        .widget-title {
+                            font-size: 22.05px;
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                .widget {
+                    &:last-child {
+                        .widget-title {
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .footer-widgets__v2 {
+        padding-top: 5px;
+        .widget-title {
+            font-size: 22px;
+            margin-bottom: 22px;
+        }
+        .widget {
+            p {
+                line-height: 29px;
+            }
+        }
+
+        .footer-widget:last-child .widget {
+            margin-bottom: 34px;
+        }
+    }
+
+    .footer-widgets__v3 {
+        &.child-more {
+            .footer-widget {
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #dbdbdb;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                &:last-child {
+                    border-bottom: none;
+                }
+                .widget {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .widget-title {
+            margin-bottom: 24px;
+        }
+        .widget_mc4wp_form_widget {
+            .mc4wp-form {
+                padding: 0 15px;
+            }
+            .durotan-show-widget {
+                margin-bottom: 35px;
+                font-size: 14px;
+            }
+        }
+        .mc4wp-form {
+            input[type="text"],
+            input[type="email"]{
+                height: 36px;
+                font-size: 14px;
+            }
+            input[type="submit"],
+            button {
+                padding: 0;
+                font-size: 13px;
+                line-height: 41px;
+            }
+        }
+    }
+
+    .footer-main .footer-container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .footer-extra,
+    .footer-main {
+        padding: 56px 0 30px;
+    }
+    .footer-menu {
+        display: block;
+        ul {
+            justify-content: space-around;
+            margin: 0;
+            li {
+                margin: 0;
+                padding: 0 15px;
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .footer-payments {
+        .label {
+            display: none;
+            text-align: center;
+            margin: 0 auto 20px;
+        }
+    }
+}

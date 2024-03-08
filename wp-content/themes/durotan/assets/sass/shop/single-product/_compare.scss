@@ -1,0 +1,84 @@
+.single-product {
+	div.product {
+		.durotan-compare-button {
+			padding: 0;
+			.durotan-loop_button {
+				padding: 0 25px;
+
+				> .durotan-svg-icon {
+					margin: 0;
+					font-size: 14px;
+				}
+
+				.wcboost-products-compare-button__icon {
+					margin-right: 0;
+					font-size: 16px;
+					line-height: 1;
+
+					.durotan-svg-icon {
+						font-size: inherit;
+						line-height: 1;
+						margin: 0;
+					}
+				}
+
+				.wcboost-products-compare-button__text,
+				.loop_button-text {
+					display: none;
+					font-size: 14px;
+					text-transform: uppercase;
+					font-weight: normal;
+					letter-spacing: 0.4px;
+				}
+
+				&.loading:before{
+					width: 14px;
+					height: 14px;
+					margin-right: 10px;
+				}
+
+				&.added{
+					.durotan-svg-icon {
+						font-size: 20px;
+					}
+
+					.wcboost-products-compare-button__icon {
+						font-size: 16px;
+
+						.durotan-svg-icon {
+							font-size: inherit;
+						}
+					}
+				}
+			}
+
+			&:hover {
+				.durotan-svg-icon {
+					transform: none;
+				}
+			}
+
+			&.show-compare-title {
+				padding: 0 30px;
+				.durotan-loop_button {
+					display: flex;
+					align-items: center;
+					padding: 0;
+					margin: 0;
+					> .durotan-svg-icon {
+						margin: 0 10px 0 0;
+					}
+				}
+
+				.wcboost-products-compare-button__icon {
+					margin-right: 10px;
+				}
+
+				.wcboost-products-compare-button__text,
+				.loop_button-text {
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

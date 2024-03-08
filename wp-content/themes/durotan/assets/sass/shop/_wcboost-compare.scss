@@ -1,0 +1,90 @@
+.wcboost-products-compare__table {
+	.product-remove {
+		a {
+			font-size: 28px;
+		}
+	}
+
+	.product-name {
+		a {
+			font-size: 18px;
+			display: inline;
+			--durotan-color-box-shadow: white;
+			box-shadow: inset 0 -0.175em white, inset 0 -0.2em var( --durotan-color-box-shadow );
+
+			&:hover {
+				color: #928656;
+				--durotan-color-box-shadow: var( --durotan-color-primary );
+			}
+		}
+	}
+
+	.price {
+		color: var( --durotan-color-darker );
+		display: inline-flex;
+		align-items: center;
+		flex-wrap: wrap;
+		span {
+			font-size: 20px;
+		}
+		.woocs_price_code {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		ins {
+			order: 1;
+			color: #ea311d;
+			background-color: transparent;
+			margin-right: 7px;
+		}
+
+		del {
+			order: 2;
+			color: var( --durotan-text-main-color );
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.in-stock {
+		font-weight: 600;
+		color:#669900;
+	}
+	.out-of-stock {
+		font-weight: 600;
+		color:#000000;
+	}
+
+	.add_to_cart_button {
+		@include durotan-button();
+
+		.durotan-svg-icon {
+			display: none;
+		}
+	}
+}
+
+.wcboost-products-compare__tools {
+	text-align: right;
+
+	.wcboost-products-compare-clear {
+		border: 1px solid #000000;
+		color: #000000;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 0.075em;
+		padding: 7.34px 28px;
+		display: inline-block;
+		&:hover {
+			&::before,
+			&::after {
+				display: none;
+			}
+			border-color: var(--durotan-color-primary);
+			background-color: var(--durotan-color-primary);
+			color: #ffffff;
+		}
+	}
+}

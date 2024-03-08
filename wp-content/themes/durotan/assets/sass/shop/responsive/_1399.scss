@@ -1,0 +1,229 @@
+@media (min-width: 1440px) {
+    .single-product {
+        div.product {
+            &.layout-v3 {
+                .woocommerce-product-gallery__wrapper{
+                    flex: 1 1 auto;
+                    padding-left: 105px;
+                }
+            }
+        }
+        &.product-v7{
+            section.products{
+                > .durotan-swiper-button{
+                    top: 50%;
+                    transform: translate(0, -50%);
+                    font-size: 48px;
+                    color: #cccccc;
+                    width: auto;
+                    height: auto;
+                    right: auto;
+                    &:hover{
+                        color: var(--durotan-color-darker);
+                    }
+                    &.durotan-button-prev{
+                        left: -85px;
+                    }
+                    &.durotan-button-next{
+                        right: -85px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1440px) and (min-width: 1200px) {
+    .header-v4 {
+		.header__main {
+			height: 100px;
+		}
+	}
+
+    .single-product {
+        &.header-v7{
+            .header__main{
+                width:300px;
+                padding: 70px 35px;
+            }
+            .site{
+                padding-left:300px;
+            }
+        }
+        div.product {
+            &.layout-v3{
+                .woocommerce-product-gallery__wrapper {
+                    flex: 1 1 auto;
+                    padding-left: 90px;
+                }
+            }
+            &.layout-v6{
+                .durotan-product-deal{
+                    .deal-expire-date{
+                        flex-direction: column;
+                    }
+                    .deal-expire-text,
+                    .deal-expire-countdown{
+                        width: 100%;
+                        flex: 1;
+                        padding: 0;
+                    }
+                }
+            }
+            .product-button-wrapper{
+                .durotan-button{
+                    &.durotan-wishlist-button{
+                        padding-right:15px;
+                    }
+                    & + .product-size-guide{
+                        padding-left:15px;
+                    }
+                    & + .durotan-button{
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1399px) {
+    .product-loop-layout-2 {
+        .product-loop__buttons {
+            justify-content: space-around;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    .product-loop-layout-6 {
+        .product-loop__buttons {
+            padding-left: 10px;
+            padding-right: 10px;
+            .durotan-loop_button--cart {
+                font-size: 12px;
+            }
+        }
+
+        .quick-view-button {
+            font-size: 12px;
+        }
+    }
+    .single-product {
+        div.product {
+            .entry-summary {
+                padding-left: 75px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1599px) and (min-width: 992px) {
+    .single-product {
+        &.header-v7{
+            div.product {
+                &.layout-v6{
+                    .flex-control-nav:not(.swiper-wrapper){
+                        li{
+                            flex: 1;
+                            max-width: 73px;
+                        }
+                    }
+                    .entry-summary {
+                        padding-left: 3.5%;
+                    }
+                    .quantity{
+                        .qty-box{
+                            max-width: 100px;
+                        }
+                        .increase,
+                        .decrease{
+                            width: 35px;
+                            line-height: 44px;
+                        }
+                        .qty{
+                            padding: 0 35px;
+                            line-height: 42px;
+                        }
+                    }
+                    .durotan-wishlist-button.show-wishlist-title{
+                        padding: 0 10px 0 0;
+                    }
+                    .durotan-compare-button.show-compare-title{
+                        padding: 0 10px;
+                    }
+                    .single_add_to_cart_button{
+                        padding: 0 20px;
+                        line-height: 42px;
+                    }
+                    &.product-type-variable{
+                        form.cart{
+                            margin-top: 20px;
+                            padding-top: 20px;
+                        }
+                        .variations{
+                            td.label,
+                            .wcboost-variation-swatches__selected-label{
+                                font-size: 14px;
+                            }
+                            td{
+                                padding-bottom: 11px;
+                            }
+                        }
+                    }
+                    .woocommerce-tabs{
+                        margin:15px 0 25px;
+                        padding-top:20px;
+                        ul.tabs li{
+                            a{
+                                letter-spacing:0;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .product_meta{
+                        padding-top: 15px;
+                    }
+                    .product-share{
+                       margin: 3px 0 5px;
+                       .durotan-social-links__icon{
+                           font-size: 18px;
+                       }
+                    }
+                    .product-toolbar{
+                        padding:25px 0 15px;
+                    }
+                    .product_title{
+                        font-size: 25px;
+                    }
+                    .durotan-stock{
+                        font-size: 15px;
+                        margin-bottom: 20px;
+                    }
+                    .price{
+                        font-size: 30px;
+                        margin: 0;
+                        del{
+                            font-size: 26px;
+                        }
+                    }
+                    .product-button-wrapper{
+                        .durotan-button{
+                            margin: 0;
+                            .durotan-svg-icon{
+                                margin-right: 5px;
+                                font-size: 14px;
+                            }
+                            .loop_button-text,
+                            .wcboost-wishlist-button__text {
+                                font-size: 12px;
+                            }
+                        }
+                        .product-size-guide{
+                            margin: 0;
+                            font-size: 12px;
+                            padding-left:10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

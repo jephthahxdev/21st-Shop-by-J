@@ -1,0 +1,159 @@
+.catalog-sidebar {
+	.products-filter__filter-name {
+		font-size: 14px;
+		color: var( --durotan-color-gray );
+		text-transform: uppercase;
+		font-weight: 400;
+		letter-spacing: .3px;
+	}
+
+	.products-filter__filter {
+		padding-bottom: 27px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #dadada;
+
+		&:last-child {
+			border-bottom: none;
+			padding-bottom: 0;
+			margin-bottom: 0;
+
+			.widget {
+				margin-bottom: 40px;
+			}
+		}
+
+		&.products-filter--view-more {
+			.products-filter__options {
+				> .products-filter__option {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.widget_price_filter {
+		.ui-slider {
+			.ui-slider-handle {
+				&:last-child {
+					margin-left: -10px;
+				}
+			}
+		}
+	}
+
+	.products-filter__filters-buttons {
+		flex-direction: column;
+
+		.filter-button {
+			height: 54px;
+			line-height: 54px;
+			width: 100%;
+		}
+
+		.reset-button {
+			margin-top: 12px;
+		}
+	}
+
+	.instant-filter .products-filter__filter:last-child .products-filter__filter-control {
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	&.has-collapse-hide {
+		.widget:not(.products-filter-widget) .widget-content,
+		.products-filter__filter:not(.durotan-active) .products-filter__filter-control {
+			display: none;
+		}
+
+	}
+
+	.widget_product_categories {
+		.product-categories {
+			max-height: 300px;
+			@include durotan-scrollable();
+			padding-right: 10px;
+
+			li {
+				line-height: 1;
+				padding: 6px 0;
+
+				a {
+					display: inline-block;
+					font-size: 14px;
+					color: var( --durotan-color-darker );
+					letter-spacing: .1px;
+
+					&:hover {
+						color: var( --durotan-color-primary );
+					}
+				}
+
+				.durotan-svg-icon {
+					font-size: 12px;
+					transition: .3s;
+				}
+
+				&.cat-parent {
+					> a {
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						&.open {
+							.durotan-svg-icon {
+								transform: rotate(180deg);
+							}
+						}
+					}
+				}
+
+				.children {
+					display: none;
+				}
+			}
+
+			> li {
+				> a {
+					text-transform: uppercase;
+					letter-spacing: .3px;
+				}
+			}
+
+			ul {
+				padding-left: 20px;
+
+				> li {
+					padding: 5px 0;
+
+					&:first-child {
+						padding-top: 15px;
+					}
+
+					a {
+						border-bottom: 1px solid transparent;
+
+						&:hover {
+							color: var( --durotan-color-darker );
+							border-color: var( --durotan-color-darker );
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.catalog-sidebar,
+.catalog-toolbar-filters {
+	.products-filter__filter {
+		&.products-filter--view-more {
+			.products-filter__options {
+				> .products-filter__option {
+					display: none;
+				}
+			}
+		}
+	}
+}

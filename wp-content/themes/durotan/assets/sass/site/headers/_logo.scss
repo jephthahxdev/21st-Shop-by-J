@@ -1,0 +1,48 @@
+.site-branding {
+	line-height: 1;
+	flex: 0 1 auto;
+	position: relative;
+	z-index: 100;
+
+	.logo {
+		position: relative;
+		transition: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		img {
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		&.logo-text {
+			font-family: var(--durotan-heading-font);
+			font-weight: 400;
+			color: var(--durotan-header-text-color);
+			font-size: 30px;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+		}
+
+		svg {
+			vertical-align: middle;
+		}
+	}
+
+	.site-title,
+	.site-description {
+		@extend .screen-reader-text;
+	}
+}
+
+.header-v8 {
+	.site-branding {
+		.logo {
+			&.logo-text {
+				color: #76603e;
+			}
+		}
+	}
+}

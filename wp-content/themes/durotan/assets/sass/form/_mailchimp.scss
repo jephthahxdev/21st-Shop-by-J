@@ -1,0 +1,38 @@
+.mc4wp-form {
+	input[type="text"],
+	input[type="email"],
+	select,
+	textarea {
+		border: 0;
+		border-bottom-width: 0;
+		border-radius: 0;
+		transition: 0.4s;
+		box-shadow: none;
+		font-size: 14px;
+		font-family: $font__main;
+		background-color: transparent;
+		padding: 3px 0 12px 44px;
+		width: calc(70% - 44px);
+
+		&:focus {
+			outline: none;
+			border-color: var(--durotan-border-input-focus-color);
+		}
+	}
+
+	input[type="submit"],
+	button {
+		float: right;
+		text-align: right;
+		width: 35%;
+		line-height: 36px;
+		font-size: 16px;
+		letter-spacing: 0.050em;
+		background-color: transparent;
+		color: var(--durotan-color-darker);
+		padding: 0;
+		text-transform: uppercase;
+		font-weight: 400;
+		border: none;
+	}
+}

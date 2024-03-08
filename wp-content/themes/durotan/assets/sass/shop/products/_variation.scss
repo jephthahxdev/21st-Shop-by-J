@@ -1,0 +1,125 @@
+.variations {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 8px;
+
+	th,
+	td {
+		border: none;
+		padding: 0;
+		text-align: left;
+	}
+
+	td.label {
+		display: none;
+	}
+
+	select {
+		width: 100%;
+		background-color: transparent;
+		padding: 13px 18px;
+		cursor: pointer;
+		border: 1px solid #cecece;
+		font-size: 16px;
+		&:hover,
+		&:focus {
+			outline: none;
+			border-color: var(--durotan-border-input-focus-color);
+		}
+	}
+
+}
+
+.wcboost-variation-swatches {
+	.wcboost-variation-swatches__wrapper {
+		margin: 0;
+	}
+
+	.wcboost-variation-swatches__item {
+		border: 1px solid transparent;
+		box-shadow: none;
+		transition: .4s;
+
+		&:hover,
+		&.selected {
+			box-shadow: none;
+			border-color: var(--durotan-color-primary);
+		}
+
+		&.disabled {
+			opacity: 1 !important;
+			text-decoration: line-through;
+		}
+	}
+
+	&.wcboost-variation-swatches--image {
+		.wcboost-variation-swatches__item {
+			margin: 0 10px 0 0;
+		}
+	}
+
+	&.wcboost-variation-swatches--label {
+		.wcboost-variation-swatches__item {
+			background: none;
+			font-size: 14px;
+			color: var(--durotan-color-gray);
+			border-color: #dfdfdf;
+			display: inline-block;
+			margin: 0 5px 5px 0;
+
+			&:hover,
+			&.selected {
+				color: var(--durotan-color-primary);
+				border-color: var(--durotan-color-primary);
+			}
+		}
+	}
+
+	&.wcboost-variation-swatches--color {
+		.wcboost-variation-swatches__item {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 2px 0 0;
+			padding: 4px;
+			line-height: 1;
+
+			&.wcboost-variation-swatches__item-white {
+				span {
+					border: 1px solid #c0c0c0;
+				}
+			}
+
+			span {
+				border: 1px solid transparent;
+				display: inline-block;
+				margin: 0;
+				width: 100%;
+                height: 100%;
+			}
+		}
+	}
+
+	&.wcboost-variation-swatches--button {
+		.wcboost-variation-swatches__item {
+			display: inline-block;
+			height: auto;
+			margin: 0 4px 5px 0;
+			border-color: #dfdfdf;
+			transition: .3s;
+			span {
+				color: var(--durotan-color-gray);
+				font-size: 16px;
+				transition: .3s;
+			}
+			&:hover,
+			&.selected {
+				background-color: transparent;
+				border-color: var(--durotan-color-primary);
+				span {
+					color: var(--durotan-color-primary);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,115 @@
+blockquote cite,
+blockquote .wp-block-quote__citation,
+.wp-block-quote cite {
+    margin-top: 26px;
+}
+
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large,
+.wp-block-quote{
+	padding: 20px 30px;
+	border-left: 3px solid var(--durotan-border-color-primary);
+}
+
+.wp-block-quote{
+	&.has-text-align-right{
+		padding: 20px 30px;
+		border-right: 3px solid var(--durotan-border-color-primary);
+	}
+
+	cite{
+		font-style: italic;
+		color: #838889;
+		font-size: 14px;
+	}
+}
+
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-large .wp-block-quote__citation,
+.wp-block-quote.is-style-large cite,
+.wp-block-quote.is-style-large .wp-block-quote__citation {
+    font-size: 18px;
+    text-align: left;
+}
+
+hr.wp-block-separator {
+	background-color: #bbb;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+
+.wp-block-pullquote:not(.is-style-solid-color){
+	background-color: #f7f7f7;
+}
+
+.wp-block-pullquote {
+	text-align: left;
+	background-color: #f7f7f7;
+	padding: 0;
+
+	blockquote{
+		border: none;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	cite{
+		color: #838889;
+		text-transform: capitalize;
+		font-size: 14px;
+		font-style: italic;
+	}
+
+	&.alignleft{
+		text-align: left;
+	}
+
+	&.alignright{
+		text-align: right;
+	}
+
+	&.aligncenter{
+	    text-align: center;
+	}
+
+	&.is-style-solid-color blockquote{
+	    background-color: transparent;
+		max-width: 100%;
+		padding: 40px 30px;
+
+		cite{
+			font-style: italic;
+		}
+	}
+}
+
+.wp-block-pullquote.is-style-solid-color{
+
+	blockquote {
+		background-color: transparent;
+		max-width: 100%;
+	}
+}
+
+.wp-block-pullquote.alignleft p,
+.wp-block-pullquote.alignright p,
+.wp-block-pullquote.alignleft blockquote > .editor-rich-text p,
+.wp-block-pullquote.alignright blockquote > .editor-rich-text p {
+    font-size: 20px;
+}
+
+.wp-block-pullquote cite,
+.wp-block-pullquote footer,
+.wp-block-pullquote__citation {
+    margin-top: 1em;
+}
+
+.wp-block-pullquote .wp-block-pullquote__citation {
+    color: #40464d;
+}
+
+.wp-block-code{
+	color: var(--durotan-color-darker) ;
+}

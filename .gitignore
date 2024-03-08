@@ -1,0 +1,25 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+
+# Ignore configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore cache and temporary files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Ignore logs and backup files
+*.log
+*.bak
+
+# Ignore Node.js modules (if applicable)
+node_modules/
+
+# Ignore Composer dependencies (if applicable)
+vendor/
+
+# Ignore database dump files
+*.sql

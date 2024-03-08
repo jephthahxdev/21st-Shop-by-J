@@ -1,0 +1,130 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+}
+
+hr {
+	background-color: #cccccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.durotan-primary-color {
+	color: var(--durotan-color-primary);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.durotanFadeInUp {
+	animation-name: durotanFadeInUp;
+	animation-duration: 0.8s;
+	animation-fill-mode: both;
+	animation-timing-function:cubic-bezier(0.65, 0.8, 0.44, 0.99);
+}
+
+.durotan-scrollbar {
+	overflow-y: auto;
+	scrollbar-color: var(--durotan-color-darker) #e2e2e278;
+	scrollbar-width: thin;
+
+	&::-webkit-scrollbar {
+		width: 2px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: #e2e2e2;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: var(--durotan-color-darker);
+	}
+}
+
+.durotan-loading{
+	@include durotan-loading();
+}
+
+.durotan-spinner-loading {
+	@include durotan-spinner-loading();
+}
+
+.durotan-loading__background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: -50px;
+	right: 0;
+	z-index: 998;
+	background-color: var(--durotan-background-color-light);
+	display: none;
+	text-align: center;
+
+	.durotan-loading{
+		position: absolute;
+		top: 1.5em;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+
+	&.show{
+		display: block;
+	}
+}
+
+@import "table";
+
+@import "list";

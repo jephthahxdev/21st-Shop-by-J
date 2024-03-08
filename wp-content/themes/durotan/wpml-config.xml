@@ -1,0 +1,51 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">durotan_hide_header_border</custom-field>
+		<custom-field action="copy">durotan_header_border_color</custom-field>
+		<custom-field action="copy">durotan_hide_page_header</custom-field>
+		<custom-field action="copy">durotan_content_top_padding</custom-field>
+		<custom-field action="copy">durotan_content_bottom_padding</custom-field>
+		<custom-field action="copy">video_url</custom-field>
+		<custom-field action="copy">video_thumbnail</custom-field>
+		<custom-field action="copy">video_position</custom-field>
+	</custom-fields>
+
+	<admin-texts>
+		<key name="theme_mods_durotan">
+			<key name="hamburger_type_text" />
+			<key name="header_search_layout_icon_type_text" />
+			<key name="header_search_placeholder" />
+			<key name="header_account_type_text" />
+			<key name="header_cart_type_text" />
+			<key name="header_wishlist_link" />
+			<key name="blog_header_title" />
+			<key name="newsletter_title" />
+			<key name="featured_posts_title" />
+			<key name="blog_cats_view_all" />
+			<key name="blog_pagination_view_more_text" />
+			<key name="related_posts_title" />
+			<key name="footer_newsletter_text" />
+			<key name="footer_payment_label" />
+			<key name="campaign_bar_content" />
+			<key name="logo_svg" />
+			<key name="logo_text" />
+			<key name="hamburger_custom_text_html" />
+			<key name="blog_header_description" />
+			<key name="newsletter_popup_form" />
+			<key name="footer_newsletter_form" />
+			<key name="footer_copyright" />
+			<key name="product_buy_now_link" />
+			<key name="page_cart_show_payments_label" />
+			<key name="custom_quick_view_text" />
+			<key name="shop_badges_sale_text" />
+			<key name="shop_badges_new_text" />
+			<key name="shop_badges_featured_text" />
+			<key name="shop_badges_soldout_text" />
+			<key name="product_buy_now_text" />
+			<key name="product_upsells_title" />
+			<key name="product_related_title" />
+			<key name="product_sharing_whatsapp_number" />
+			<key name="recently_viewed_title" />
+		</key>
+	</admin-texts>
+</wpml-config>
